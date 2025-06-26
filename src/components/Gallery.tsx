@@ -21,7 +21,7 @@ export default function Gallery() {
                 <div className="flex flex-col md:flex-col lg:flex-row gap-4 mb-4">
                     {/* Left - One large vertical image */}
                     <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative group cursor-pointer overflow-hidden flex-shrink-0">
-                        <Image src="/gallery1.jpg" alt="img1" fill className="object-cover" />
+                        <Image src="/gallery1.JPG" alt="img1" fill className="object-cover" />
                         <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                         <div className="absolute inset-0 flex items-center justify-center">
                             <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
