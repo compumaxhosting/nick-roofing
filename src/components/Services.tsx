@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Services() {
     const services = [
         {
-            title: "SKY LIGHTS",
+            title: "SKYLIGHTS",
             subtitle: "Customized to Your Preferences",
             image: "/service1.jpg",
         },
@@ -57,12 +57,12 @@ export default function Services() {
 
                             <h2 className="text-[20px] font-semibold mt-5 mb-[7px] text-[#364f4f]">{service.title}</h2>
                             <p className="text-[14px] mb-[30px]">{service.subtitle}</p>
-                            <a
+                            {/* <a
                                 href="#"
                                 className="inline-block text-white bg-[#35454f] py-2.5 px-6"
                             >
                                 Read More
-                            </a>
+                            </a> */}
                         </div>
                     ))}
                 </div>

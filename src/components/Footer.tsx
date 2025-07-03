@@ -1,5 +1,6 @@
 import React from "react";
 import { BottomMenu } from "./BottomMenu";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -27,22 +28,25 @@ export const Footer = () => {
           <div className="w-full md:w-1/3 px-2">
             <div className="flex flex-col pb-6">
               <h2 className="text-sm font-semibold text-white mb-4">
-                SERVICES
+                  QUICK LINKS
               </h2>
               <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
             </div>
             <ul className="list-disc ml-4 text-sm text-white space-y-2">
               <li>
-                <a href="">SKY LIGHTS</a>
+                <Link href="/">HOME</Link>
               </li>
               <li>
-                <a href="">ROOFING REPAIR</a>
+                <Link href="/about">ABOUT</Link>
               </li>
               <li>
-                <a href="">WATERPROOFING</a>
+                <Link href="/services">SERVICES</Link>
               </li>
               <li>
-                <a href="">GUTTER INSTALLATION</a>
+                <Link href="/gallery">GALLERY</Link>
+              </li>
+              <li>
+                <Link href="contact">CONTACT US</Link>
               </li>
             </ul>
           </div>
@@ -87,7 +91,7 @@ export const Footer = () => {
       </div>
 
       <div className="bg-[#364f4f] mb-14 md:mb-0 lg:mb-0 text-white py-5 px-4 md:px-10 lg:px-20 text-center text-sm">
-        <p>2025 © Copyright Nick Roofing. All rights Reserved.</p>
+        <p>2025 © Copyright Nick Roofing. All Rights Reserved.</p>
       </div>
       <BottomMenu />
     </section>

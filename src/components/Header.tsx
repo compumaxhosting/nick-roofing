@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react'
 import React from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaInstagram, FaTwitter, FaFacebookF } from 'react-icons/fa';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +15,9 @@ const Header = () => {
     return (
         <nav className='bg-[#E07B3B]'>
             <div className='container mx-auto  h-28  flex items-center justify-between '>
-                <Image src='/logo.png' alt='' width={200} height={200} />
+                <Link href='/'>
+                    <Image src='/logo.png' alt='' width={200} height={200} />
+                </Link>
 
                 <ul className="hidden lg:flex text-sm gap-6 font-semibold text-white cursor-pointer">
                     {/* HOME */}
@@ -98,6 +100,7 @@ const Header = () => {
                 </div>
 
             </div>
+
             <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out lg:hidden ${menuOpen ? 'max-h-96' : 'max-h-0'
                     }`}
@@ -148,7 +151,33 @@ const Header = () => {
                         <div className={`border-b-2 mt-1 w-3/4 mx-auto ${pathname === '/contact' ? 'border-[#36454f]' : 'border-white'}`}></div>
                     </li>
                 </ul>
+
+                {/* Social Icons */}
+                <div className="flex justify-center gap-6 mt-4 pb-4 text-white">
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                        className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                    >
+                        <FaInstagram size={20} />
+                    </a>
+                    <a
+                        href="#"
+                        aria-label="Twitter"
+                        className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                    >
+                        <FaTwitter size={20} />
+                    </a>
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                        className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                    >
+                        <FaFacebookF size={20} />
+                    </a>
+                </div>
             </div>
+
 
         </nav >
 

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 
 
 
@@ -59,7 +60,7 @@ export default function Carousel() {
 
                             <a
                                 href="tel:9732070689"
-                                className="inline-flex items-center gap-3  px-6 py-3  hover:bg-[#e07b3b] transition-colors text-2xl font-bold duration-500"
+                                className="inline-flex items-center gap-3  px-6 py-3  hover:bg-transparent  bg-[#e07b3b] transition-colors text-2xl font-bold duration-500"
                             >
                                 (973) - 207 - 0689
                                 {/* <span className="w-10 h-10 flex items-center justify-center  hover:bg-[#e07b3b] transition-colors ">
@@ -95,9 +96,12 @@ export default function Carousel() {
                     }}>
                         Looking for a high-quality roofing company for your project? Nick Roofing has you covered!
                     </p>
-                    <button className="text-white border border-white px-[25px] py-[10px]">
+                    <Link
+                        href="/contact"
+                        className="text-white border border-white px-[25px] py-[10px] hover:bg-white hover:text-[#36454F] transition-colors duration-300"
+                    >
                         Get a Quote
-                    </button>
+                    </Link>
                 </div>
             </section>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 export const ContactUs = () => {
     return (
@@ -28,16 +29,51 @@ export const ContactUs = () => {
                     <div style={{ fontFamily: "'Oswald', sans-serif" }}>
                         <div className='mb-4 text-[#666666]'>
                             <span className='font-semibold text-black'>Tel: </span>
-                            (973) - 207 - 0689
+                            <a href="tel:19732070689" className="hover:underline">
+                                (973) - 207 - 0689
+                            </a>
                         </div>
                         <div className='mb-4 text-[#666666]'>
                             <span className='font-semibold text-black'>Email: </span>
-                            nickcontractorllc@gmail.com
+                            <a href="mailto:nickcontractorllc@gmail.com" className="hover:underline">
+                                nickcontractorllc@gmail.com
+                            </a>
                         </div>
                         <div className='mb-4 text-[#666666]'>
                             <span className='font-semibold text-black'>Location: </span>
+                            <a
+                                href="https://www.google.com/maps?q=525+Lafayette+Ave,+Hawthorne,+NJ+07506"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                            >
                                 525 Lafayette Ave, Hawthorne, NJ 07506
+                            </a>
                         </div>
+                    </div>
+                    {/* Social Icons */}
+                    <div className="flex justify-center gap-6 mt-4 pb-4 text-black">
+                        <a
+                            href="#"
+                            aria-label="Instagram"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaInstagram size={20} />
+                        </a>
+                        <a
+                            href="#"
+                            aria-label="Twitter"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaTwitter size={20} />
+                        </a>
+                        <a
+                            href="#"
+                            aria-label="Facebook"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaFacebookF size={20} />
+                        </a>
                     </div>
                 </div>
 
@@ -126,6 +162,30 @@ export const ContactUs = () => {
                             <p><span className='font-semibold text-black'>Location: </span>
                                 525 Lafayette Ave, Hawthorne, NJ 07506</p>
                         </div>
+                    </div>
+                    {/* Social Icons */}
+                    <div className="flex justify-center gap-6 mt-4  text-black">
+                        <a
+                            href="#"
+                            aria-label="Instagram"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaInstagram size={20} />
+                        </a>
+                        <a
+                            href="#"
+                            aria-label="Twitter"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaTwitter size={20} />
+                        </a>
+                        <a
+                            href="#"
+                            aria-label="Facebook"
+                            className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                        >
+                            <FaFacebookF size={20} />
+                        </a>
                     </div>
                 </div>
             </div>

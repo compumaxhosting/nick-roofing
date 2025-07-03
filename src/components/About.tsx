@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -35,12 +36,12 @@ export default function About() {
               your expectations.
             </p>
 
-            <a
+            <Link
               href="/about"
               className="mt-4 inline-block text-white text-sm uppercase px-[25px] py-[10px] bg-[#36454F] hover:bg-[#2e3d45] transition-all duration-300"
             >
               More About Us
-            </a>
+            </Link>
           </div>
 
           {/* Right Image with Overlay */}
@@ -61,7 +62,7 @@ export default function About() {
               className={`quote-02__text text-white text-sm leading-relaxed shadow-xl border-[5px] border-white
           bg-[#36454f] md:bg-[#36454f]/80 p-5 font-[Playfair_Display] italic
           md:absolute md:right-[-20px] md:bottom-[-30px] h-[380px] md:min-h-[380px] md:w-[300px]
-          w-[300px] mt-6 md:mt-0 `}
+          w-[300px] mt-6 md:mt-0 ml-5 sm:ml-12`}
             >
               Nick Roofing has built a reputation in Northern New Jersey for
               quality, integrity, and exceptional customer care. We provide

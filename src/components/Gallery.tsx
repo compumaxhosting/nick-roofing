@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from "next/image";
-import { Search } from 'lucide-react';
 
 export default function Gallery() {
     return (
@@ -24,9 +23,9 @@ export default function Gallery() {
                         <Image src="/gallery1.JPG" alt="img1" fill className="object-cover" />
                         <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                            {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                 <Search className="w-6 h-6 text-white" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -37,9 +36,9 @@ export default function Gallery() {
                             <Image src="/gallery2.jpg" alt="img2" fill className="object-cover" />
                             <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                             <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                     <Search className="w-6 h-6 text-white" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -49,18 +48,18 @@ export default function Gallery() {
                                 <Image src="/service1.jpg" alt="img3" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                    {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                         <Search className="w-6 h-6 text-white" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="w-full sm:w-1/2 h-[250px] sm:h-[295px] relative group cursor-pointer overflow-hidden">
                                 <Image src="/service3.jpg" alt="img4" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                    {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                         <Search className="w-6 h-6 text-white" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -78,18 +77,18 @@ export default function Gallery() {
                                 <Image src="/gallery3.jpg" alt="img6" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                    {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                         <Search className="w-6 h-6 text-white" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="w-full sm:w-1/2 h-[250px] sm:h-[295px] relative group cursor-pointer overflow-hidden">
                                 <Image src="/gallery4.jpg" alt="img7" fill className="object-cover" />
                                 <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                    {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                         <Search className="w-6 h-6 text-white" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -99,9 +98,9 @@ export default function Gallery() {
                             <Image src="/gallery5.jpg" alt="img5" fill className="object-cover" />
                             <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                             <div className="absolute inset-0 flex items-center justify-center">
-                                <div className="w-14 h-14 border-white border rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                                {/* <div className="w-14 h-14 border-white border rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                     <Search className="w-6 h-6 text-white" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -111,9 +110,9 @@ export default function Gallery() {
                         <Image src="/gallery6.jpg" alt="img8" fill className="object-cover" />
                         <div className="absolute inset-0 bg-[rgba(192,133,94,0.6)] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out origin-center" />
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
+                            {/* <div className="w-14 h-14 border-white border-2 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:rotate-12 transition-all duration-500 ease-out">
                                 <Search className="w-6 h-6 text-white" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
