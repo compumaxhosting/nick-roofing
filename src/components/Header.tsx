@@ -14,7 +14,7 @@ const Header = () => {
     const pathname = usePathname();
     return (
         <nav className='bg-[#E07B3B]'>
-            <div className='container mx-auto  h-28  flex items-center justify-between '>
+            <div className='container mx-auto  h-24  flex items-center justify-between '>
                 <Link href='/'>
                     <Image src='/logo.png' alt='' width={200} height={200} />
                 </Link>

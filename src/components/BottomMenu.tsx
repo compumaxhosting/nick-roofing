@@ -5,16 +5,16 @@ import { Phone, Mail, MapPin } from 'lucide-react'
 
 export const BottomMenu = () => {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-[#e07b3b] text-white flex justify-around items-center py-2 shadow-md md:hidden z-50">
+    <div className="fixed bottom-0 left-0 w-full bg-gradient-to-l from-[#e07b3b] to-blue-700 text-white flex justify-around items-center py-2 shadow-md md:hidden z-50">
   {/* Phone */}
   <a href="tel:+19732070689" className="flex flex-col items-center text-xs">
-    <Phone className="w-6 h-6 text-[#36454f]" />
+    <Phone className="w-6 h-6 text-white" />
     <span className="mt-1 text-white">Contact</span>
   </a>
 
   {/* Email */}
   <a href="mailto:nickcontractorllc@gmail.com" className="flex flex-col items-center text-xs">
-    <Mail className="w-6 h-6 text-[#36454f]" />
+    <Mail className="w-6 h-6 text-white" />
     <span className="mt-1 text-white">Email</span>
   </a>
 
@@ -25,7 +25,7 @@ export const BottomMenu = () => {
     rel="noopener noreferrer"
     className="flex flex-col items-center text-xs"
   >
-    <MapPin className="w-6 h-6 text-[#36454f]" />
+    <MapPin className="w-6 h-6 text-white" />
     <span className="mt-1 text-white">Location</span>
   </a>
 </div>

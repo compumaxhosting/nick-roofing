@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 
 export default function Services() {
@@ -7,23 +8,33 @@ export default function Services() {
         {
             title: "SKYLIGHTS",
             subtitle: "Customized to Your Preferences",
-            image: "/service1.jpg",
+            image: "/skylight1.png",
+            link: "/SkyLights"
         },
         {
             title: "GUTTER INSTALLATION",
             subtitle: "Attention to Detail Guaranteed",
             image: "/service2.jpg",
+            link: "/GutterInstallation"
         },
         {
             title: "WATERPROOFING",
             subtitle: "Efficient Reliable Service",
             image: "/service3.jpg",
+            link: "/WaterProofing"
         },
         {
             title: "ROOFING REPAIR",
             subtitle: "Prompt and Professional",
             image: "/service4.jpg",
+            link: "/RoofRepair"
         },
+        {
+            title: "SIDING",
+            subtitle: "Prompt and Professional",
+            image: "/gallery5.jpg",
+            link: "/Siding"
+        }
     ];
 
     return (
@@ -57,12 +68,12 @@ export default function Services() {
 
                             <h2 className="text-[20px] font-semibold mt-5 mb-[7px] text-[#364f4f]">{service.title}</h2>
                             <p className="text-[14px] mb-[30px]">{service.subtitle}</p>
-                            {/* <a
-                                href="#"
+                            <Link
+                                href={service.link}
                                 className="inline-block text-white bg-[#35454f] py-2.5 px-6"
                             >
                                 Read More
-                            </a> */}
+                            </Link>
                         </div>
                     ))}
                 </div>

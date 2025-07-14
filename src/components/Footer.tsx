@@ -1,9 +1,11 @@
 import React from "react";
 import { BottomMenu } from "./BottomMenu";
 import Link from "next/link";
+import BackToTop from "./BackToTop";
 
 export const Footer = () => {
   return (
+    <>
     <section>
       <div className="bg-[#e07b3b] py-6 px-6 md:px-10 lg:px-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-y-8 md:gap-y-0 md:gap-x-12">
@@ -95,5 +97,7 @@ export const Footer = () => {
       </div>
       <BottomMenu />
     </section>
+    <BackToTop />
+    </>
   );
 };
