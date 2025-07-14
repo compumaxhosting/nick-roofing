@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronRight, Star, Shield, Award, Phone } from 'lucide-react';
 
-type ServiceKey = 'skylights' | 'gutter-installation' | 'waterproofing' | 'roofing-repair'| 'siding';
+type ServiceKey = 'skylights' | 'gutter-installation' | 'waterproofing' | 'roofing-repair' | 'siding';
 
 interface Feature {
     title: string;
@@ -398,16 +398,16 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             {/* Trust Indicators */}
             <section className="py-12 bg-slate-50">
                 <div className="max-w-6xl mx-auto px-4">
-                    <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+                    <div className="flex justify-center items-center gap-4 sm:gap-8 md:gap-12">
                         {[
-                            { icon: <Award className="w-8 h-8 text-[#e07b3b] mb-2" />, label: 'Years Experience', value: '35+' },
-                            { icon: <Star className="w-8 h-8 text-[#e07b3b] mb-2" />, label: 'Customer Rating', value: '5-Star' },
-                            { icon: <Shield className="w-8 h-8 text-[#e07b3b] mb-2" />, label: '& Insured', value: 'Licensed' },
+                            { icon: <Award className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[#e07b3b] mb-1 sm:mb-2" />, label: 'Years Experience', value: '35+' },
+                            { icon: <Star className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[#e07b3b] mb-1 sm:mb-2" />, label: 'Customer Rating', value: '5-Star' },
+                            { icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[#e07b3b] mb-1 sm:mb-2" />, label: '& Insured', value: 'Licensed' },
                         ].map((item, index) => (
-                            <div key={index} className="flex flex-col items-center text-center min-w-[140px]">
+                            <div key={index} className="flex flex-col items-center text-center flex-1 max-w-[100px] sm:max-w-[120px] md:max-w-[140px]">
                                 {item.icon}
-                                <span className="text-2xl font-bold text-slate-900">{item.value}</span>
-                                <span className="text-slate-600 text-sm">{item.label}</span>
+                                <span className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 leading-tight">{item.value}</span>
+                                <span className="text-slate-600 text-xs sm:text-sm leading-tight">{item.label}</span>
                             </div>
                         ))}
                     </div>
@@ -415,7 +415,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             </section>
 
             {/* Introduction Section */}
-            <section className="py-16 px-4 max-w-6xl mx-auto">
+            <section className="py-6 px-4 max-w-6xl mx-auto">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
@@ -445,7 +445,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             </section>
 
             {/* Features Section */}
-            <section className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
+            <section className="py-10 bg-gradient-to-br from-slate-50 to-blue-50">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
@@ -493,7 +493,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             </section>
 
             {/* FAQ Section */}
-            <section className="py-16 px-4 max-w-4xl mx-auto">
+            <section className="py-10 px-4 max-w-4xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
                         Frequently Asked Questions
@@ -523,7 +523,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             </section>
 
             {/* Service Areas */}
-            <section className="py-16 bg-slate-50">
+            <section className="py-10 bg-slate-50">
                 <div className="max-w-6xl mx-auto px-4 text-center">
                     <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
                         Proudly Serving Northern New Jersey
@@ -549,7 +549,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
 
 
             {/* Gallery Section */}
-            <section className="py-16 px-4 max-w-6xl mx-auto">
+            <section className="py-10 px-4 max-w-6xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
                         Our {currentService.title} Gallery
@@ -573,7 +573,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
             </section>
 
             {/* CTA Section */}
-            <section id="contact" className="py-16 bg-gradient-to-r from-[#e07b3b] to-blue-700 text-white">
+            <section id="contact" className="py-10 bg-gradient-to-r from-[#e07b3b] to-blue-700 text-white">
                 <div className="max-w-4xl mx-auto text-center px-4">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">{currentService.ctaTitle}</h2>
                     <p className="text-base sm:text-lg md:text-xl mb-8 text-blue-100">{currentService.ctaText}</p>
