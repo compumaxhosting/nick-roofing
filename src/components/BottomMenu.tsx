@@ -9,7 +9,7 @@ export const BottomMenu = () => {
         href="tel:+19732070689" 
         className="flex flex-col items-center text-xs transition-transform hover:scale-105"
       >
-        <FaPhoneAlt className="w-6 h-6 text-[#36454f] drop-shadow-md" />
+        <FaPhoneAlt className="w-6 h-6 text-[#36454f] drop-shadow-xl" />
         <span className="mt-1 text-white">Contact</span>
       </a>
 
@@ -18,7 +18,7 @@ export const BottomMenu = () => {
         href="mailto:nickcontractorllc@gmail.com" 
         className="flex flex-col items-center text-xs transition-transform hover:scale-105"
       >
-        <FaEnvelope className="w-6 h-6 text-[#36454f] drop-shadow-md" />
+        <FaEnvelope className="w-6 h-6 text-[#36454f] drop-shadow-xl" />
         <span className="mt-1 text-white">Email</span>
       </a>
 
@@ -29,7 +29,7 @@ export const BottomMenu = () => {
         rel="noopener noreferrer"
         className="flex flex-col items-center text-xs transition-transform hover:scale-105"
       >
-        <FaMapMarkerAlt className="w-6 h-6 text-[#36454f] drop-shadow-md" />
+        <FaMapMarkerAlt className="w-6 h-6 text-[#36454f] drop-shadow-xl" />
         <span className="mt-1 text-white">Location</span>
       </a>
     </div>
