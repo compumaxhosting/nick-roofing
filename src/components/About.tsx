@@ -1,8 +1,43 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function About() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
+  // Array of 5 images for the carousel
+  const images = [
+    "/skylights-intro.jpg",
+    "/gutter1.png", 
+    "/waterproofing3.jpg",
+    "/roof-repair2.jpg",
+    "/gallery5.jpg"
+  ];
+
+  // Auto-advance carousel every 4 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  const goToSlide = (index) => {
+    setCurrentImageIndex(index);
+  };
+
+  const goToPrevious = () => {
+    setCurrentImageIndex(currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1);
+  };
+
+  const goToNext = () => {
+    setCurrentImageIndex(currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1);
+  };
+
   return (
     <section className="py-10 px-2 md:py-20 bg-white">
       <div className="max-w-screen-xl mx-auto  md:px-10">
@@ -44,51 +79,125 @@ export default function About() {
             </Link>
           </div>
 
-          {/* Right Image with Overlay */}
+          {/* Right Image Carousel */}
           <div className="w-full md:w-1/2 relative">
-            {/* Image for medium+ screens */}
+            {/* Image Carousel for medium+ screens */}
             <div className="hidden md:block w-full h-[400px] relative shadow-lg overflow-hidden">
-              <Image
-                src={"/slide1.jpeg"}
-                alt="About Nick Roofing"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
+              <div className="relative w-full h-full">
+                {/* Carousel Images */}
+                <div className="relative w-full h-full overflow-hidden">
+                  {images.map((image, index) => (
+                    <div
+                      key={index}
+                      className={`absolute inset-0 transition-opacity duration-500 ${
+                        index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+                      }`}
+                    >
+                      <Image
+                        src={image}
+                        alt={`Nick Roofing ${index + 1}`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                    </div>
+                  ))}
+                </div>
 
-              {/* Overlay box extending out of image */}
-            </div>
-            <div
-              className={`quote-02__text text-white text-sm leading-relaxed shadow-xl border-[5px] border-white
-          bg-[#36454f] md:bg-[#36454f]/80 p-5 font-[Playfair_Display] italic
-          md:absolute md:right-[-20px] md:bottom-[-30px] h-[380px] md:min-h-[380px] md:w-[300px]
-          w-[300px] mt-6 md:mt-0 ml-5 sm:ml-12`}
-            >
-              Nick Roofing has built a reputation in Northern New Jersey for
-              quality, integrity, and exceptional customer care. We provide
-              superior residential, industrial, and commercial roofing with a
-              personal touch often missing in today&apos;s industry. Choose Nick
-              Roofing for expert guidance and a roof you’ll be proud to call
-              your own.
+                {/* Navigation Arrows */}
+                <button
+                  onClick={goToPrevious}
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all duration-200 z-10"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                
+                <button
+                  onClick={goToNext}
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all duration-200 z-10"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+
+                {/* Dots Indicator */}
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                  {images.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => goToSlide(index)}
+                      className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex 
+                          ? 'bg-white scale-110' 
+                          : 'bg-white/60 hover:bg-white/80'
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
 
-            {/* For small screens: only overlay visible */}
-            {/* <div
-            className="block quote-02__text md:hidden  border-[5px] border-white text-white text-sm pt-12 px-5"
-            style={{
-              backgroundColor: "rgba(54, 69, 79, 0.8)",
-              width: "300px",
-              fontFamily: `"Playfair Display", serif`,
-              fontStyle: "italic",
-              minHeight: "380px",
-            }}
-          >
-            Nick Roofing has built a reputation in Northern New Jersey for quality,
-            integrity, and exceptional customer care. We provide superior residential,
-            industrial, and commercial roofing with a personal touch often missing in
-            today&apos;s industry. Choose Nick Roofing for expert guidance and a roof
-            you’ll be proud to call your own.
-          </div> */}
+            {/* Mobile Carousel */}
+            <div className="block md:hidden w-full h-[300px] relative shadow-lg overflow-hidden">
+              <div className="relative w-full h-full">
+                {/* Carousel Images */}
+                <div className="relative w-full h-full overflow-hidden">
+                  {images.map((image, index) => (
+                    <div
+                      key={index}
+                      className={`absolute inset-0 transition-opacity duration-500 ${
+                        index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+                      }`}
+                    >
+                      <Image
+                        src={image}
+                        alt={`Nick Roofing ${index + 1}`}
+                        fill
+                        className="object-cover"
+                        sizes="100vw"
+                      />
+                    </div>
+                  ))}
+                </div>
+
+                {/* Mobile Navigation Arrows */}
+                <button
+                  onClick={goToPrevious}
+                  className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                
+                <button
+                  onClick={goToNext}
+                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+
+                {/* Mobile Dots Indicator */}
+                <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-1.5 z-10">
+                  {images.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => goToSlide(index)}
+                      className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex 
+                          ? 'bg-white scale-110' 
+                          : 'bg-white/60 hover:bg-white/80'
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
