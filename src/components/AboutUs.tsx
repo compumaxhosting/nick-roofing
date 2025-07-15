@@ -37,7 +37,7 @@ export default function About() {
   };
 
   return (
-    <section className="py-10 px-4 md:py-20 md:px-2 bg-white">
+    <section className="py-10 px-4 md:py-14 md:px-2 bg-white">
       <div className="max-w-screen-xl mx-auto md:px-10">
         {/* Top Section with Image and First Content */}
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-10 mb-10">
