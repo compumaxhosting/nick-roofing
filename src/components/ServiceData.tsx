@@ -18,7 +18,9 @@ interface ServiceData {
     metaTitle: string;
     metaDescription: string;
     introTitle: string;
-    introText: string;
+    introText1: string;
+    introText2: string;
+    introText3?: string; // Optional for services that may not have this
     introImage: string;
     features: Feature[];
     benefits: string[];
@@ -29,6 +31,7 @@ interface ServiceData {
     serviceAreas: string[];
     emergencyAvailable: boolean;
     serviceTitle: string; // Optional for services that may not have this
+    whyChooseUs: string;
 }
 
 interface ServicePageProps {
@@ -42,12 +45,13 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         heroImage: '/skylights-intro.jpeg',
         metaTitle: 'Skylight Installation NJ | Nick Roofing - 35 Years Experience',
         metaDescription: 'Professional skylight installation in Northern New Jersey. Custom sizing, energy efficient, weatherproof. 35 years experience. Free estimates. Call today!',
-        introTitle: 'Expert Skylight Installation Services',
-        introText: ` Natural light transforms any space, making it feel more open, energizing, and welcoming. At Nick
- Roofing, we specialize in professional skylight installation in Hawthorne, NJ, and across Northern
- New Jersey, helping homeowners and businesses harness the beauty and energy-efficiency of sunlight`,
+        introTitle: 'Velux Skylight Installers & Skylight Services in Hawthorne, New Jersey',
+        introText1: ` As a trusted local contractor, we understand the climate and building codes in Hawthorne and the surrounding Passaic County area.`,
+        introText2: 'We specialize in residential and commercial skylight installation in NJ, including flat roof skylight installation. Our certified team offers Velux skylight repair, skylight glass replacement, and skylight flashing repair in Hawthorne, NJ, to keep your home leak-free.',
+        introText3: 'As one of the best skylight companies in NJ, we provide emergency skylight services in Hawthorne, fast skylight leak repairs, and complete skylight maintenance solutions. Trust our Hawthorne skylight experts for custom skylight installation, skylight dome installation, and precise skylight cost estimates in NJ.',
         introImage: '/skylights-intro.jpg',
         serviceTitle: 'Skylight Services Offered',
+         whyChooseUs: 'We are Velux-certified skylight installers, offering professional skylight services you can rely on. From skylight replacement NJ to local skylight repair, we handle every project with expertise and care. Contact us today for top-rated skylight installation specialists in NJ. Brighten your home with natural light and enjoy lasting performance from your skylight.',
         features: [
             {
                 title: "Residential Skylight Installation",
@@ -93,7 +97,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Yes! We install ENERGY STAR®-rated skylights that include glazing, insulation, and UV coatings to reduce heat transfer."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: false
     },
     'gutter-installation': {
@@ -102,10 +106,13 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         heroImage: '/gutter-installation-hero.png',
         metaTitle: 'Gutter Installation NJ | Seamless Gutters | Nick Roofing',
         metaDescription: 'Professional gutter installation in Northern NJ. Seamless gutters, leaf protection, 35 years experience. Free estimates. Protect your home today!',
-        introTitle: 'Gutter Installation Services',
-        introText: 'When it comes to preserving the integrity of your home or commercial building, high-quality gutters are your first line of defense. At Nick Roofing, we specialize in durable, efficient, and seamless gutter installation in Northern New Jersey. With precision craftsmanship and premium materials, we help prevent water damage, protect foundations, and extend the lifespan of your roofing system.',
+        introTitle: 'Expert Gutter Installation Services in Hawthorne, NJ',
+        introText1: 'Looking for gutter installation in Hawthorne, NJ? We provide affordable gutter installation solutions for both residential and commercial properties. Our local gutter installers specialize in seamless gutter installation, ensuring durability and a perfect fit for your home or business.',
+        introText2: 'We offer complete services, including custom gutter installation, downspout installation, and gutter system installation. Whether you need aluminum, copper, or vinyl gutter installation, our team guarantees top-quality materials and craftsmanship.',
+        introText3: 'As the best gutter installation company in Hawthorne, NJ, we also handle gutter repair and installation, gutter cleaning, and emergency gutter services. From roof gutter installation to new gutter installation, we ensure your property stays protected from water damage.',
         introImage: '/gutter-installation-hero.png',
         serviceTitle: 'Gutter Services Offered',
+        whyChooseUs: 'Our gutter installation cost in Hawthorne, NJ is competitive and transparent. We provide professional gutter installation for rain gutters, custom designs, and full replacements. Choose us for reliable gutter installation and expert gutter installers you can trust. Contact us today for a free quote and keep your home safe with our premium gutter solutions.',
         features: [
             {
                 title: "Seamless Gutter Installation",
@@ -155,7 +162,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Most installations are completed within a single day, depending on the building size and system type."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: false
     },
     'waterproofing': {
@@ -164,10 +171,13 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         heroImage: '/waterproofing2.jpg',
         metaTitle: 'Waterproofing Services NJ | Foundation & Basement | Nick Roofing',
         metaDescription: 'Professional waterproofing services in Northern NJ. Foundation, basement, and roof waterproofing. 35 years experience. Free estimates available.',
-        introTitle: 'Complete Waterproofing Solutions',
-        introText: ' Water intrusion is one of the leading causes of structural damage, mold growth, and roof failure. At Nick Roofing, we provide expert flat roof waterproofing services, residential and commercial waterproofing, and protective coatings that defend against even the harshest Northern New Jersey weather.',
+        introTitle: 'Professional Waterproofing Services in Hawthorne, NJ',
+        introText1: 'Looking for reliable waterproofing services in Hawthorne, NJ? We specialize in residential and commercial waterproofing to protect your property from leaks, moisture, and structural damage. Our team offers basement waterproofing, foundation sealing, and crawl space waterproofing for complete protection.',
+        introText2: 'We provide both interior and exterior waterproofing solutions, including flat roof waterproofing, roof leak waterproofing, and waterproof coating for long-lasting durability. As the best waterproofing company in Hawthorne, NJ, we deliver affordable services without compromising quality.',
+        introText3: 'Our experts handle brick waterproofing, concrete waterproofing, and wall sealing to prevent water infiltration. Need urgent help? We offer emergency waterproofing services to stop leaks before they cause major damage.',
         introImage: '/waterproofing-hero.png',
         serviceTitle: 'Waterproofing Services Offered',
+        whyChooseUs: 'We offer emergency waterproofing services to stop leaks before they cause major damage.Whether you need residential roof waterproofing, commercial waterproofing, or waterproofing repair in Hawthorne, we’ve got you covered. Our services also include custom waterproofing and sealing solutions for homes and businesses.Choose our local waterproofing experts in Hawthorne, NJ for quality craftsmanship, competitive pricing, and guaranteed results. Contact us today for a free waterproofing cost estimate and protect your property from water damage.',
         features: [
             {
                 title: "Flat Roof Waterproofing",
@@ -214,7 +224,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Roof coatings are a type of waterproofing, but we also offer multi-layered systems for enhanced protection."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: true
     },
     'roofing-repair': {
@@ -223,10 +233,13 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         heroImage: '/slide1.jpeg',
         metaTitle: 'Roof Repair NJ | Emergency Roofing | Nick Roofing - 35 Years',
         metaDescription: 'Professional roof repair services in Northern NJ. Emergency repairs, storm damage, all roof types. 35 years experience. 24/7 emergency service available.',
-        introTitle: 'Expert Roof Repair Services',
-        introText: 'When your roof is leaking, damaged, or aging, time is of the essence. At Nick Roofing, we specialize in emergency roof repair near me, scheduled maintenance, and complete restoration services for residential, commercial, and industrial buildings. Proudly serving Northern New Jersey, we bring expert craftsmanship and rapid response to every repair job.',
+        introTitle: 'Reliable Roof Repair Services in Hawthorne, NJ',
+        introText1: 'Our experts handle brick waterproofing, concrete waterproofing, and wall sealing to prevent water infiltration. Need urgent help? We offer emergency waterproofing services to stop leaks before they cause major damage.',
+        introText2: 'We specialize in emergency roof repair in Hawthorne, NJ, including storm damage repair and emergency leak detection. Our experts handle all types of roofing, such as flat roof repair, asphalt shingle repair, slate roof repair, tile roof repair, and metal roof repair.',
+        introText3: 'As the best roof repair company in Hawthorne, we offer roof flashing repair, gutter repair, and complete roof restoration services. We also provide roof inspection and maintenance to prevent costly issues and extend your roof’s life.',
         introImage: '/gallery6.jpg',
         serviceTitle: 'Roofing Repair Services Offered',
+        whyChooseUs: 'Whether you need residential or commercial roof repair, our local roof repair contractors deliver top-quality craftsmanship. We also offer roof replacement and repair services at competitive rates. Looking for affordable roof leak repair or emergency storm roof repair in Hawthorne? Contact us today for a free quote and experience reliable, professional roofing solutions from Hawthorne’s trusted experts.',
         features: [
             {
                 title: "Leak Detection & Damage Repair",
@@ -273,7 +286,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: " Not necessarily. Many issues can be solved affordably with targeted repairs. If a full replacement is needed, we provide transparent guidance and quotes."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: true
     },
     'siding': {
@@ -282,10 +295,12 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         heroImage: '/siding-hero.png',
         metaTitle: 'Siding Installation NJ | Quality Siding Services | Nick Roofing - 35 Years',
         metaDescription: 'Professional siding installation and repair services in Northern NJ. Enhance your home’s exterior with quality materials and expert craftsmanship. 35 years experience.',
-        introTitle: 'Siding Services',
-        introText: ' At Nick Roofing, we don’t just protect your home from above—we also safeguard it from the sides. Our professional siding installation and repair services in Northern New Jersey help homeowners elevate their property’s appearance, energy efficiency, and durability. Whether you\'re looking for vinyl siding in Hawthorne NJ, fiber cement panels, or custom exterior facelifts, we have the experience and precision to deliver flawless results',
+        introTitle: 'Expert Siding Services in Hawthorne, NJ',
+        introText1: ' Need top-quality siding services in Hawthorne, NJ? At Nick Roofing & Siding, we provide expert siding installation, repair, and replacement tailored to New Jersey homes. ',
+        introText2: 'Whether you need durable vinyl siding, classic wood siding, or modern fiber cement options, our experienced team delivers lasting results with honest pricing and dependable service. As a trusted local contractor, we understand the climate and building codes in Hawthorne and the surrounding Passaic County area.',
         introImage: '/siding1.png',
         serviceTitle: 'Siding Repair Services Offered',
+        whyChooseUs: 'We help homeowners choose the right siding materials to protect their property and boost curb appeal. From storm damage repairs to full exterior upgrades, we handle every siding project with precision and care.',
         features: [
             {
                 title: "Vinyl & Fiber Cement Siding",
@@ -347,7 +362,6 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
 
     return (
         <div className="bg-white">
-
             {/* Hero Section */}
             <section className="relative h-[60vh] w-full overflow-hidden">
                 <Image
@@ -386,6 +400,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
                     </div>
                 </div>
             </section>
+            
 
             {/* Trust Indicators */}
             <section className="py-12 bg-slate-50">
@@ -413,13 +428,19 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
                         <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
                             {currentService.introTitle}
                         </h2>
-                        <p className="text-base sm:text-lg text-slate-600 mb-6 leading-relaxed">
-                            {currentService.introText}
+                        <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
+                            {currentService.introText1}
+                        </p>
+                        <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
+                            {currentService.introText2}
+                        </p>
+                        <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
+                            {currentService.introText3}
                         </p>
                         <div className="bg-blue-50 p-6 rounded-lg">
                             <h3 className="font-semibold text-slate-900 mb-2">Why Choose Nick Roofing?</h3>
-                            <p className="text-slate-600 text-sm sm:text-base">
-                                With 35 years of experience serving Northern New Jersey, we&apos;ve built our reputation on quality craftsmanship, reliability, and exceptional customer service.
+                            <p className="text-slate-600 text-sm sm:text-sm">
+                                {currentService.whyChooseUs}
                             </p>
                         </div>
                     </div>
@@ -435,7 +456,6 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
                     </div>
                 </div>
             </section>
-
             {/* Features Section */}
             <section className="py-10 bg-gradient-to-br from-slate-50 to-blue-50">
                 <div className="max-w-7xl mx-auto px-4">
