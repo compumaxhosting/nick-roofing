@@ -9,31 +9,31 @@ export default function Services() {
             title: "SKYLIGHTS",
             subtitle: "Customized to Your Preferences",
             image: "/skylight1.png",
-            link: "/SkyLights"
+            link: "/skylight-repair-nj"
         },
         {
             title: "GUTTER INSTALLATION",
             subtitle: "Attention to Detail Guaranteed",
             image: "/service2.jpg",
-            link: "/GutterInstallation"
+            link: "/gutter-installation-nj"
         },
         {
             title: "WATERPROOFING",
             subtitle: "Efficient Reliable Service",
             image: "/service3.jpg",
-            link: "/WaterProofing"
+            link: "/water-proofing-nj"
         },
         {
             title: "ROOFING REPAIR",
             subtitle: "Prompt and Professional",
             image: "/service4.jpg",
-            link: "/RoofRepair"
+            link: "/roof-repair-nj"
         },
         {
             title: "SIDING",
             subtitle: "Prompt and Professional",
             image: "/gallery5.jpg",
-            link: "/Siding"
+            link: "/siding-services-nj"
         }
     ];
 

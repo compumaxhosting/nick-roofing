@@ -247,40 +247,40 @@ const Header = () => {
                                 className={`pl-4 mt-1 space-y-1 transition-all duration-300 ease-in-out ${servicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
                             >
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/SkyLights">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/SkyLights' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/skylight-repair-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/skylight-repair-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             SKYLIGHTS
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/GutterInstallation">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/GutterInstallation' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/gutter-installation-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/gutter-installation-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             GUTTER INSTALLATION
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/WaterProofing">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/WaterProofing' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/water-proofing-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/water-proofing-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             WATERPROOFING
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/RoofRepair">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/RoofRepair' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/roof-repair-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/roof-repair-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             ROOFING REPAIR
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/Siding">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/Siding' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/siding-services-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/siding-services-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             SIDING
                                         </span>
