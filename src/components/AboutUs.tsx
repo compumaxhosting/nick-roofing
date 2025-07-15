@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function About() {
@@ -38,43 +37,38 @@ export default function About() {
   };
 
   return (
-    <section className="py-10 px-2 md:py-20 bg-white">
-      <div className="max-w-screen-xl mx-auto  md:px-10">
-        <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
+    <section className="py-10 px-4 md:py-20 md:px-2 bg-white">
+      <div className="max-w-screen-xl mx-auto md:px-10">
+        {/* Top Section with Image and First Content */}
+        <div className="container mx-auto flex flex-col md:flex-row items-start gap-10 mb-10">
           {/* Left Content */}
-          <div className="w-[85%] md:w-1/2">
-            <h2 className="text-xl md:text-l font-bold mb-[20px] tracking-[1px] text-[#364f4f]">
-              WHO ARE WE
+          <div className="w-full px-2 md:px-0 md:w-1/2">
+            <h2 className="mb-[20px] tracking-[1px] text-[#364f4f]">
+              <span className="text-lg md:text-xl font-bold">About Nick Roofing – </span>
+              <span className="text-base md:text-lg font-normal">Expert Skylight, Gutter, Waterproofing, Roof Repair & Siding Services in New Jersey</span>
             </h2>
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
-            <p className="mb-[10px] text-sm leading-relaxed text-[#333]">
-              Nick Roofing – Expert Roofing Services in NJ
-              Welcome to Nick Roofing, your trusted roofing contractor in New Jersey. We provide skylight installation, gutter installation, and waterproofing services with unmatched quality and reliability.
+            <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+              Your Local Roofing & Home Improvement Experts
+            </h3>
 
+            <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
+              Welcome to Nick Roofing, the trusted choice for homeowners across New Jersey. For over 35 years, we&apos;ve provided reliable and affordable roofing and home improvement solutions, specializing in:
             </p>
 
-            <p className="mb-[10px] text-sm leading-relaxed text-[#333]">
-              With{" "}
-              <span className="font-bold">
-                35+ years of experience in roofing business in NJ
-              </span>
-              , our team ensures your home stays safe, energy-efficient, and beautiful. Whether you need skylights, gutters, or complete waterproofing, we deliver lasting solutions you can trust.
-              We proudly serve Hawthorne, Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding areas.
-              Call Nick Roofing today for a free estimate and experience premium roofing services near you!
-            </p>
-
-            <Link
-              href="/about"
-              className="mt-4 inline-block text-white text-sm uppercase px-[25px] py-[10px] bg-[#36454F] hover:bg-[#2e3d45] transition-all duration-300"
-            >
-              More About Us
-            </Link>
+            <ul className="mb-[15px] text-sm leading-relaxed text-[#333] list-disc pl-5 space-y-1">
+              <li><strong>Skylight Installation</strong> – Brighten your home with natural light.</li>
+              <li><strong>Gutter Installation</strong> – Protect your property with seamless, durable gutters.</li>
+              <li><strong>Waterproofing Services</strong> – Stop leaks and safeguard your home from water damage.</li>
+              <li><strong>Roof Repair Services</strong> – Restore and maintain your roof&apos;s strength and safety.</li>
+              <li><strong>Siding Services</strong> – Upgrade your home&apos;s exterior for beauty and durability.</li>
+            </ul>
           </div>
 
           {/* Right Image Carousel */}
-          <div className="w-full md:w-1/2 relative">
+          <div className="w-full px-2 md:px-0 md:w-1/2 relative">
             {/* Image Carousel for medium+ screens */}
             <div className="hidden md:block w-full h-[400px] relative shadow-lg overflow-hidden">
               <div className="relative w-full h-full">
@@ -133,7 +127,7 @@ export default function About() {
             </div>
 
             {/* Mobile Carousel */}
-            <div className="block md:hidden w-full h-[300px] relative shadow-lg overflow-hidden">
+            <div className="block md:hidden w-full h-[300px] relative shadow-lg overflow-hidden rounded-lg">
               <div className="relative w-full h-full">
                 {/* Carousel Images */}
                 <div className="relative w-full h-full overflow-hidden">
@@ -157,7 +151,7 @@ export default function About() {
                 {/* Mobile Navigation Arrows */}
                 <button
                   onClick={goToPrevious}
-                  className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
+                  className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -166,7 +160,7 @@ export default function About() {
 
                 <button
                   onClick={goToNext}
-                  className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -174,7 +168,7 @@ export default function About() {
                 </button>
 
                 {/* Mobile Dots Indicator */}
-                <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-1.5 z-10">
+                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-1.5 z-10">
                   {images.map((_: string, index: number) => (
                     <button
                       key={index}
@@ -189,6 +183,38 @@ export default function About() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Full Width Content Below Image */}
+        <div className="w-full px-2 md:px-0">
+          <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+            Why Choose Nick Roofing?
+          </h3>
+
+          <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
+            Our experienced team understands the unique challenges of New Jersey&apos;s climate. We deliver high-quality craftsmanship, personalized solutions, and exceptional customer service to keep your home safe and beautiful year-round.
+          </p>
+
+          <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+            Serving Communities Near You
+          </h3>
+
+          <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
+            We proudly serve Hawthorne, Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding NJ areas.
+          </p>
+
+          <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
+            Looking for &quot;roof repair near me&quot; or &quot;gutter installation in New Jersey&quot;? Nick Roofing is your local expert for all roofing and exterior services.
+          </p>
+
+          <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+            Contact Us Today
+          </h3>
+
+          <p className="mb-[20px] text-sm leading-relaxed text-[#333]">
+            Ready to improve your home? Call Nick Roofing at <a href="tel:+19732070689" className="font-bold text-[#364f4f] hover:text-[#2e3d45] transition-colors duration-200">(973) - 207 - 0689</a> for a free estimate or visit our website. Experience the best roofing and home improvement services in New Jersey!
+          </p>
+
         </div>
       </div>
     </section>

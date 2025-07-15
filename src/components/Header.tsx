@@ -139,28 +139,28 @@ const Header = () => {
                             
                             <div className="bg-[#E07B3B] rounded-md shadow-lg border border-[#36454f]">
                                 <div className="py-1">
-                                    <Link href="/skylight-repair-nj">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/skylight-repair-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/skylight-repair-hawthorne-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/skylight-repair-hawthorne-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             SKYLIGHTS
                                         </span>
                                     </Link>
-                                    <Link href="/gutter-installation-nj">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/gutter-installation-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/gutter-installation-hawthorne-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/gutter-installation-hawthorne-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             GUTTER INSTALLATION
                                         </span>
                                     </Link>
-                                    <Link href="/water-proofing-nj">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/water-proofing-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/water-proofing-hawthorne-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/water-proofing-hawthorne-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             WATERPROOFING
                                         </span>
                                     </Link>
-                                    <Link href="/roof-repair-nj">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/roof-repair-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/roof-repair-hawthorne-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/roof-repair-hawthorne-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             ROOFING REPAIR
                                         </span>
                                     </Link>
-                                    <Link href="/siding-services-nj">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/siding-services-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/siding-services-hawthorne-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/siding-services-hawthorne-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             SIDING
                                         </span>
                                     </Link>
@@ -247,40 +247,40 @@ const Header = () => {
                                 className={`pl-4 mt-1 space-y-1 transition-all duration-300 ease-in-out ${servicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
                             >
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/skylight-repair-nj">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/skylight-repair-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/skylight-repair-hawthorne-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/skylight-repair-hawthorne-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             SKYLIGHTS
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/gutter-installation-nj">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/gutter-installation-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/gutter-installation-hawthorne-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/gutter-installation-hawthorne-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             GUTTER INSTALLATION
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/water-proofing-nj">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/water-proofing-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/water-proofing-hawthorne-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/water-proofing-hawthorne-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             WATERPROOFING
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/roof-repair-nj">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/roof-repair-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/roof-repair-hawthorne-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/roof-repair-hawthorne-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             ROOFING REPAIR
                                         </span>
                                     </Link>
                                 </div>
                                 <div onClick={closeMobileMenu}>
-                                    <Link href="/siding-services-nj">
-                                        <span className={`flex items-center py-1 text-sm ${pathname === '/siding-services-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
+                                    <Link href="/siding-services-hawthorne-nj">
+                                        <span className={`flex items-center py-1 text-sm ${pathname === '/siding-services-hawthorne-nj' ? 'text-[#36454f] font-bold' : 'text-white'}`}>
                                             <span className="w-1.5 h-1.5 bg-white rounded-full mr-2"></span>
                                             SIDING
                                         </span>

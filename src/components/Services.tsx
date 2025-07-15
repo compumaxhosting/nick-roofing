@@ -9,31 +9,31 @@ export default function Services() {
             title: "SKYLIGHTS",
             subtitle: "Customized to Your Preferences",
             image: "/skylight1.png",
-            link: "/skylight-repair-nj"
+            link: "/skylight-repair-hawthorne-nj"
         },
         {
             title: "GUTTER INSTALLATION",
             subtitle: "Attention to Detail Guaranteed",
             image: "/service2.jpg",
-            link: "/gutter-installation-nj"
+            link: "/gutter-installation-hawthorne-nj"
         },
         {
             title: "WATERPROOFING",
             subtitle: "Efficient Reliable Service",
             image: "/service3.jpg",
-            link: "/water-proofing-nj"
+            link: "/water-proofing-hawthorne-nj"
         },
         {
             title: "ROOFING REPAIR",
             subtitle: "Prompt and Professional",
             image: "/service4.jpg",
-            link: "/roof-repair-nj"
+            link: "/roof-repair-hawthorne-nj"
         },
         {
             title: "SIDING",
             subtitle: "Prompt and Professional",
             image: "/gallery5.jpg",
-            link: "/siding-services-nj"
+            link: "/siding-services-hawthorne-nj"
         }
     ];
 
