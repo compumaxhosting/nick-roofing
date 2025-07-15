@@ -139,28 +139,28 @@ const Header = () => {
                             
                             <div className="bg-[#E07B3B] rounded-md shadow-lg border border-[#36454f]">
                                 <div className="py-1">
-                                    <Link href="/SkyLights">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/SkyLights' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/skylight-repair-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/skylight-repair-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             SKYLIGHTS
                                         </span>
                                     </Link>
-                                    <Link href="/GutterInstallation">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/GutterInstallation' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/gutter-installation-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/gutter-installation-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             GUTTER INSTALLATION
                                         </span>
                                     </Link>
-                                    <Link href="/WaterProofing">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/WaterProofing' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/water-proofing-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/water-proofing-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             WATERPROOFING
                                         </span>
                                     </Link>
-                                    <Link href="/RoofRepair">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/RoofRepair' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/roof-repair-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/roof-repair-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             ROOFING REPAIR
                                         </span>
                                     </Link>
-                                    <Link href="/Siding">
-                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/Siding' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
+                                    <Link href="/siding-services-nj">
+                                        <span className={`block px-4 py-2 hover:bg-[#36454f] hover:text-white transition-colors duration-200 ${pathname === '/siding-services-nj' ? 'bg-[#36454f] text-white' : 'text-white'}`}>
                                             SIDING
                                         </span>
                                     </Link>
