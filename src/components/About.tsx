@@ -14,7 +14,6 @@ export default function About() {
     "/roof-repair2.jpg",
     "/gallery5.jpg"
   ];
-
   // Auto-advance carousel every 4 seconds
   useEffect(() => {
     const interval = setInterval(() => {
@@ -26,7 +25,7 @@ export default function About() {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  const goToSlide = (index) => {
+  const goToSlide = (index: number) => {
     setCurrentImageIndex(index);
   };
 
@@ -86,7 +85,7 @@ export default function About() {
               <div className="relative w-full h-full">
                 {/* Carousel Images */}
                 <div className="relative w-full h-full overflow-hidden">
-                  {images.map((image, index) => (
+                  {images.map((image: string, index: number) => (
                     <div
                       key={index}
                       className={`absolute inset-0 transition-opacity duration-500 ${
@@ -125,7 +124,7 @@ export default function About() {
 
                 {/* Dots Indicator */}
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-                  {images.map((_, index) => (
+                  {images.map((_: string, index: number) => (
                     <button
                       key={index}
                       onClick={() => goToSlide(index)}
@@ -184,7 +183,7 @@ export default function About() {
 
                 {/* Mobile Dots Indicator */}
                 <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-1.5 z-10">
-                  {images.map((_, index) => (
+                  {images.map((_: string, index: number) => (
                     <button
                       key={index}
                       onClick={() => goToSlide(index)}
