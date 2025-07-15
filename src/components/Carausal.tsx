@@ -89,8 +89,8 @@ export default function Carousel() {
 
             </div>
             <section className="bg-[#36454F] py-5 lg:px-20 xl:px-80">
-                <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className={`text-white sm:text-[16px] md:text-[18px] lg:text-[20px] `} style={{
+                <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+                    <p className={`text-white sm:text-[16px] md:text-[18px] lg:text-[20px] flex-1`} style={{
                         fontFamily: `"Playfair Display", serif`,
                         fontStyle: "italic",
                     }}>
@@ -98,7 +98,7 @@ export default function Carousel() {
                     </p>
                     <Link
                         href="/contact"
-                        className="text-white border border-white px-[25px] py-[10px] hover:bg-white hover:text-[#36454F] transition-colors duration-300"
+                        className="text-white border border-white px-[25px] py-[10px] hover:bg-white hover:text-[#36454F] transition-colors duration-300 whitespace-nowrap flex-shrink-0"
                     >
                         Get a Quote
                     </Link>
