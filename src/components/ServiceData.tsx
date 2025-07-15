@@ -27,7 +27,6 @@ interface ServiceData {
     ctaText: string;
     faqItems: { question: string; answer: string; }[];
     serviceAreas: string[];
-    warranty: string;
     emergencyAvailable: boolean;
     serviceTitle: string; // Optional for services that may not have this
 }
@@ -71,12 +70,11 @@ const serviceData: Record<ServiceKey, ServiceData> = {
             "Increases natural light without compromising privacy",
             "Potential 15-20% reduction in energy costs",
             "Enhances home value and aesthetic appeal",
-            "Improves indoor air quality and mood",
-            "10-year comprehensive warranty on materials and workmanship"
+            "Improves indoor air quality and mood"
         ],
         galleryImages: ['/skylight1.png', '/skylights1.jpg', '/skylights3.jpg'],
         ctaTitle: "Ready to Brighten Your Home?",
-        ctaText: "Get your free skylight consultation and estimate today",
+        ctaText: "Get your skylight consultation and estimate today",
         faqItems: [
             {
                 question: "How long does skylight installation take?",
@@ -95,8 +93,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Yes! We install ENERGY STAR®-rated skylights that include glazing, insulation, and UV coatings to reduce heat transfer."
             }
         ],
-        serviceAreas: ["Wayne", "Paterson", "Ridgewood", "Paramus ", "Fair Lawn", "Clifton", "Hackensack", "Bergen County", "Passaic County", "Morris County", "Essex County"],
-        warranty: "10-Year Comprehensive Warranty",
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: false
     },
     'gutter-installation': {
@@ -131,12 +128,11 @@ const serviceData: Record<ServiceKey, ServiceData> = {
             "Prevents foundation damage and basement flooding",
             "Protects siding, windows, and landscaping",
             "Reduces maintenance with quality materials",
-            "Increases curb appeal and home value",
-            "25-year warranty on materials and workmanship"
+            "Increases curb appeal and home value"
         ],
         galleryImages: ['/gutter1.png', '/gutter2.png', '/gutter3.png'],
         ctaTitle: "Protect Your Home Investment",
-        ctaText: "Schedule your free gutter assessment and quote",
+        ctaText: "Schedule your gutter assessment and quote",
         faqItems: [
             {
                 question: "How often should gutters be replaced?",
@@ -159,8 +155,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Most installations are completed within a single day, depending on the building size and system type."
             }
         ],
-        serviceAreas: ["Wayne", "Paterson", "Ridgewood", "Paramus ", "Fair Lawn", "Clifton", "Hackensack", "Bergen County", "Passaic County", "Morris County", "Essex County"],
-        warranty: "25-Year Materials & Workmanship Warranty",
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: false
     },
     'waterproofing': {
@@ -200,7 +195,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
         ],
         galleryImages: ['/waterproofing1.jpg', '/waterproofing2.jpg', '/waterproofing3.jpg'],
         ctaTitle: "Protect Your Property Today",
-        ctaText: "Get your free waterproofing evaluation and quote",
+        ctaText: "Get your aterproofing evaluation and quote",
         faqItems: [
             {
                 question: "How do I know if I need waterproofing?",
@@ -219,8 +214,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Roof coatings are a type of waterproofing, but we also offer multi-layered systems for enhanced protection."
             }
         ],
-        serviceAreas: ["Wayne", "Paterson", "Ridgewood", "Paramus ", "Fair Lawn", "Clifton", "Hackensack", "Bergen County", "Passaic County", "Morris County", "Essex County"],
-        warranty: "15-Year Waterproofing Warranty",
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: true
     },
     'roofing-repair': {
@@ -279,8 +273,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: " Not necessarily. Many issues can be solved affordably with targeted repairs. If a full replacement is needed, we provide transparent guidance and quotes."
             }
         ],
-        serviceAreas: ["Wayne", "Paterson", "Ridgewood", "Paramus ", "Fair Lawn", "Clifton", "Hackensack", "Bergen County", "Passaic County", "Morris County", "Essex County"],
-        warranty: "5-Year Repair Warranty",
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: true
     },
     'siding': {
@@ -339,8 +332,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Yes—insulated siding can help reduce thermal transfer and lower your energy bills"
             }
         ],
-        serviceAreas: ["Wayne", "Paterson", "Ridgewood", "Paramus ", "Fair Lawn", "Clifton", "Hackensack", "Bergen County", "Passaic County", "Morris County", "Essex County"],
-        warranty: "5-Year Repair Warranty",
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: true
     }
 };
@@ -380,7 +372,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
                                         href="/contact"
                                         className="bg-[#e07b3b] hover:bg-slate-900 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
                                     >
-                                        Get Free Estimate
+                                        Get Estimate
                                     </Link>
                                     <Link
                                         href="tel:(973) - 207 - 0689"
@@ -583,7 +575,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ service }) => {
                             href="/contact"
                             className="bg-white text-[#e07b3b] px-8 py-4 rounded-lg font-semibold hover:bg-[#e07b3b] hover:text-white transition-colors shadow-lg"
                         >
-                            Get Free Estimate
+                            Get Quote Now
                         </Link>
                         <Link
                             href="tel:(973) - 207 - 0689"
