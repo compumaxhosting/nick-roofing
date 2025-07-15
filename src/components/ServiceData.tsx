@@ -93,7 +93,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Yes! We install ENERGY STAR®-rated skylights that include glazing, insulation, and UV coatings to reduce heat transfer."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: false
     },
     'gutter-installation': {
@@ -155,7 +155,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Most installations are completed within a single day, depending on the building size and system type."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: false
     },
     'waterproofing': {
@@ -214,7 +214,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Roof coatings are a type of waterproofing, but we also offer multi-layered systems for enhanced protection."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: true
     },
     'roofing-repair': {
@@ -273,7 +273,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: " Not necessarily. Many issues can be solved affordably with targeted repairs. If a full replacement is needed, we provide transparent guidance and quotes."
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne" ,"07649 Oradell","07508 North Haledon","07512 Totowa","07470 Wayne"],
         emergencyAvailable: true
     },
     'siding': {
@@ -332,7 +332,7 @@ const serviceData: Record<ServiceKey, ServiceData> = {
                 answer: "Yes—insulated siding can help reduce thermal transfer and lower your energy bills"
             }
         ],
-        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 AllenDale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
+        serviceAreas: ["07417 Franklin Lakes", "07481 Midland Park", "07401 Allendale", "07463 Waldwick", "07446 Ramsey", "07458 Saddle River", "07450 Ridgewood", "07452 Glen Rock", "07410 Fair Lawn", "07013 Clifton", "07652 Paramus", "07506 Hawthorne", "07649 Oradell", "07508 North Haledon", "07512 Totowa", "07470 Wayne"],
         emergencyAvailable: true
     }
 };

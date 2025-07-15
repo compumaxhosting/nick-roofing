@@ -16,7 +16,7 @@ const slides = [
     },
     {
         id: 2,
-        image: "/slide2.jpeg",
+        image: "/slide4.png",
     },
 ];
 
