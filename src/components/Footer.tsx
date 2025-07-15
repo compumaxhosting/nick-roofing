@@ -20,7 +20,7 @@ export const Footer = () => {
               </div>
               <p className="text-sm text-white">
                 Nick Roofing has provided top-quality residential, commercial, and
-                industrial roofing in Northern New Jersey. We're known for
+                industrial roofing in Northern New Jersey. We&apos;re known for
                 integrity, craftsmanship, and exceptional customer care. With
                 expert installation and premium materials, we ensure durable,
                 reliable roofs. Your roof, our expertise—built to last!
