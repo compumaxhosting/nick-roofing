@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Open_Sans } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -15,26 +15,26 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+  title: "Trusted Roofing Experts in Hawthorne, NJ | Nick Roofing",
   description:
-    "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+    "Learn about Nick Roofing — Hawthorne, NJ’s trusted provider of roofing, siding, gutter, and waterproofing services. Local expertise. Quality guaranteed.",
   keywords: [
-    "roofing services Hawthorne NJ",
-    "skylight installation Hawthorne NJ",
+    "roofing Hawthorne NJ",
+    "Nick Roofing",
     "gutter installation NJ",
-    "waterproofing contractors NJ",
-    "siding services Hawthorne NJ",
-    "roof repair Franklin Lakes NJ",
-    "gutter repair Midland Park NJ",
-    "siding contractor Ridgewood NJ",
-    "skylight repair Glen Rock NJ",
-    "waterproofing Fair Lawn NJ",
+    "siding contractors Hawthorne",
+    "skylight repair NJ",
+    "waterproofing Hawthorne",
+    "roof repair NJ",
+    "local roofing company NJ",
+    "roofing services near me",
+    "Hawthorne NJ roofers",
   ],
   metadataBase: new URL("https://www.nickroofing.com"), // replace with your domain
   openGraph: {
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Trusted Roofing Experts in Hawthorne, NJ | Nick Roofing",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Learn about Nick Roofing — Hawthorne, NJ’s trusted provider of roofing, siding, gutter, and waterproofing services. Local expertise. Quality guaranteed.",
     url: "https://www.nickroofing.com",
     siteName: "Nick Roofing",
     images: [
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Trusted Roofing Experts in Hawthorne, NJ | Nick Roofing",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Learn about Nick Roofing — Hawthorne, NJ’s trusted provider of roofing, siding, gutter, and waterproofing services. Local expertise. Quality guaranteed.",
     images: ["https://www.nickroofing.com/og-image.jpg"], // replace with actual image
   },
   authors: [{ name: "Nick Roofing Team", url: "https://www.nickroofing.com" }],

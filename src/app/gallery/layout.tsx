@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald, Open_Sans } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -15,26 +15,26 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+  title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
   description:
-    "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+    "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
   keywords: [
-    "roofing services Hawthorne NJ",
-    "skylight installation Hawthorne NJ",
-    "gutter installation NJ",
-    "waterproofing contractors NJ",
-    "siding services Hawthorne NJ",
-    "roof repair Franklin Lakes NJ",
-    "gutter repair Midland Park NJ",
-    "siding contractor Ridgewood NJ",
-    "skylight repair Glen Rock NJ",
-    "waterproofing Fair Lawn NJ",
+    "roofing gallery Hawthorne NJ",
+    "gutter installation photos",
+    "skylight installation NJ",
+    "waterproofing project gallery",
+    "siding installation pictures",
+    "roof repair gallery",
+    "North Jersey roofing company",
+    "Ridgewood roofers",
+    "Wayne NJ exterior work",
+    "Fair Lawn roofing contractor",
   ],
   metadataBase: new URL("https://www.nickroofing.com"), // replace with your domain
   openGraph: {
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
     url: "https://www.nickroofing.com",
     siteName: "Nick Roofing",
     images: [
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
     images: ["https://www.nickroofing.com/og-image.jpg"], // replace with actual image
   },
   authors: [{ name: "Nick Roofing Team", url: "https://www.nickroofing.com" }],
