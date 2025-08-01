@@ -73,7 +73,7 @@ const Header = () => {
     };
 
     return (
-        <nav className='bg-[#E07B3B]'>
+        <nav className='bg-[#E07B3B] px-4 md:px-12'>
             <div className='container mx-auto h-24 flex items-center justify-between'>
                 <Link href='/'>
                     <Image src='/logo.png' alt='' width={200} height={200} />
