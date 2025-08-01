@@ -84,7 +84,7 @@ const Header = () => {
                     <li className="relative group">
                         <Link href="/">
                             <span className={`transition-colors duration-300 ${pathname === '/' ? 'text-[#36454f]' : 'text-white'}`}>
-                                HOME
+                                HOMEh
                             </span>
                             <span
                                 className={`absolute left-0 bottom-0 top-6 h-[2px] bg-[#36454f] transition-all duration-300 ${pathname === '/' ? 'w-full' : 'w-0 group-hover:w-full'
