@@ -43,10 +43,12 @@ export default function About() {
         <div className="container mx-auto flex flex-col md:flex-row items-start gap-10 mb-10">
           {/* Left Content */}
           <div className="w-full px-2 md:px-0 md:w-1/2">
-            <h2 className="mb-[20px] tracking-[1px] text-[#364f4f]">
+            <h1
+            
+            className="mb-[20px] tracking-[1px] text-[#364f4f]">
               <span className="text-lg md:text-xl font-bold">About Nick Roofing – </span>
               <span className="text-base md:text-lg font-normal">Expert Skylight, Gutter, Waterproofing, Roof Repair & Siding Services in New Jersey</span>
-            </h2>
+            </h1>
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
