@@ -13,9 +13,9 @@ export const Footer = () => {
             {/* ABOUT US */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
-                <h2 className="text-sm font-semibold text-white mb-4">
+                <h1 className="text-sm font-semibold text-white mb-4">
                   ABOUT US
-                </h2>
+                </h1>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
               <p className="text-sm text-white">
@@ -112,7 +112,7 @@ export const Footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/nickroofingllc"
                   aria-label="Facebook"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >

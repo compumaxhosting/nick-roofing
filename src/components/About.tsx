@@ -43,9 +43,9 @@ export default function About() {
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* Left Content */}
           <div className="w-[85%] md:w-1/2">
-            <h2 className="text-xl md:text-l font-bold mb-[20px] tracking-[1px] text-[#364f4f]">
+            <h1 className="text-xl md:text-l font-bold mb-[20px] tracking-[1px] text-[#364f4f]">
               WHO ARE WE
-            </h2>
+            </h1>
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
@@ -56,14 +56,22 @@ export default function About() {
             </p>
 
             <p className="mb-[10px] text-sm leading-relaxed text-[#333]">
-              With{" "}
-              <span className="font-bold">
-                35+ years of experience in roofing business in NJ
-              </span>
-              , our team ensures your home stays safe, energy-efficient, and beautiful. Whether you need skylights, gutters, or complete waterproofing, we deliver lasting solutions you can trust.
-              We proudly serve Hawthorne, Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding areas.
-              Call Nick Roofing today for a free estimate and experience premium roofing services near you!
-            </p>
+  With{" "}
+  <span className="font-bold">
+    35+ years of experience in roofing business in NJ
+  </span>
+  , our team ensures your home stays safe, energy-efficient, and beautiful. Whether you need skylights, gutters, or complete waterproofing, we deliver lasting solutions you can trust.
+  We proudly serve{" "}
+  <a
+    href="https://www.wikidata.org/wiki/Q1086688"
+    className="no-underline text-inherit hover:cursor-pointer"
+  >
+    Hawthorne
+  </a>
+  , Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding areas.
+  Call Nick Roofing today for a free estimate and experience premium roofing services near you!
+</p>
+
 
             <Link
               href="/about"
