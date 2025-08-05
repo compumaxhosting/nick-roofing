@@ -1,16 +1,32 @@
-import { Footer } from '@/components/Footer'
-import Header from '@/components/Header'
-import ServicePage from '@/components/ServiceData'
-import React from 'react'
+import { Footer } from "@/components/Footer";
+import Header from "@/components/Header";
+import { BenefitsSection } from "@/components/services/roofrepair/BenefitsSection";
+import { CtaSection } from "@/components/services/roofrepair/CtaSection";
+import { FAQSection } from "@/components/services/roofrepair/FAQSection";
+import { FeaturesSection } from "@/components/services/roofrepair/FeaturesSection";
+import { GallerySection } from "@/components/services/roofrepair/GallerySection";
+import { HeroSection } from "@/components/services/roofrepair/HeroSection";
+import { IntroductionSection } from "@/components/services/roofrepair/IntroductionSection";
+import { ServiceAreas } from "@/components/services/roofrepair/ServiceAreas";
+import { TrustIndicators } from "@/components/services/roofrepair/TrustIndicators";
+import React from "react";
 
-const roofRepair = () => {
+const roofrepairs = () => {
   return (
     <>
       <Header />
-      <ServicePage service="roofing-repair" />
+      <HeroSection />
+      <TrustIndicators />
+      <IntroductionSection />
+      <FeaturesSection />
+      <BenefitsSection />
+      <FAQSection />
+      <ServiceAreas />
+      <GallerySection />
+      <CtaSection />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default roofRepair
+export default roofrepairs;

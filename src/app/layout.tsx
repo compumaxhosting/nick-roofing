@@ -84,9 +84,9 @@ export default function RootLayout({
               "@type": "RoofingContractor",
               name: "Nick Roofing",
               url: "https://www.nickroofing.com/",
-              image: "https://www.nickroofing.com/images/logo.png",
+              image: "https://www.nickroofing.com/og-image.jpg",
               description:
-                "Nick Roofing provides expert skylight installation, gutter services, waterproofing, roof repair, and siding in Hawthorne, NJ and surrounding areas.",
+                "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
               telephone: "(973) 207-0689",
               email: "nickcontractorllc@gmail.com",
               address: {
