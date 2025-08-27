@@ -1,8 +1,6 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import ReCAPTCHA from "react-google-recaptcha";
-import { useState } from "react";
 
 type ContactFormData = {
   name: string;
@@ -14,18 +12,12 @@ type ContactFormData = {
 
 export default function ContactForm() {
   const { register, handleSubmit, reset } = useForm<ContactFormData>();
-  const [token, setToken] = useState<string | null>(null);
 
   const onSubmit = async (data: ContactFormData) => {
-    if (!token) {
-      alert("Please verify reCAPTCHA");
-      return;
-    }
-
     const res = await fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...data, token }),
+      body: JSON.stringify(data),
     });
 
     if (res.ok) {
@@ -50,9 +42,6 @@ export default function ContactForm() {
         <option value="siding">Siding</option>
       </select>
       <textarea {...register("message")} placeholder="Message" rows={4} className="w-full border py-3 px-5"></textarea>
-
-      {/* 🔹 reCAPTCHA */}
-      <ReCAPTCHA sitekey="6LcxprQrAAAAAEQiy-F4mrkEkA9nIF1dY7VurfAe" onChange={setToken} />
 
       <button type="submit" className="bg-[#36454F] text-white py-3 px-8 hover:bg-[#2c3e50]">
         Send Message
