@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import ContactForm from './ContactForm'
 
 export const ContactUs = () => {
     return (
@@ -84,62 +85,7 @@ export const ContactUs = () => {
 
                 {/* Contact Form and Map Container */}
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-6 flex-1'>
-                    {/* Contact Form */}
-                    <div className='py-8 flex-1 lg:flex-[2]'>
-                        <div className="w-full">
-                            <div className="mb-7">
-                                <input
-                                    type="text"
-                                    id="name"
-                                    className="sm:w-full md:w-full lg:w-[80%] w-full  border py-3 px-5 lg:ml-12"
-                                    placeholder="Name"
-                                />
-                            </div>
-                            <div className="mb-7">
-                                <input
-                                    type="email"
-                                    id="email"
-                                    className="sm:w-full md:w-full lg:w-[80%] w-full border py-3 px-5 lg:ml-12"
-                                    placeholder="Email"
-                                />
-                            </div>
-                            <div className="mb-7">
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    className="sm:w-full md:w-full lg:w-[80%] w-full border py-3 px-5 lg:ml-12"
-                                    placeholder="Phone"
-                                />
-                            </div>
-                            <div className="mb-7">
-                                <select
-                                    id="service"
-                                    className="sm:w-full md:w-full lg:w-[80%] w-full border py-3 px-5 lg:ml-12 bg-white"
-                                >
-                                    <option value="">Select a Service</option>
-                                    <option value="skylights">Skylights</option>
-                                    <option value="waterproofing">Waterproofing</option>
-                                    <option value="gutter-installation">Gutter Installation</option>
-                                    <option value="roof-repair">Roof Repair</option>
-                                    <option value="siding">Siding</option>
-                                </select>
-                            </div>
-                            <div className="mb-8">
-                                <textarea
-                                    id="message"
-                                    className="sm:w-full md:w-full lg:w-[80%] w-full border py-3 px-5 lg:ml-12 resize-vertical"
-                                    rows={4}
-                                    placeholder="Message"
-                                ></textarea>
-                            </div>
-                            <button
-                                type="button"
-                                className=" lg:ml-12 sm:w-auto sm:min-w-[200px] bg-[#36454F] text-white py-3 px-8 hover:bg-[#2c3e50] transition-colors duration-200 font-medium"
-                            >
-                                Send Message
-                            </button>
-                        </div>
-                    </div>
+                   <ContactForm />
 
                     {/* Map */}
                     <div className='overflow-hidden flex-shrink-0 w-full lg:w-80 h-64 lg:h-auto lg:min-h-[500px]'>
