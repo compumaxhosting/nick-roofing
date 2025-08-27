@@ -8,18 +8,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { name, email, phone, service, message, token } = req.body;
-
-  // 🔹 Verify Google reCAPTCHA
-  const verifyResponse = await fetch(
-    `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET}&response=${token}`,
-    { method: "POST" }
-  );
-  const captchaResult = await verifyResponse.json();
-
-  if (!captchaResult.success) {
-    return res.status(400).json({ error: "Failed reCAPTCHA verification" });
-  }
+  const { name, email, phone, service, message } = req.body;
 
   try {
     await resend.emails.send({
