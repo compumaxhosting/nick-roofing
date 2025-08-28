@@ -8,7 +8,6 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, email, phone, service, message } = body;
 
-    // Debug log (safe for development only)
     console.log("📩 Contact form submission:", {
       name,
       email,
@@ -19,10 +18,7 @@ export async function POST(req: Request) {
 
     const data = await resend.emails.send({
       from: process.env.FROM_EMAIL as string,
-      to: [
-        process.env.TO_EMAIL_1 as string,
-        process.env.TO_EMAIL_2 as string,
-      ],
+      to: [process.env.TO_EMAIL_1 as string, process.env.TO_EMAIL_2 as string], // ✅ send to both emails
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Inquiry</h2>
