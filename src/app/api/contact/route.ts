@@ -19,7 +19,10 @@ export async function POST(req: Request) {
 
     const data = await resend.emails.send({
       from: process.env.FROM_EMAIL as string,
-      to: process.env.TO_EMAIL as string,
+      to: [
+        process.env.TO_EMAIL_1 as string,
+        process.env.TO_EMAIL_2 as string,
+      ],
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Inquiry</h2>
