@@ -52,9 +52,9 @@ export default function About() {
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
-            <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+            <h2 className="text-lg font-semibold mb-3 text-[#364f4f]">
               Your Local Roofing & Home Improvement Experts
-            </h3>
+            </h2>
 
             <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
               Welcome to Nick Roofing, the trusted choice for homeowners across New Jersey. For over 35 years, we&apos;ve provided reliable and affordable roofing and home improvement solutions, specializing in:
@@ -209,9 +209,9 @@ export default function About() {
             Looking for &quot;roof repair near me&quot; or &quot;gutter installation in New Jersey&quot;? Nick Roofing is your local expert for all roofing and exterior services.
           </p>
 
-          <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+          <h4 className="text-lg font-semibold mb-3 text-[#364f4f]">
             Contact Us Today
-          </h3>
+          </h4>
 
           <p className="mb-[20px] text-sm leading-relaxed text-[#333]">
             Ready to improve your home? Call Nick Roofing at <a href="tel:+19732070689" className="font-bold text-[#364f4f] hover:text-[#2e3d45] transition-colors duration-200">(973) - 207 - 0689</a> for a free estimate or visit our website. Experience the best roofing and home improvement services in New Jersey!

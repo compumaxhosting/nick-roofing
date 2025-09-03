@@ -5,9 +5,9 @@ export const IntroductionSection = () => {
     <section className="py-6 px-4 max-w-6xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
+          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
             Reliable Roof Repair Services in Hawthorne, NJ
-          </h2>
+          </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
             Our experts handle brick waterproofing, concrete waterproofing, and
             wall sealing to prevent water infiltration. Need urgent help? We
@@ -27,9 +27,9 @@ export const IntroductionSection = () => {
             issues and extend your roof’s life.
           </p>
           <div className="bg-blue-50 p-6 rounded-lg">
-            <h3 className="font-semibold text-slate-900 mb-2">
+            <h2 className="font-semibold text-slate-900 mb-2">
               Why Choose Nick Roofing?
-            </h3>
+            </h2>
             <p className="text-slate-600 text-sm sm:text-sm">
               Whether you need residential or commercial roof repair, our local
               roof repair contractors deliver top-quality craftsmanship. We also

@@ -8,9 +8,9 @@ export const CtaSection = () => {
       className="py-10 bg-gradient-to-r from-[#e07b3b] to-blue-700 text-white"
     >
       <div className="max-w-4xl mx-auto text-center px-4">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Need Fast, Reliable Roof Repair?
-        </h2>
+        </h1>
         <p className="text-base sm:text-lg md:text-xl mb-8 text-blue-100">
           Call now for immediate service or schedule your inspection
         </p>

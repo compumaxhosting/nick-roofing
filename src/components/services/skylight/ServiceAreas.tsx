@@ -21,9 +21,9 @@ export const ServiceAreas = () => {
   return (
     <section className="py-10 bg-slate-50">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
+        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
           Proudly Serving Northern New Jersey
-        </h2>
+        </h1>
 
         <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto mb-8">
           For 35 years, we&apos;ve been the trusted choice for homeowners

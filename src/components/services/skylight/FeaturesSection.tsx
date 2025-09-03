@@ -3,9 +3,9 @@ export const FeaturesSection = () => {
     <section className="py-10 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
             Skylight Services Offered
-          </h2>
+          </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 min-h-[200px] flex flex-col justify-center items-center text-center">

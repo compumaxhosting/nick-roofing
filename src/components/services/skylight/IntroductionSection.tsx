@@ -5,10 +5,10 @@ export const IntroductionSection = () => {
     <section className="py-6 px-4 max-w-6xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
+          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
             Velux Skylight Installers & Skylight Services in Hawthorne, New
             Jersey
-          </h2>
+          </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
             As a trusted local contractor, we understand the climate and
             building codes in Hawthorne and the surrounding Passaic County area.

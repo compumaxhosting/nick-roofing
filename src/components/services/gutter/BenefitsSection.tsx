@@ -3,9 +3,9 @@ export const BenefitsSection = () => {
     <section className="py-16 bg-slate-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+          <h1 className="text-2xl sm:text-3xl font-bold mb-4">
             Benefits of Gutter Installation
-          </h2>
+          </h1>
           <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto">
             Invest in quality workmanship that delivers lasting value for your
             home.
