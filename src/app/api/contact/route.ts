@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, email, phone, service, message } = body;
 
-    // Debug log (safe for development only)
+    // Debug log (development only)
     console.log("📩 Contact form submission:", {
       name,
       email,
@@ -17,9 +17,17 @@ export async function POST(req: Request) {
       message,
     });
 
+    // Ensure recipients array is never undefined
+    const recipients =
+      process.env.TO_EMAILS?.split(",").map((email) => email.trim()) || [];
+
+    if (recipients.length === 0) {
+      throw new Error("No recipient emails defined in TO_EMAILS");
+    }
+
     const data = await resend.emails.send({
       from: process.env.FROM_EMAIL as string,
-      to: process.env.TO_EMAIL as string,
+      to: recipients, // Safe: always a string[]
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Inquiry</h2>
