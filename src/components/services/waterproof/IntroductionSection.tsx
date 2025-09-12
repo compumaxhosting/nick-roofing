@@ -5,9 +5,9 @@ export const IntroductionSection = () => {
     <section className="py-6 px-4 max-w-6xl mx-auto">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
+          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
             Professional Waterproofing Services in Hawthorne, NJ
-          </h2>
+          </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
             Looking for reliable waterproofing services in Hawthorne, NJ? We
             specialize in residential and commercial waterproofing to protect
@@ -29,9 +29,9 @@ export const IntroductionSection = () => {
             cause major damage.
           </p>
           <div className="bg-blue-50 p-6 rounded-lg">
-            <h3 className="font-semibold text-slate-900 mb-2">
+            <h2 className="font-semibold text-slate-900 mb-2">
               Why Choose Nick Roofing?
-            </h3>
+            </h2>
             <p className="text-slate-600 text-sm sm:text-sm">
               We offer emergency waterproofing services to stop leaks before
               they cause major damage.Whether you need residential roof

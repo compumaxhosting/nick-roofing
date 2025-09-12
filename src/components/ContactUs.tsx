@@ -124,9 +124,9 @@ export const ContactUs = () => {
         {/* Contact Info - Shown on mobile only */}
         <div className="lg:hidden flex flex-col items-start mt-8">
           <div className="flex flex-col pb-6">
-            <h2 className="text-lg font-semibold text-[#364f4f] mb-4">
+            <h3 className="text-lg font-semibold text-[#364f4f] mb-4">
               Contact Us
-            </h2>
+            </h3>
             <span className="block mx-auto w-12 h-0.5 bg-[#36454F] mb-2"></span>
           </div>
           <p className="mb-8 text-sm">

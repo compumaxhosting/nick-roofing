@@ -9,9 +9,9 @@ export const FeaturesSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 min-h-[200px] flex flex-col justify-center items-center text-center">
-            <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
+            <h2 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
               Residential Skylight Installation
-            </h3>
+            </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Make your living room, kitchen, or bathroom brighter and more
               inviting. Our expert team handles skylight installations on sloped
@@ -31,9 +31,9 @@ export const FeaturesSection = () => {
           </div>
 
           <div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 min-h-[200px] flex flex-col justify-center items-center text-center">
-            <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
+            <h4 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
               Skylight Replacement & Repair
-            </h3>
+            </h4>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Is your existing skylight leaking, fogged up, or outdated? We
               provide skylight replacement and emergency repairs in Northern NJ
@@ -42,9 +42,9 @@ export const FeaturesSection = () => {
           </div>
 
           <div className="bg-white p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 min-h-[200px] flex flex-col justify-center items-center text-center">
-            <h3 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
+            <h5 className="text-base sm:text-lg font-semibold text-slate-900 mb-2">
               Emergency Skylight Repair
-            </h3>
+            </h5>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Searching for &quot;emergency roof repair near me&quot;? We respond quickly
               to leaks, cracks, or broken glass caused by storms, accidents, or

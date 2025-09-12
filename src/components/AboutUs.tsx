@@ -197,9 +197,9 @@ export default function About() {
             Our experienced team understands the unique challenges of New Jersey&apos;s climate. We deliver high-quality craftsmanship, personalized solutions, and exceptional customer service to keep your home safe and beautiful year-round.
           </p>
 
-          <h3 className="text-lg font-semibold mb-3 text-[#364f4f]">
+          <h4 className="text-lg font-semibold mb-3 text-[#364f4f]">
             Serving Communities Near You
-          </h3>
+          </h4>
 
           <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
             We proudly serve Hawthorne, Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding NJ areas.
@@ -209,9 +209,9 @@ export default function About() {
             Looking for &quot;roof repair near me&quot; or &quot;gutter installation in New Jersey&quot;? Nick Roofing is your local expert for all roofing and exterior services.
           </p>
 
-          <h4 className="text-lg font-semibold mb-3 text-[#364f4f]">
+          <h5 className="text-lg font-semibold mb-3 text-[#364f4f]">
             Contact Us Today
-          </h4>
+          </h5>
 
           <p className="mb-[20px] text-sm leading-relaxed text-[#333]">
             Ready to improve your home? Call Nick Roofing at <a href="tel:+19732070689" className="font-bold text-[#364f4f] hover:text-[#2e3d45] transition-colors duration-200">(973) - 207 - 0689</a> for a free estimate or visit our website. Experience the best roofing and home improvement services in New Jersey!

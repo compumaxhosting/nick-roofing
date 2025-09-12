@@ -57,9 +57,9 @@ export const Footer = () => {
             {/* CONTACT US */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
-                <h2 className="text-sm font-semibold text-white mb-4">
+                <h3 className="text-sm font-semibold text-white mb-4">
                   CONTACT US
-                </h2>
+                </h3>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
               <p className="text-white text-sm mb-4">

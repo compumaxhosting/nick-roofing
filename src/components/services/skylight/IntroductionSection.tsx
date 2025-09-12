@@ -28,9 +28,9 @@ export const IntroductionSection = () => {
             installation, and precise skylight cost estimates in NJ.
           </p>
           <div className="bg-blue-50 p-6 rounded-lg">
-            <h3 className="font-semibold text-slate-900 mb-2">
+            <h2 className="font-semibold text-slate-900 mb-2">
               Why Choose Nick Roofing?
-            </h3>
+            </h2>
             <p className="text-slate-600 text-sm sm:text-sm">
               We are Velux-certified skylight installers, offering professional
               skylight services you can rely on. From skylight replacement NJ to
