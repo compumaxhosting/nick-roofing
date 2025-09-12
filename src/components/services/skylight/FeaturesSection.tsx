@@ -52,7 +52,7 @@ export const FeaturesSection = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> 
     </section>
   );
 };
