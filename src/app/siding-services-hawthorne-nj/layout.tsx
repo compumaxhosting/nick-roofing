@@ -111,7 +111,7 @@ const schemaData = {
   },
 };
 
-export default function WaterproofingLayout({
+export default function SidingLayout({
   children,
 }: {
   children: ReactNode;

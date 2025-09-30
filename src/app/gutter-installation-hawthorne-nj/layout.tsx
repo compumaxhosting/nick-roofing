@@ -111,7 +111,7 @@ const schemaData = {
   },
 };
 
-export default function WaterproofingLayout({
+export default function GutterInstallation({
   children,
 }: {
   children: ReactNode;

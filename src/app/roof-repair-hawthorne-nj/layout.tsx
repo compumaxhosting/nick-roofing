@@ -111,7 +111,7 @@ const schemaData = {
   },
 };
 
-export default function WaterproofingLayout({
+export default function RoofRepairLayout({
   children,
 }: {
   children: ReactNode;

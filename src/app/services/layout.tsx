@@ -110,7 +110,7 @@ const schemaData = {
   },
 };
 
-export default function WaterproofingLayout({
+export default function ServicesLayout({
   children,
 }: {
   children: ReactNode;

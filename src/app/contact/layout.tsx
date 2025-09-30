@@ -48,18 +48,8 @@ const breadcrumb = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://www.nickroofing.com/",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Contact",
-      item: "https://www.nickroofing.com/contact",
-    },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.nickroofing.com/" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.nickroofing.com/contact" },
   ],
 };
 
@@ -91,25 +81,13 @@ export default function ContactLayout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}
-      <Script
-        id="contact-webpage-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
+      <Script id="contact-webpage-jsonld" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify(contactWebPage)}
       </Script>
-      <Script
-        id="breadcrumb-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
+      <Script id="breadcrumb-jsonld" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify(breadcrumb)}
       </Script>
-      <Script
-        id="contactpoint-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
+      <Script id="contactpoint-jsonld" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify(contactPoint)}
       </Script>
     </>
