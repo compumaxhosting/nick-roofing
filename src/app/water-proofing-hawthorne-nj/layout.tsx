@@ -1,17 +1,28 @@
-// app/water-proofing-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
+import { ReactNode } from "react";
+import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
   title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
   description:
-    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates.",
-  alternates: {
-    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
-  },
+    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+  keywords: [
+    "waterproofing Hawthorne NJ",
+    "basement waterproofing",
+    "roof leak repair",
+    "foundation sealing",
+    "crawl space waterproofing",
+    "emergency waterproofing",
+    "waterproof coating",
+    "commercial waterproofing",
+    "flat roof waterproofing",
+    "waterproofing cost estimates",
+  ],
+
   openGraph: {
     title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
     description:
-      "Basement, roof, and foundation waterproofing for homes & businesses in Hawthorne, NJ. Emergency leak repair. Free estimates.",
+      "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
     url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
@@ -25,120 +36,90 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
-    description:
-      "Basement, roof & foundation waterproofing in Hawthorne, NJ. Emergency leak repair. Free estimates.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-snippet": -1,
-      "max-image-preview": "large",
-      "max-video-preview": -1,
-    },
+  alternates: {
+    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
   },
 };
 
-// Page-level JSON-LD (mirrors your working pattern: raw <script> in body)
-const webPage = {
+const schemaData = {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Waterproofing Services – Hawthorne, NJ",
-  url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  "@type": "RoofingContractor",
+  name: "Nick Roofing",
+  url: "https://www.nickroofing.com/",
+  image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Residential and commercial waterproofing in Hawthorne, NJ covering basements, roofs, foundations, and crawl spaces.",
-};
-
-const breadcrumb = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://www.nickroofing.com/",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Waterproofing – Hawthorne, NJ",
-      item: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
-    },
-  ],
-};
-
-const waterproofingService = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Waterproofing",
-  serviceType: "Waterproofing",
-  category: "Exterior Services",
-  url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
-  description:
-    "Basement, roof, crawl space, and foundation waterproofing including coatings, sealing, and emergency leak repair for residential and commercial properties.",
-  provider: {
-    "@type": "RoofingContractor",
-    name: "Nick Roofing",
-    url: "https://www.nickroofing.com/",
-    telephone: "+1-973-207-0689",
-    areaServed: "Hawthorne, NJ",
+    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+  telephone: "(973) 207-0689",
+  email: "nickcontractorllc@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "525 Lafayette Ave",
+    addressLocality: "Hawthorne",
+    addressRegion: "NJ",
+    postalCode: "07506",
+    addressCountry: "US",
   },
-  areaServed: [
-    "Hawthorne",
-    "Franklin Lakes",
-    "Midland Park",
-    "Allendale",
-    "Waldwick",
-    "Ramsey",
-    "Saddle River",
-    "Ridgewood",
-    "Glen Rock",
-    "Fair Lawn",
-    "Clifton",
-    "Paramus",
-    "Oradell",
-    "North Haledon",
-    "Totowa",
-    "Wayne",
-  ],
-  offers: {
-    "@type": "Offer",
-    availability: "https://schema.org/InStock",
-    priceCurrency: "USD",
-    url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
-    eligibleRegion: "US-NJ",
+  openingHours: "Mo-Fr 08:00-18:00",
+  areaServed: {
+    "@type": "Place",
+    name: [
+      "Hawthorne",
+      "Franklin Lakes",
+      "Midland Park",
+      "Allendale",
+      "Waldwick",
+      "Ramsey",
+      "Saddle River",
+      "Ridgewood",
+      "Glen Rock",
+      "Fair Lawn",
+      "Clifton",
+      "Paramus",
+      "Oradell",
+      "North Haledon",
+      "Totowa",
+      "Wayne",
+    ],
+  },
+  priceRange: "$$",
+  sameAs: [],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Roofing & Exterior Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Skylight Installation" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Gutter Installation" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Roofing Repair" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Siding Services" },
+      },
+    ],
   },
 };
 
 export default function WaterproofingLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <>
       {children}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPage) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(waterproofingService),
-        }}
-      />
+      <ClientOnlyJsonLd data={schemaData} />
     </>
   );
 }
