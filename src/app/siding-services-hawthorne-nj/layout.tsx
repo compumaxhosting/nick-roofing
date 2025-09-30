@@ -1,32 +1,23 @@
+// app/siding-services-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
   description:
-    "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
-  keywords: [
-    "Siding installation Hawthorne NJ",
-    "Siding repair Hawthorne NJ",
-    "Vinyl siding replacement",
-    "Wood siding contractors",
-    "Fiber cement siding experts",
-    "Best siding company near me",
-    "Siding contractors Passaic County",
-    "Affordable siding services",
-    "Residential siding repair",
-    "Local siding installation",
-  ],
-
+    "Top-quality siding installation, repair, and replacement in Hawthorne, NJ. Vinyl, wood, and fiber cement siding by local experts with honest pricing.",
+  alternates: {
+    canonical: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+  },
   openGraph: {
     title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
     description:
-      "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
+      "Top-quality siding installation, repair, and replacement in Hawthorne, NJ. Vinyl, wood, and fiber cement siding by local experts with honest pricing.",
     url: "https://www.nickroofing.com/siding-services-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
-    type: "website",
+    type: "article",
     images: [
       {
         url: "https://www.nickroofing.com/og-image.jpg",
@@ -36,90 +27,120 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Vinyl, wood, and fiber cement siding installation and repair in Hawthorne, NJ. Local experts. Honest pricing.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-const schemaData = {
+// Keep your LocalBusiness/RoofingContractor JSON-LD once sitewide (root layout/home).
+// This route gets WebPage + BreadcrumbList + Service for relevance.
+
+const webPage = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  name: "Nick Roofing",
-  url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  "@type": "WebPage",
+  name: "Siding Services – Hawthorne, NJ",
+  url: "https://www.nickroofing.com/siding-services-hawthorne-nj",
   description:
-    "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
-  telephone: "(973) 207-0689",
-  email: "nickcontractorllc@gmail.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "525 Lafayette Ave",
-    addressLocality: "Hawthorne",
-    addressRegion: "NJ",
-    postalCode: "07506",
-    addressCountry: "US",
+    "Siding installation, repair, and replacement services in Hawthorne, NJ. Vinyl, wood, and fiber cement options with honest pricing.",
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.nickroofing.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Siding Services – Hawthorne, NJ",
+      item: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+    },
+  ],
+};
+
+const sidingService = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Siding Installation & Repair",
+  serviceType: "Siding",
+  category: "Exterior Services",
+  url: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+  description:
+    "Vinyl, wood, and fiber cement siding installation, repair, and replacement for residential properties in North Jersey.",
+  provider: {
+    "@type": "RoofingContractor",
+    name: "Nick Roofing",
+    url: "https://www.nickroofing.com/",
+    telephone: "(973) 207-0689",
+    areaServed: "Hawthorne, NJ",
   },
-  openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
-  priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
+  areaServed: [
+    "Hawthorne",
+    "Franklin Lakes",
+    "Midland Park",
+    "Allendale",
+    "Waldwick",
+    "Ramsey",
+    "Saddle River",
+    "Ridgewood",
+    "Glen Rock",
+    "Fair Lawn",
+    "Clifton",
+    "Paramus",
+    "Oradell",
+    "North Haledon",
+    "Totowa",
+    "Wayne",
+  ],
+  offers: {
+    "@type": "Offer",
+    availability: "https://schema.org/InStock",
+    priceCurrency: "USD",
+    url: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+    eligibleRegion: "US-NJ",
   },
 };
 
-export default function SidingLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function SidingLayout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}
-      <ClientOnlyJsonLd data={schemaData} />
+      <Script
+        id="siding-webpage-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(webPage)}
+      </Script>
+      <Script
+        id="siding-breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(breadcrumb)}
+      </Script>
+      <Script
+        id="siding-service-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(sidingService)}
+      </Script>
     </>
   );
 }

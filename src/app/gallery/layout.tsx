@@ -1,24 +1,13 @@
+// app/gallery/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
   description:
     "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
-  keywords: [
-    "roofing gallery Hawthorne NJ",
-    "gutter installation photos",
-    "skylight installation NJ",
-    "waterproofing project gallery",
-    "siding installation pictures",
-    "roof repair gallery",
-    "North Jersey roofing company",
-    "Ridgewood roofers",
-    "Wayne NJ exterior work",
-    "Fair Lawn roofing contractor",
-  ],
-
+  alternates: { canonical: "https://www.nickroofing.com/gallery" },
   openGraph: {
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
@@ -36,90 +25,62 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/gallery",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
   },
+  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-const schemaData = {
+// Keep LocalBusiness JSON-LD sitewide (root layout/homepage).
+// For /gallery, describe the page itself + breadcrumbs.
+const galleryWebPage = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  name: "Nick Roofing",
-  url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  "@type": ["WebPage", "CollectionPage", "ImageGallery"],
+  name: "Project Gallery – Nick Roofing",
+  url: "https://www.nickroofing.com/gallery",
   description:
-    "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
-  telephone: "(973) 207-0689",
-  email: "nickcontractorllc@gmail.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "525 Lafayette Ave",
-    addressLocality: "Hawthorne",
-    addressRegion: "NJ",
-    postalCode: "07506",
-    addressCountry: "US",
-  },
-  openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
-  priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
+    "Photo gallery of Nick Roofing’s skylight, gutter, roofing, waterproofing, and siding projects across North Jersey.",
 };
 
-export default function WaterproofingLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.nickroofing.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Gallery",
+      item: "https://www.nickroofing.com/gallery",
+    },
+  ],
+};
+
+export default function GalleryLayout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}
-      <ClientOnlyJsonLd data={schemaData} />
+      <Script
+        id="gallery-webpage-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(galleryWebPage)}
+      </Script>
+      <Script
+        id="breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(breadcrumb)}
+      </Script>
     </>
   );
 }

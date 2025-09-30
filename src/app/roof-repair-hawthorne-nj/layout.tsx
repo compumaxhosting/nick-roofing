@@ -1,32 +1,23 @@
+// app/roof-repair-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Emergency Roof Repair in Hawthorne, NJ | nickroofing.com",
+  title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
   description:
-    "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
-  keywords: [
-    "Roof Repair Hawthorne NJ",
-    "Emergency Roof Repair NJ",
-    "Storm Damage Roof Repair",
-    "Flat Roof Repair",
-    "Asphalt Shingle Repair",
-    "Roof Leak Detection & Repair",
-    "Roof Flashing Repair",
-    "Gutter Repair & Maintenance",
-    "Roof Restoration Services",
-    "Waterproofing & Sealant Services",
-  ],
-
+    "Hawthorne’s trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency service and free estimates for homes & businesses.",
+  alternates: {
+    canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+  },
   openGraph: {
-    title: "Emergency Roof Repair in Hawthorne, NJ | nickroofing.com",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
+      "Fast, reliable roof leak & storm damage repairs in Hawthorne and nearby NJ towns. 24/7 emergency response. Free estimates.",
     url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
-    type: "website",
+    type: "article",
     images: [
       {
         url: "https://www.nickroofing.com/og-image.jpg",
@@ -36,78 +27,90 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
+    description:
+      "24/7 emergency roof repair. Leaks, shingles, flashing, storm damage. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-const schemaData = {
+// Route-focused JSON-LD. Keep your LocalBusiness/RoofingContractor entity once sitewide (root layout/home).
+const webPage = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  name: "Nick Roofing",
-  url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  "@type": "WebPage",
+  name: "Emergency Roof Repair – Hawthorne, NJ",
+  url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
   description:
-    "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
-  telephone: "(973) 207-0689",
-  email: "nickcontractorllc@gmail.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "525 Lafayette Ave",
-    addressLocality: "Hawthorne",
-    addressRegion: "NJ",
-    postalCode: "07506",
-    addressCountry: "US",
+    "Emergency roof repair for leaks, storm damage, shingles and flashing in Hawthorne, NJ and nearby towns. 24/7 response and free estimates.",
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.nickroofing.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Roof Repair – Hawthorne, NJ",
+      item: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+    },
+  ],
+};
+
+const roofRepairService = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Emergency Roof Repair",
+  serviceType: "Roof Repair",
+  category: "Roofing",
+  url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+  description:
+    "24/7 emergency roof repair including leak detection, storm damage, shingle and flashing repair for residential and commercial properties.",
+  provider: {
+    "@type": "RoofingContractor",
+    name: "Nick Roofing",
+    url: "https://www.nickroofing.com/",
+    telephone: "(973) 207-0689",
+    areaServed: "Hawthorne, NJ",
   },
-  openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
-  priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
+  areaServed: [
+    "Hawthorne",
+    "Franklin Lakes",
+    "Midland Park",
+    "Allendale",
+    "Waldwick",
+    "Ramsey",
+    "Saddle River",
+    "Ridgewood",
+    "Glen Rock",
+    "Fair Lawn",
+    "Clifton",
+    "Paramus",
+    "Oradell",
+    "North Haledon",
+    "Totowa",
+    "Wayne",
+  ],
+  offers: {
+    "@type": "Offer",
+    availability: "https://schema.org/InStock",
+    priceCurrency: "USD",
+    url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+    eligibleRegion: "US-NJ",
   },
 };
 
@@ -119,7 +122,27 @@ export default function RoofRepairLayout({
   return (
     <>
       {children}
-      <ClientOnlyJsonLd data={schemaData} />
+      <Script
+        id="roofrepair-webpage-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(webPage)}
+      </Script>
+      <Script
+        id="roofrepair-breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(breadcrumb)}
+      </Script>
+      <Script
+        id="roofrepair-service-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(roofRepairService)}
+      </Script>
     </>
   );
 }

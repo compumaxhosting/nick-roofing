@@ -1,32 +1,23 @@
+// app/water-proofing-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
   description:
     "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
-  keywords: [
-    "waterproofing Hawthorne NJ",
-    "basement waterproofing",
-    "roof leak repair",
-    "foundation sealing",
-    "crawl space waterproofing",
-    "emergency waterproofing",
-    "waterproof coating",
-    "commercial waterproofing",
-    "flat roof waterproofing",
-    "waterproofing cost estimates",
-  ],
-
+  alternates: {
+    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  },
   openGraph: {
     title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
     description:
-      "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+      "Basement, roof, and foundation waterproofing for homes & businesses in Hawthorne, NJ. Emergency leak repair. Free estimates.",
     url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
-    type: "website",
+    type: "article",
     images: [
       {
         url: "https://www.nickroofing.com/og-image.jpg",
@@ -36,78 +27,94 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
+    description:
+      "Basement, roof & foundation waterproofing in Hawthorne, NJ. Emergency leak repair. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-const schemaData = {
+/**
+ * Keep your LocalBusiness/RoofingContractor JSON-LD once sitewide (root layout/home).
+ * This route uses WebPage + BreadcrumbList + Service for topical relevance.
+ */
+
+const webPage = {
   "@context": "https://schema.org",
-  "@type": "RoofingContractor",
-  name: "Nick Roofing",
-  url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  "@type": "WebPage",
+  name: "Waterproofing Services – Hawthorne, NJ",
+  url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
   description:
-    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
-  telephone: "(973) 207-0689",
-  email: "nickcontractorllc@gmail.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "525 Lafayette Ave",
-    addressLocality: "Hawthorne",
-    addressRegion: "NJ",
-    postalCode: "07506",
-    addressCountry: "US",
+    "Residential and commercial waterproofing in Hawthorne, NJ covering basements, roofs, foundations, and crawl spaces.",
+};
+
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.nickroofing.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Waterproofing – Hawthorne, NJ",
+      item: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+    },
+  ],
+};
+
+const waterproofingService = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Waterproofing",
+  serviceType: "Waterproofing",
+  category: "Exterior Services",
+  url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  description:
+    "Basement, roof, crawl space, and foundation waterproofing including coatings, sealing, and emergency leak repair for residential and commercial properties.",
+  provider: {
+    "@type": "RoofingContractor",
+    name: "Nick Roofing",
+    url: "https://www.nickroofing.com/",
+    telephone: "(973) 207-0689",
+    areaServed: "Hawthorne, NJ",
   },
-  openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
-  priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
+  areaServed: [
+    "Hawthorne",
+    "Franklin Lakes",
+    "Midland Park",
+    "Allendale",
+    "Waldwick",
+    "Ramsey",
+    "Saddle River",
+    "Ridgewood",
+    "Glen Rock",
+    "Fair Lawn",
+    "Clifton",
+    "Paramus",
+    "Oradell",
+    "North Haledon",
+    "Totowa",
+    "Wayne",
+  ],
+  offers: {
+    "@type": "Offer",
+    availability: "https://schema.org/InStock",
+    priceCurrency: "USD",
+    url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+    eligibleRegion: "US-NJ",
   },
 };
 
@@ -119,7 +126,27 @@ export default function WaterproofingLayout({
   return (
     <>
       {children}
-      <ClientOnlyJsonLd data={schemaData} />
+      <Script
+        id="waterproofing-webpage-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(webPage)}
+      </Script>
+      <Script
+        id="waterproofing-breadcrumb-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(breadcrumb)}
+      </Script>
+      <Script
+        id="waterproofing-service-jsonld"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
+        {JSON.stringify(waterproofingService)}
+      </Script>
     </>
   );
 }
