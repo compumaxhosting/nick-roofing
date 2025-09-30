@@ -1,12 +1,10 @@
 // app/water-proofing-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
-import { ReactNode } from "react";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
   description:
-    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates.",
   alternates: {
     canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
   },
@@ -17,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
-    type: "article",
+    type: "website",
     images: [
       {
         url: "https://www.nickroofing.com/og-image.jpg",
@@ -37,11 +35,17 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
   },
-  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
+// Page-level JSON-LD (mirrors your working pattern: raw <script> in body)
 const webPage = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -83,7 +87,7 @@ const waterproofingService = {
     "@type": "RoofingContractor",
     name: "Nick Roofing",
     url: "https://www.nickroofing.com/",
-    telephone: "(973) 207-0689",
+    telephone: "+1-973-207-0689",
     areaServed: "Hawthorne, NJ",
   },
   areaServed: [
@@ -116,32 +120,25 @@ const waterproofingService = {
 export default function WaterproofingLayout({
   children,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <>
       {children}
-      <Script
-        id="waterproofing-webpage-jsonld"
+      <script
         type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(webPage)}
-      </Script>
-      <Script
-        id="waterproofing-breadcrumb-jsonld"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPage) }}
+      />
+      <script
         type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(breadcrumb)}
-      </Script>
-      <Script
-        id="waterproofing-service-jsonld"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      <script
         type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(waterproofingService)}
-      </Script>
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(waterproofingService),
+        }}
+      />
     </>
   );
 }
