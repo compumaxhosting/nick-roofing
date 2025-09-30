@@ -3,7 +3,7 @@ import { ContactUs } from "@/components/ContactUs";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Header />

@@ -11,7 +11,7 @@ import { ServiceAreas } from "@/components/services/waterproof/ServiceAreas";
 import { TrustIndicators } from "@/components/services/waterproof/TrustIndicators";
 import React from "react";
 
-const waterproofs = () => {
+export default function WaterProofing() {
   return (
     <>
       <Header />
@@ -29,4 +29,3 @@ const waterproofs = () => {
   );
 };
 
-export default waterproofs;

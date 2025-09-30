@@ -11,7 +11,7 @@ import { ServiceAreas } from '@/components/services/skylight/ServiceAreas'
 import { TrustIndicators } from '@/components/services/skylight/TrustIndicators'
 import React from 'react'
 
-const skylights = () => {
+export default function Skylights() {
   return (
     <>
       <Header />
@@ -26,7 +26,5 @@ const skylights = () => {
       <CtaSection />
       <Footer />
     </>
-  )
+  );
 }
-
-export default skylights

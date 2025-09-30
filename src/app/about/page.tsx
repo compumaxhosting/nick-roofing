@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import ServicesAreas from "@/components/ServicesAreas";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Header />

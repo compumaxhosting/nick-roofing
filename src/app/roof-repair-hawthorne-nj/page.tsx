@@ -11,7 +11,7 @@ import { ServiceAreas } from "@/components/services/roofrepair/ServiceAreas";
 import { TrustIndicators } from "@/components/services/roofrepair/TrustIndicators";
 import React from "react";
 
-const roofrepairs = () => {
+export default function RoofRepairs() {
   return (
     <>
       <Header />
@@ -28,5 +28,3 @@ const roofrepairs = () => {
     </>
   );
 };
-
-export default roofrepairs;
