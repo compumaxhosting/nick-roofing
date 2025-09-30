@@ -22,7 +22,7 @@
       title: "Trusted Roofing Experts in Hawthorne, NJ | Nick Roofing",
       description:
         "Learn about Nick Roofing — Hawthorne, NJ’s trusted provider of roofing, siding, gutter, and waterproofing services. Local expertise. Quality guaranteed.",
-      url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+      url: "https://www.nickroofing.com/about",
       siteName: "Nick Roofing",
       locale: "en_US",
       type: "website",
@@ -36,7 +36,7 @@
       ],
     },
     alternates: {
-      canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+      canonical: "https://www.nickroofing.com/about",
     },
   };
 

@@ -110,7 +110,7 @@
     },
   };
 
-  export default function About({
+  export default function WaterproofingLayout({
     children,
   }: {
     children: ReactNode;
