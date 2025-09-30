@@ -42,11 +42,6 @@ export const metadata: Metadata = {
   // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-/**
- * Keep your LocalBusiness/RoofingContractor JSON-LD once sitewide (root layout/home).
- * This route uses WebPage + BreadcrumbList + Service for topical relevance.
- */
-
 const webPage = {
   "@context": "https://schema.org",
   "@type": "WebPage",
