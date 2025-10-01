@@ -1,5 +1,5 @@
 export const dynamic = "force-static";
-export const revalidate = 86400;
+export const revalidate = 86400; // 24h
 
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";

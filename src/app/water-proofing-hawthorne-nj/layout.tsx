@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
-export const dynamic = "force-static";
-export const revalidate = 86400; // 24h
-
 export const metadata: Metadata = {
   title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
   description:
