@@ -1,15 +1,24 @@
-// app/gutter-installation-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import Script from "next/script";
+import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
   title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
   description:
     "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services. Call now.",
-  alternates: {
-    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
-  },
+  keywords: [
+    "gutter installation Hawthorne NJ",
+    "seamless gutters",
+    "gutter repair",
+    "downspout installation",
+    "best gutter company",
+    "aluminum gutters",
+    "commercial gutter installation",
+    "gutter cleaning",
+    "emergency gutter services",
+    "gutter replacement",
+  ],
+
   openGraph: {
     title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
     description:
@@ -17,7 +26,7 @@ export const metadata: Metadata = {
     url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
-    type: "article",
+    type: "website",
     images: [
       {
         url: "https://www.nickroofing.com/og-image.jpg",
@@ -27,88 +36,82 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
-    description:
-      "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+  alternates: {
+    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true },
-  },
-  // Note: `keywords` intentionally omitted; Google ignores them.
 };
 
-// Keep LocalBusiness/RoofingContractor JSON-LD sitewide (root layout or homepage).
-// This route gets Service + WebPage + BreadcrumbList for relevance and clarity.
-
-const webPage = {
+const schemaData = {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: "Gutter Installation in Hawthorne, NJ",
-  url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+  "@type": "RoofingContractor",
+  name: "Nick Roofing",
+  url: "https://www.nickroofing.com/",
+  image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services.",
-};
-
-const breadcrumb = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://www.nickroofing.com/",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Gutter Installation – Hawthorne, NJ",
-      item: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
-    },
-  ],
-};
-
-const gutterService = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Gutter Installation",
-  serviceType: "Gutter Installation",
-  description:
-    "Seamless, aluminum, and copper gutter installation with repair and emergency services for homes and businesses in North Jersey.",
-  provider: {
-    "@type": "RoofingContractor",
-    name: "Nick Roofing",
-    url: "https://www.nickroofing.com/",
-    telephone: "(973) 207-0689",
-    areaServed: "Hawthorne, NJ",
+    "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services. Call now.",
+  telephone: "(973) 207-0689",
+  email: "nickcontractorllc@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "525 Lafayette Ave",
+    addressLocality: "Hawthorne",
+    addressRegion: "NJ",
+    postalCode: "07506",
+    addressCountry: "US",
   },
-  areaServed: [
-    "Hawthorne",
-    "Franklin Lakes",
-    "Midland Park",
-    "Allendale",
-    "Waldwick",
-    "Ramsey",
-    "Saddle River",
-    "Ridgewood",
-    "Glen Rock",
-    "Fair Lawn",
-    "Clifton",
-    "Paramus",
-    "Oradell",
-    "North Haledon",
-    "Totowa",
-    "Wayne",
-  ],
-  url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+  openingHours: "Mo-Fr 08:00-18:00",
+  areaServed: {
+    "@type": "Place",
+    name: [
+      "Hawthorne",
+      "Franklin Lakes",
+      "Midland Park",
+      "Allendale",
+      "Waldwick",
+      "Ramsey",
+      "Saddle River",
+      "Ridgewood",
+      "Glen Rock",
+      "Fair Lawn",
+      "Clifton",
+      "Paramus",
+      "Oradell",
+      "North Haledon",
+      "Totowa",
+      "Wayne",
+    ],
+  },
+  priceRange: "$$",
+  sameAs: [],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Roofing & Exterior Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Skylight Installation" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Gutter Installation" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Roofing Repair" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Siding Services" },
+      },
+    ],
+  },
 };
 
-export default function GutterInstallationLayout({
+export default function GutterLayout({
   children,
 }: {
   children: ReactNode;
@@ -116,27 +119,7 @@ export default function GutterInstallationLayout({
   return (
     <>
       {children}
-      <Script
-        id="gutter-webpage-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(webPage)}
-      </Script>
-      <Script
-        id="gutter-breadcrumb-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(breadcrumb)}
-      </Script>
-      <Script
-        id="gutter-service-jsonld"
-        type="application/ld+json"
-        strategy="afterInteractive"
-      >
-        {JSON.stringify(gutterService)}
-      </Script>
+      <ClientOnlyJsonLd data={schemaData} />
     </>
   );
 }
