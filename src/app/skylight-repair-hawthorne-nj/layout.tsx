@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   title: "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
   description:
     "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Trusted skylight installers for residential & commercial properties. Free estimates.",
+  keywords: [
+    "Velux skylight repair",
+    "skylight installation Hawthorne NJ",
+    "skylight leak repair",
+    "skylight glass replacement",
+    "flat roof skylights",
+    "emergency skylight services",
+    "skylight flashing repair",
+    "best skylight company NJ",
+    "skylight maintenance",
+    "skylight cost estimates",
+  ],
   alternates: {
     canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
   },
@@ -33,20 +45,9 @@ export const metadata: Metadata = {
     title:
       "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
     description:
-      "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Free estimates.",
+      "Velux skylight repairs, glass replacement & leak fixes in Hawthorne, NJ. Free estimates.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
-  // Optional: keep keywords if you like—just don’t over-stuff
-  keywords: [
-    "Velux skylight repair",
-    "skylight installation Hawthorne NJ",
-    "skylight leak repair",
-    "skylight glass replacement",
-    "flat roof skylights",
-    "emergency skylight services",
-    "skylight flashing repair",
-    "skylight maintenance",
-  ],
 };
 
 const schemaData = {
@@ -96,10 +97,7 @@ const schemaData = {
     itemListElement: [
       {
         "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Skylight Installation & Repair",
-        },
+        itemOffered: { "@type": "Service", name: "Skylight Installation" },
       },
       {
         "@type": "Offer",

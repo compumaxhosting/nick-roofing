@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     "emergency gutter services",
     "gutter replacement",
   ],
-
+  alternates: {
+    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
     description:
@@ -36,8 +39,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
+    description:
+      "Seamless, aluminum & copper gutters for homes and businesses in Hawthorne, NJ. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -60,6 +67,7 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
+  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -81,8 +89,6 @@ const schemaData = {
       "Wayne",
     ],
   },
-  priceRange: "$$",
-  sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Roofing & Exterior Services",
@@ -111,11 +117,7 @@ const schemaData = {
   },
 };
 
-export default function GutterLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}

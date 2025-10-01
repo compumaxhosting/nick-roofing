@@ -1,3 +1,7 @@
+// Force static generation + daily revalidation (parity with your indexed pages)
+export const dynamic = "force-static";
+export const revalidate = 86400; // 24h
+
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import { BenefitsSection } from "@/components/services/gutter/BenefitsSection";
@@ -11,7 +15,7 @@ import { ServiceAreas } from "@/components/services/gutter/ServiceAreas";
 import { TrustIndicators } from "@/components/services/gutter/TrustIndicators";
 import React from "react";
 
-export default function GutterInstallationPage() {
+export default function Page() {
   return (
     <>
       <Header />

@@ -3,9 +3,21 @@ import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
-  title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
+  title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
   description:
-    "Certified waterproofing contractors in Hawthorne, NJ. Basement, roof, crawl space & foundation sealing, coatings, and emergency leak repair. Free estimates.",
+    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+  keywords: [
+    "waterproofing Hawthorne NJ",
+    "basement waterproofing",
+    "roof leak repair",
+    "foundation sealing",
+    "crawl space waterproofing",
+    "emergency waterproofing",
+    "waterproof coating",
+    "commercial waterproofing",
+    "flat roof waterproofing",
+    "waterproofing cost estimates",
+  ],
   alternates: {
     canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
   },

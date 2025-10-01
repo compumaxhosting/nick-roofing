@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     "Wayne NJ exterior work",
     "Fair Lawn roofing contractor",
   ],
-
+  alternates: {
+    canonical: "https://www.nickroofing.com/gallery",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
@@ -36,8 +39,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/gallery",
+  twitter: {
+    card: "summary_large_image",
+    title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
+    description:
+      "See skylight, gutter, roofing, waterproofing & siding projects we’ve completed across North Jersey.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -60,6 +67,7 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
+  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -81,8 +89,6 @@ const schemaData = {
       "Wayne",
     ],
   },
-  priceRange: "$$",
-  sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Roofing & Exterior Services",
@@ -111,11 +117,7 @@ const schemaData = {
   },
 };
 
-export default function GalleryLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}

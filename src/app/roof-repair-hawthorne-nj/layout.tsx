@@ -3,26 +3,29 @@ import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
-  title: "Emergency Roof Repair in Hawthorne, NJ | nickroofing.com",
+  title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
   description:
-    "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
+    "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
   keywords: [
-    "Roof Repair Hawthorne NJ",
-    "Emergency Roof Repair NJ",
-    "Storm Damage Roof Repair",
-    "Flat Roof Repair",
-    "Asphalt Shingle Repair",
-    "Roof Leak Detection & Repair",
-    "Roof Flashing Repair",
-    "Gutter Repair & Maintenance",
-    "Roof Restoration Services",
-    "Waterproofing & Sealant Services",
+    "Roof repair Hawthorne NJ",
+    "Emergency roof repair NJ",
+    "Storm damage roof repair",
+    "Flat roof repair",
+    "Asphalt shingle repair",
+    "Roof leak detection",
+    "Roof flashing repair",
+    "Gutter repair and maintenance",
+    "Roof restoration services",
+    "Waterproofing and sealant services",
   ],
-
+  alternates: {
+    canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
-    title: "Emergency Roof Repair in Hawthorne, NJ | nickroofing.com",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
+      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates.",
     url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
@@ -36,8 +39,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Fast roof leak fixes, storm damage repairs, shingles & flashing. 24/7 emergency service. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -48,7 +55,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Hawthorne’s trusted roof repair experts! Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services + free estimates. Serving residential & commercial properties.",
+    "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {
@@ -60,6 +67,7 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
+  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -81,8 +89,6 @@ const schemaData = {
       "Wayne",
     ],
   },
-  priceRange: "$$",
-  sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Roofing & Exterior Services",
@@ -111,11 +117,7 @@ const schemaData = {
   },
 };
 
-export default function RoofLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}

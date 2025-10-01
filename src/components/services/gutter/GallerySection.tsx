@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export const GallerySection = () => {
   const images = [
-    { src: "/skylight1.png", alt: "Skylight Installation project 1" },
-    { src: "/skylights1.jpg", alt: "Skylight Installation project 2" },
-    { src: "/skylights3.jpg", alt: "Skylight Installation project 3" },
+    { src: "/gutter1.png", alt: "Skylight Installation project 1" },
+    { src: "/gutter2.png", alt: "Skylight Installation project 2" },
+    { src: "/gutter3.png", alt: "Skylight Installation project 3" },
   ];
 
   return (
     <section className="py-10 px-4 max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-          Our Skylight Installation Gallery
+          Our Gutter Installation Gallery
         </h1>
         <p className="text-base sm:text-lg text-slate-600">
           See examples of our quality workmanship and attention to detail.

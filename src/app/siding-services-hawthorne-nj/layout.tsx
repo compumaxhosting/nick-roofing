@@ -18,7 +18,10 @@ export const metadata: Metadata = {
     "Residential siding repair",
     "Local siding installation",
   ],
-
+  alternates: {
+    canonical: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
     title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
     description:
@@ -36,8 +39,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -60,6 +67,7 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
+  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -81,8 +89,6 @@ const schemaData = {
       "Wayne",
     ],
   },
-  priceRange: "$$",
-  sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Roofing & Exterior Services",
@@ -111,11 +117,7 @@ const schemaData = {
   },
 };
 
-export default function SkyLightLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}

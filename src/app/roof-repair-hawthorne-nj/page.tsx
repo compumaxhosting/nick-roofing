@@ -1,3 +1,7 @@
+// Force static generation + daily revalidation
+export const dynamic = "force-static";
+export const revalidate = 86400; // 24h
+
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import { BenefitsSection } from "@/components/services/roofrepair/BenefitsSection";
@@ -11,7 +15,7 @@ import { ServiceAreas } from "@/components/services/roofrepair/ServiceAreas";
 import { TrustIndicators } from "@/components/services/roofrepair/TrustIndicators";
 import React from "react";
 
-export default function RoofRepairs() {
+export default function Page() {
   return (
     <>
       <Header />
@@ -27,4 +31,4 @@ export default function RoofRepairs() {
       <Footer />
     </>
   );
-};
+}
