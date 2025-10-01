@@ -6,7 +6,7 @@ import "./globals.css";
 const oswald = Oswald({
   variable: "--font-oswald",
   subsets: ["latin"],
-  display: "swap",
+  display: "swap", 
 });
 
 const openSans = Open_Sans({
