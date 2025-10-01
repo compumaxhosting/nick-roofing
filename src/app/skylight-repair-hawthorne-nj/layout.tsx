@@ -6,18 +6,10 @@ export const metadata: Metadata = {
   title: "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
   description:
     "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Trusted skylight installers for residential & commercial properties. Free estimates.",
-  keywords: [
-    "Velux skylight repair",
-    "skylight installation Hawthorne NJ",
-    "skylight leak repair",
-    "skylight glass replacement",
-    "flat roof skylights",
-    "emergency skylight services",
-    "skylight flashing repair",
-    "best skylight company NJ",
-    "skylight maintenance", 
-    "skylight cost estimates",
-  ],
+  alternates: {
+    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
     title:
       "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
@@ -36,9 +28,25 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
+  // Optional: keep keywords if you like—just don’t over-stuff
+  keywords: [
+    "Velux skylight repair",
+    "skylight installation Hawthorne NJ",
+    "skylight leak repair",
+    "skylight glass replacement",
+    "flat roof skylights",
+    "emergency skylight services",
+    "skylight flashing repair",
+    "skylight maintenance",
+  ],
 };
 
 const schemaData = {
@@ -60,6 +68,7 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
+  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -81,15 +90,16 @@ const schemaData = {
       "Wayne",
     ],
   },
-  priceRange: "$$",
-  sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Roofing & Exterior Services",
     itemListElement: [
       {
         "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
+        itemOffered: {
+          "@type": "Service",
+          name: "Skylight Installation & Repair",
+        },
       },
       {
         "@type": "Offer",
@@ -111,11 +121,7 @@ const schemaData = {
   },
 };
 
-export default function WaterproofingLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}
