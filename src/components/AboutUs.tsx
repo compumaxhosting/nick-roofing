@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-export default function About() {
+export default function AboutUs() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Array of 5 images for the carousel

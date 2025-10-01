@@ -2,27 +2,21 @@ import type { Metadata } from "next";
 import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
-export const metadata: Metadata = {
-  title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
-  description:
-    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
-  keywords: [
-    "waterproofing Hawthorne NJ",
-    "basement waterproofing",
-    "roof leak repair",
-    "foundation sealing",
-    "crawl space waterproofing",
-    "emergency waterproofing",
-    "waterproof coating",
-    "commercial waterproofing",
-    "flat roof waterproofing",
-    "waterproofing cost estimates",
-  ],
+export const dynamic = "force-static";
+export const revalidate = 86400; // 24h
 
+export const metadata: Metadata = {
+  title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
+  description:
+    "Certified waterproofing contractors in Hawthorne, NJ. Basement, roof, crawl space & foundation sealing, coatings, and emergency leak repair. Free estimates.",
+  alternates: {
+    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
-    title: "Top Waterproofing Services in Hawthorne, NJ | Leak Protection",
+    title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
     description:
-      "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+      "Basement, roof, crawl space & foundation waterproofing in Hawthorne, NJ.",
     url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
@@ -36,8 +30,12 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Basement, roof & foundation waterproofing in Hawthorne, NJ. Emergency leak repair. Free estimates.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -48,7 +46,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Expert residential & commercial waterproofing in Hawthorne, NJ—basement, roof & foundation sealing. Emergency leak repair & free estimates. Call today.",
+    "Expert waterproofing services in Hawthorne, NJ—basement, roof & foundation sealing.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {
@@ -82,40 +80,9 @@ const schemaData = {
     ],
   },
   priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
 };
 
-export default function WaterproofingLayout({
-  children,
-}: {
-  children: ReactNode;
-}) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}

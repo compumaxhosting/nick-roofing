@@ -1,29 +1,23 @@
-// app/skylight-repair-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
+export const dynamic = "force-static";
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
   description:
-    "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Trusted skylight installers for residential & commercial properties. Free estimates.",
-  keywords: [
-    "Velux skylight repair",
-    "skylight installation Hawthorne NJ",
-    "skylight leak repair",
-    "skylight glass replacement",
-    "flat roof skylights",
-    "emergency skylight services",
-    "skylight flashing repair",
-    "best skylight company NJ",
-    "skylight maintenance",
-    "skylight cost estimates",
-  ],
+    "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Free estimates. Residential & commercial service.",
+  alternates: {
+    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+  },
+  robots: { index: true, follow: true },
   openGraph: {
     title:
       "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
     description:
-      "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Trusted skylight installers for residential & commercial properties. Free estimates.",
+      "Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ.",
     url: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
@@ -37,8 +31,13 @@ export const metadata: Metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
+    description:
+      "Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ.",
+    images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
 
@@ -49,7 +48,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Expert Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ. Trusted skylight installers for residential & commercial properties. Free estimates.",
+    "Velux skylight repair, glass replacement & leak fixes in Hawthorne, NJ.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {
@@ -83,36 +82,9 @@ const schemaData = {
     ],
   },
   priceRange: "$$",
-  sameAs: [],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
 };
 
-export default function SkylightLayout({ children }: { children: ReactNode }) {
+export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       {children}
