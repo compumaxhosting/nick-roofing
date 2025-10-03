@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // Specific .html pages → corresponding Next.js routes
       {
         source: "/index.html",
         destination: "/",
@@ -28,29 +29,18 @@ const nextConfig: NextConfig = {
         destination: "/services",
         permanent: true,
       },
+
+      // Any other .html page → redirect to home
       {
-        source: "/skylight-repair-hawthorne-nj.html",
-        destination: "/skylight-repair-hawthorne-nj",
+        source: "/:path((?!index|about|gallery|contact|services).*)\\.html",
+        destination: "/",
         permanent: true,
       },
+
+      // Any other non-existent page → redirect to home
       {
-        source: "/gutter-installation-hawthorne-nj.html",
-        destination: "/gutter-installation-hawthorne-nj",
-        permanent: true,
-      },
-      {
-        source: "/water-proofing-hawthorne-nj.html",
-        destination: "/water-proofing-hawthorne-nj",
-        permanent: true,
-      },
-      {
-        source: "/roof-repair-hawthorne-nj.html",
-        destination: "/roof-repair-hawthorne-nj",
-        permanent: true,
-      },
-      {
-        source: "/siding-services-hawthorne-nj.html",
-        destination: "/siding-services-hawthorne-nj",
+        source: "/:path*",
+        destination: "/",
         permanent: true,
       },
     ];
