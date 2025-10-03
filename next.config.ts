@@ -29,17 +29,8 @@ const nextConfig: NextConfig = {
         destination: "/services",
         permanent: true,
       },
-
-      // Any other .html page → redirect to home
       {
-        source: "/:path((?!index|about|gallery|contact|services).*)\\.html",
-        destination: "/",
-        permanent: true,
-      },
-
-      // Any other non-existent page → redirect to home
-      {
-        source: "/:path*",
+        source: "/lander",
         destination: "/",
         permanent: true,
       },
