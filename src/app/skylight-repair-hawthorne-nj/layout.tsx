@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
   title: "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
     "skylight installation Hawthorne NJ",
     "skylight leak repair",
     "skylight glass replacement",
-    "flat roof skylights", 
+    "flat roof skylights",
     "emergency skylight services",
     "skylight flashing repair",
     "best skylight company NJ",
@@ -69,35 +68,38 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
+  areaServed: [
+    { "@type": "Place", name: "Hawthorne" },
+    { "@type": "Place", name: "Franklin Lakes" },
+    { "@type": "Place", name: "Midland Park" },
+    { "@type": "Place", name: "Allendale" },
+    { "@type": "Place", name: "Waldwick" },
+    { "@type": "Place", name: "Ramsey" },
+    { "@type": "Place", name: "Saddle River" },
+    { "@type": "Place", name: "Ridgewood" },
+    { "@type": "Place", name: "Glen Rock" },
+    { "@type": "Place", name: "Fair Lawn" },
+    { "@type": "Place", name: "Clifton" },
+    { "@type": "Place", name: "Paramus" },
+    { "@type": "Place", name: "Oradell" },
+    { "@type": "Place", name: "North Haledon" },
+    { "@type": "Place", name: "Totowa" },
+    { "@type": "Place", name: "Wayne" },
+  ],
   priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <>
-      {children}
-      <ClientOnlyJsonLd data={schemaData} />
-    </>
+    <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          // 👇 Injected server-side — visible to crawlers
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </head>
+      <body>{children}</body>
+    </html>
   );
-} 
+}
