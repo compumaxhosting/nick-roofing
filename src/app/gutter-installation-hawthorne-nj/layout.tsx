@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/roof-repair1.jpg",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",

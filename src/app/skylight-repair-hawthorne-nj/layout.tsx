@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       "Velux Skylight Repair & Installation in Hawthorne, NJ | Nick Roofing",
     description:
       "Velux skylight repairs, glass replacement & leak fixes in Hawthorne, NJ. Free estimates.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/roof-repair1.jpg"],
   },
 };
 

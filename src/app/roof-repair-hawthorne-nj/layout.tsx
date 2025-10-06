@@ -53,7 +53,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/roof-repair1.jpg",
   description:
     "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates.",
   telephone: "(973) 207-0689",
