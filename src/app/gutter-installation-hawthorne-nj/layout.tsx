@@ -1,6 +1,6 @@
+// app/gutter-installation-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
-import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
   title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
@@ -67,35 +67,37 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: {
-    "@type": "Place",
-    name: [
-      "Hawthorne",
-      "Franklin Lakes",
-      "Midland Park",
-      "Allendale",
-      "Waldwick",
-      "Ramsey",
-      "Saddle River",
-      "Ridgewood",
-      "Glen Rock",
-      "Fair Lawn",
-      "Clifton",
-      "Paramus",
-      "Oradell",
-      "North Haledon",
-      "Totowa",
-      "Wayne",
-    ],
-  },
+  areaServed: [
+    { "@type": "Place", name: "Hawthorne" },
+    { "@type": "Place", name: "Franklin Lakes" },
+    { "@type": "Place", name: "Midland Park" },
+    { "@type": "Place", name: "Allendale" },
+    { "@type": "Place", name: "Waldwick" },
+    { "@type": "Place", name: "Ramsey" },
+    { "@type": "Place", name: "Saddle River" },
+    { "@type": "Place", name: "Ridgewood" },
+    { "@type": "Place", name: "Glen Rock" },
+    { "@type": "Place", name: "Fair Lawn" },
+    { "@type": "Place", name: "Clifton" },
+    { "@type": "Place", name: "Paramus" },
+    { "@type": "Place", name: "Oradell" },
+    { "@type": "Place", name: "North Haledon" },
+    { "@type": "Place", name: "Totowa" },
+    { "@type": "Place", name: "Wayne" },
+  ],
   priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <>
-      {children}
-      <ClientOnlyJsonLd data={schemaData} />
-    </>
+    <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </head>
+      <body>{children}</body>
+    </html>
   );
 }
