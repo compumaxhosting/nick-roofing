@@ -18,21 +18,22 @@ export const metadata: Metadata = {
     "Wayne NJ exterior work",
     "Fair Lawn roofing contractor",
   ],
+
   alternates: {
-    canonical: "https://www.nickroofing.com/gallery",
+    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
   },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
       "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
-    url: "https://www.nickroofing.com/gallery",
+    url: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/gallery2.jpg",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
-      "See skylight, gutter, roofing, waterproofing & siding projects we’ve completed across North Jersey.",
+      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -90,6 +91,7 @@ const schemaData = {
   },
   priceRange: "$$",
 };
+
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <>

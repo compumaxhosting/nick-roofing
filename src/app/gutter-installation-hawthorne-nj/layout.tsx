@@ -1,6 +1,6 @@
-// app/gutter-installation-hawthorne-nj/layout.tsx
 import type { Metadata } from "next";
 import { ReactNode } from "react";
+import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
   title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
@@ -18,21 +18,22 @@ export const metadata: Metadata = {
     "emergency gutter services",
     "gutter replacement",
   ],
+
   alternates: {
-    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
   },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
     description:
       "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services. Call now.",
-    url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+    url: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/roof-repair1.jpg",
+        url: "https://www.nickroofing.com/gutter1.png",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
     description:
-      "Seamless, aluminum & copper gutters for homes and businesses in Hawthorne, NJ. Free estimates.",
+      "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services. Call now.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -67,37 +68,35 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  areaServed: [
-    { "@type": "Place", name: "Hawthorne" },
-    { "@type": "Place", name: "Franklin Lakes" },
-    { "@type": "Place", name: "Midland Park" },
-    { "@type": "Place", name: "Allendale" },
-    { "@type": "Place", name: "Waldwick" },
-    { "@type": "Place", name: "Ramsey" },
-    { "@type": "Place", name: "Saddle River" },
-    { "@type": "Place", name: "Ridgewood" },
-    { "@type": "Place", name: "Glen Rock" },
-    { "@type": "Place", name: "Fair Lawn" },
-    { "@type": "Place", name: "Clifton" },
-    { "@type": "Place", name: "Paramus" },
-    { "@type": "Place", name: "Oradell" },
-    { "@type": "Place", name: "North Haledon" },
-    { "@type": "Place", name: "Totowa" },
-    { "@type": "Place", name: "Wayne" },
-  ],
+  areaServed: {
+    "@type": "Place",
+    name: [
+      "Hawthorne",
+      "Franklin Lakes",
+      "Midland Park",
+      "Allendale",
+      "Waldwick",
+      "Ramsey",
+      "Saddle River",
+      "Ridgewood",
+      "Glen Rock",
+      "Fair Lawn",
+      "Clifton",
+      "Paramus",
+      "Oradell",
+      "North Haledon",
+      "Totowa",
+      "Wayne",
+    ],
+  },
   priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
-      </head>
-      <body>{children}</body>
-    </html>
+    <>
+      {children}
+      <ClientOnlyJsonLd data={schemaData} />
+    </>
   );
 }
