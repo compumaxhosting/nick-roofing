@@ -62,12 +62,12 @@ export default function About() {
   </span>
   , our team ensures your home stays safe, energy-efficient, and beautiful. Whether you need skylights, gutters, or complete waterproofing, we deliver lasting solutions you can trust.
   We proudly serve{" "}
-  <a
+  <Link
     href="https://www.wikidata.org/wiki/Q1086688"
     className="no-underline text-inherit hover:cursor-pointer"
   >
     Hawthorne
-  </a>
+  </Link>
   , Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding areas.
   Call Nick Roofing today for a free estimate and experience premium roofing services near you!
 </p>

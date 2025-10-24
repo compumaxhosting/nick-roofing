@@ -71,36 +71,35 @@ export const Footer = () => {
               >
                 <div>
                   <span className="font-semibold">Tel: </span>
-                  <a href="tel:+19732070689" className="hover:underline">
+                  <Link href="tel:+19732070689" className="hover:underline">
                     (973) - 207 - 0689
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <span className="font-semibold">Email: </span>
-                  <a
+                  <Link
                     href="mailto:nickcontractorllc@gmail.com"
                     className="hover:underline"
                   >
                     nickcontractorllc@gmail.com
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <span className="font-semibold">Location: </span>
                   525 Lafayette Ave, Hawthorne, NJ 07506
                 </div>
-                
               </div>
 
               {/* Social Icons */}
               <div className="flex gap-4 text-black">
-                <a
+                <Link
                   href="#"
                   aria-label="Instagram"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   <FaInstagram size={20} />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   aria-label="X (Twitter)"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
@@ -120,14 +119,14 @@ export const Footer = () => {
                       />
                     </g>
                   </svg>
-                </a>
-                <a
-                  href="https://www.facebook.com/nickroofingllc"
+                </Link>
+                <Link
+                  href="https://www.facebook.com/NickroofingNJ"
                   aria-label="Facebook"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   <FaFacebookF size={20} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

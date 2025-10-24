@@ -5,10 +5,6 @@ import Image from "next/image";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 
-
-
-
-
 const slides = [
     {
         id: 1,
