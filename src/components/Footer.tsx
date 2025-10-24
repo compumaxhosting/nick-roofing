@@ -122,6 +122,7 @@ export const Footer = () => {
                 </Link>
                 <Link
                   href="https://www.facebook.com/NickroofingNJ"
+                  target="_blank"
                   aria-label="Facebook"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >

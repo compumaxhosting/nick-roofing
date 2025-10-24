@@ -54,7 +54,7 @@ export default function Carousel() {
                             <p className="text-md md:text-2xl mb-4">35 years of experience in roofing business</p>
                             <p className="text-md md:text-2xl mb-6">Residential & Commercial Services</p>
 
-                            <a
+                            <Link
                                 href="tel:9732070689"
                                 className="inline-flex items-center gap-3  px-6 py-3  hover:bg-transparent  bg-[#e07b3b] transition-colors text-2xl font-bold duration-500"
                             >
@@ -62,7 +62,7 @@ export default function Carousel() {
                                 {/* <span className="w-10 h-10 flex items-center justify-center  hover:bg-[#e07b3b] transition-colors ">
                             <FaArrowRight className="text-white" />
                             </span> */}
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 ))}

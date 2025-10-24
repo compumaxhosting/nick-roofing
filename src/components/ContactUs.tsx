@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import Link from "next/link";
 
 export const ContactUs = () => {
   return (
@@ -30,29 +31,34 @@ export const ContactUs = () => {
           <div style={{ fontFamily: "'Oswald', sans-serif" }}>
             <div className="mb-4 text-[#666666]">
               <span className="font-semibold text-black">Tel: </span>
-              <a href="tel:19732070689" className="hover:underline">
+              <Link
+                href="tel:19732070689"
+                className="hover:underline"
+                target="_blank"
+              >
                 (973) - 207 - 0689
-              </a>
+              </Link>
             </div>
             <div className="mb-4 text-[#666666]">
               <span className="font-semibold text-black">Email: </span>
-              <a
+              <Link
                 href="mailto:nickcontractorllc@gmail.com"
                 className="hover:underline"
+                target="_blank"
               >
                 nickcontractorllc@gmail.com
-              </a>
+              </Link>
             </div>
             <div className="mb-4 text-[#666666]">
               <span className="font-semibold text-black">Location: </span>
-              <a
+              <Link
                 href="https://www.google.com/maps?q=525+Lafayette+Ave,+Hawthorne,+NJ+07506"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
                 525 Lafayette Ave, Hawthorne, NJ 07506
-              </a>
+              </Link>
             </div>
             <div>
               <span className="font-semibold">Business Hours: </span>
@@ -64,16 +70,18 @@ export const ContactUs = () => {
           </div>
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mt-4 pb-4 text-black">
-            <a
+            <Link
               href="#"
               aria-label="Instagram"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaInstagram size={20} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               aria-label="X (Twitter)"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               {/* X (Twitter) SVG logo */}
@@ -91,14 +99,15 @@ export const ContactUs = () => {
                   />
                 </g>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.facebook.com/NickroofingNJ"
               aria-label="Facebook"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaFacebookF size={20} />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -160,16 +169,18 @@ export const ContactUs = () => {
           </div>
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mt-4 pb-4 text-black">
-            <a
+            <Link
               href="#"
               aria-label="Instagram"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaInstagram size={20} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               aria-label="X (Twitter)"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               {/* X (Twitter) SVG logo */}
@@ -187,14 +198,15 @@ export const ContactUs = () => {
                   />
                 </g>
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.facebook.com/NickroofingNJ"
               aria-label="Facebook"
+              target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaFacebookF size={20} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

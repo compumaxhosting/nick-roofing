@@ -50,28 +50,34 @@ export default function About() {
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
             <p className="mb-[10px] text-sm leading-relaxed text-[#333]">
-              Nick Roofing – Expert Roofing Services in NJ
-              Welcome to Nick Roofing, your trusted roofing contractor in New Jersey. We provide skylight installation, gutter installation, and waterproofing services with unmatched quality and reliability.
-
+              Nick Roofing – Expert Roofing Services in NJ Welcome to Nick
+              Roofing, your trusted roofing contractor in New Jersey. We provide
+              skylight installation, gutter installation, and waterproofing
+              services with unmatched quality and reliability.
             </p>
 
             <p className="mb-[10px] text-sm leading-relaxed text-[#333]">
-  With{" "}
-  <span className="font-bold">
-    35+ years of experience in roofing business in NJ
-  </span>
-  , our team ensures your home stays safe, energy-efficient, and beautiful. Whether you need skylights, gutters, or complete waterproofing, we deliver lasting solutions you can trust.
-  We proudly serve{" "}
-  <Link
-    href="https://www.wikidata.org/wiki/Q1086688"
-    className="no-underline text-inherit hover:cursor-pointer"
-  >
-    Hawthorne
-  </Link>
-  , Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus, Oradell, North Haledon, Totowa, Wayne, and surrounding areas.
-  Call Nick Roofing today for a free estimate and experience premium roofing services near you!
-</p>
-
+              With{" "}
+              <span className="font-bold">
+                35+ years of experience in roofing business in NJ
+              </span>
+              , our team ensures your home stays safe, energy-efficient, and
+              beautiful. Whether you need skylights, gutters, or complete
+              waterproofing, we deliver lasting solutions you can trust. We
+              proudly serve{" "}
+              <Link
+                href="https://www.wikidata.org/wiki/Q1086688"
+                className="no-underline text-inherit hover:cursor-pointer"
+                target="_blank"
+              >
+                Hawthorne
+              </Link>
+              , Franklin Lakes, Midland Park, Allendale, Waldwick, Ramsey,
+              Saddle River, Ridgewood, Glen Rock, Fair Lawn, Clifton, Paramus,
+              Oradell, North Haledon, Totowa, Wayne, and surrounding areas. Call
+              Nick Roofing today for a free estimate and experience premium
+              roofing services near you!
+            </p>
 
             <Link
               href="/about"
@@ -91,8 +97,11 @@ export default function About() {
                   {images.map((image: string, index: number) => (
                     <div
                       key={index}
-                      className={`absolute inset-0 transition-opacity duration-500 ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-                        }`}
+                      className={`absolute inset-0 transition-opacity duration-500 ${
+                        index === currentImageIndex
+                          ? "opacity-100"
+                          : "opacity-0"
+                      }`}
                     >
                       <Image
                         src={image}
@@ -110,8 +119,18 @@ export default function About() {
                   onClick={goToPrevious}
                   className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all duration-200 z-10"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 19l-7-7 7-7"
+                    />
                   </svg>
                 </button>
 
@@ -119,8 +138,18 @@ export default function About() {
                   onClick={goToNext}
                   className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-md transition-all duration-200 z-10"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </button>
 
@@ -130,10 +159,11 @@ export default function About() {
                     <button
                       key={index}
                       onClick={() => goToSlide(index)}
-                      className={`w-3 h-3 rounded-full transition-all duration-200 ${index === currentImageIndex
-                        ? 'bg-white scale-110'
-                        : 'bg-white/60 hover:bg-white/80'
-                        }`}
+                      className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex
+                          ? "bg-white scale-110"
+                          : "bg-white/60 hover:bg-white/80"
+                      }`}
                     />
                   ))}
                 </div>
@@ -148,8 +178,11 @@ export default function About() {
                   {images.map((image, index) => (
                     <div
                       key={index}
-                      className={`absolute inset-0 transition-opacity duration-500 ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-                        }`}
+                      className={`absolute inset-0 transition-opacity duration-500 ${
+                        index === currentImageIndex
+                          ? "opacity-100"
+                          : "opacity-0"
+                      }`}
                     >
                       <Image
                         src={image}
@@ -167,8 +200,18 @@ export default function About() {
                   onClick={goToPrevious}
                   className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
                 >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 19l-7-7 7-7"
+                    />
                   </svg>
                 </button>
 
@@ -176,8 +219,18 @@ export default function About() {
                   onClick={goToNext}
                   className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-1.5 rounded-full shadow-md transition-all duration-200 z-10"
                 >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
                   </svg>
                 </button>
 
@@ -187,10 +240,11 @@ export default function About() {
                     <button
                       key={index}
                       onClick={() => goToSlide(index)}
-                      className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${index === currentImageIndex
-                        ? 'bg-white scale-110'
-                        : 'bg-white/60 hover:bg-white/80'
-                        }`}
+                      className={`w-2.5 h-2.5 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex
+                          ? "bg-white scale-110"
+                          : "bg-white/60 hover:bg-white/80"
+                      }`}
                     />
                   ))}
                 </div>
