@@ -1,7 +1,7 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { useState} from "react";
+import { useState, useEffect } from "react";
 import { FaSyncAlt } from "react-icons/fa";
 
 type ContactFormData = {
@@ -14,12 +14,17 @@ type ContactFormData = {
 
 export default function ContactForm() {
   const { register, handleSubmit, reset } = useForm<ContactFormData>();
-  const [captcha, setCaptcha] = useState(generateCaptcha());
+  const [captcha, setCaptcha] = useState("");
   const [captchaInput, setCaptchaInput] = useState("");
   const [error, setError] = useState("");
 
+  // ✅ Generate CAPTCHA only on the client (prevents hydration mismatch)
+  useEffect(() => {
+    refreshCaptcha();
+  }, []);
+
   function generateCaptcha() {
-    return Math.floor(1000 + Math.random() * 9000).toString(); // 4-digit number
+    return Math.floor(1000 + Math.random() * 9000).toString(); // 4-digit
   }
 
   const refreshCaptcha = () => {
@@ -90,7 +95,7 @@ export default function ContactForm() {
       {/* CAPTCHA Section */}
       <div className="flex items-center gap-4">
         <div className="bg-gray-100 border px-4 py-3 text-lg font-bold select-none">
-          {captcha}
+          {captcha || "----"}
         </div>
         <button
           type="button"
