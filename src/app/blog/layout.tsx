@@ -3,41 +3,25 @@ import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
-  title: "Skylight Installation in Hawthorne, NJ | Nick Roofing Experts",
+  title: "Premium Roofing Services in New Jersey – Nick Roofing Blog",
   description:
-    "Brighten your home with expert skylight installation in Hawthorne, NJ. Nick Roofing offers skylight repair, replacement, and waterproofing services.",
+    "Explore expert tips, industry insights & real‑life project stories from Nick Roofing, your trusted roofing contractor in Northern New Jersey. Stay informed and protected.",
   keywords: [
-    "Skylight installation Hawthorne NJ",
-    "Roof window installation",
-    "Skylight repair service",
-    "Skylight replacement Hawthorne",
-    "Custom skylight design",
-    "Residential skylight experts",
-    "Commercial skylight installers",
-    "Skylight leak repair",
-    "Roof skylight maintenance",
-    "Energy-efficient skylights",
-    "Flat roof skylight solutions",
-    "Velux skylight installation",
-    "Sun tunnel installation",
-    "Skylight flashing repair",
-    "Dome skylight installation",
-    "Skylight waterproofing",
-    "Skylight contractor near me",
-    "Roofing and skylight services",
-    "Glass skylight installation",
-    "Skylight renovation experts",
-    "Roof lighting solutions",
-    "Skylight inspection service",
-    "Skylight window upgrade",
-    "Affordable skylight installer",
-    "Natural light roofing solutions",
+    "roofing services NJ",
+    "roof repair Hawthorne NJ",
+    "gutter installation New Jersey",
+    "skylight installation NJ",
+    "waterproofing roofing NJ",
+    "Nick Roofing blog",
+    "roofing contractor Northern NJ",
+    "residential & commercial roofing NJ",
   ],
+
   openGraph: {
-    title: "Skylight Installation in Hawthorne, NJ | Nick Roofing Experts",
+    title: "Premium Roofing Services in New Jersey – Nick Roofing Blog",
     description:
-      "Brighten your home with expert skylight installation in Hawthorne, NJ. Nick Roofing offers skylight repair, replacement, and waterproofing services.",
-    url: "https://www.nickroofing.com/blog/skylight-installation-hawthorne-nj",
+      "Explore expert tips, industry insights & real‑life project stories from Nick Roofing, your trusted roofing contractor in Northern New Jersey. Stay informed and protected.",
+    url: "https://www.nickroofing.com/blog",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
@@ -51,7 +35,8 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.nickroofing.com/blog/skylight-installation-hawthorne-nj",
+    canonical:
+      "https://www.nickroofing.com/blog",
   },
 };
 
@@ -62,7 +47,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Brighten your home with expert skylight installation in Hawthorne, NJ. Nick Roofing offers skylight repair, replacement, and waterproofing services.",
+    "Explore expert tips, industry insights & real‑life project stories from Nick Roofing, your trusted roofing contractor in Northern New Jersey. Stay informed and protected.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {
