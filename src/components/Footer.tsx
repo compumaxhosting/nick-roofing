@@ -49,6 +49,9 @@ export const Footer = () => {
                   <Link href="/gallery">GALLERY</Link>
                 </li>
                 <li>
+                  <Link href="/blog">BLOG</Link>
+                </li>
+                <li>
                   <Link href="contact">CONTACT US</Link>
                 </li>
               </ul>

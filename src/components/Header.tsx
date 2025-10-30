@@ -242,6 +242,25 @@ const Header = () => {
                 ></span>
               </Link>
             </li>
+            {/* BLOG */}
+            <li className="relative group">
+              <Link href="/blog">
+                <span
+                  className={`transition-colors duration-300 ${
+                    pathname === "/blog" ? "text-[#36454f]" : "text-white"
+                  }`}
+                >
+                  BLOG
+                </span>
+                <span
+                  className={`absolute left-0 bottom-0 top-6 h-[2px] bg-[#36454f] transition-all duration-300 ${
+                    pathname === "/blog"
+                      ? "w-full"
+                      : "w-0 group-hover:w-full"
+                  }`}
+                ></span>
+              </Link>
+            </li>
 
             {/* CONTACT */}
             <li className="relative group">
@@ -422,6 +441,19 @@ const Header = () => {
                     }`}
                   >
                     GALLERY
+                  </span>
+                </Link>
+              </li>
+              <li className="border-b border-[#ffffff50] py-1">
+                <Link href="/blog" onClick={closeMobileMenu}>
+                  <span
+                    className={`text-sm ${
+                      pathname === "/blog"
+                        ? "text-[#36454f] font-bold"
+                        : "text-white"
+                    }`}
+                  >
+                    BLOG
                   </span>
                 </Link>
               </li>
