@@ -21,7 +21,7 @@ const BlogSection = () => {
           <Link
             key={index}
             href={`/blog/${blog.slug}`}
-            className="block group p-4 bg-white shadow-lg rounded-lg dark:bg-slate-800 hover:shadow-xl transition-shadow duration-300"
+            className="block group p-4 bg-white shadow-lg rounded-lg  hover:shadow-xl transition-shadow duration-300"
           >
             {/* Blog Image */}
             <div className="overflow-hidden rounded-lg">
