@@ -254,9 +254,7 @@ const Header = () => {
                 </span>
                 <span
                   className={`absolute left-0 bottom-0 top-6 h-[2px] bg-[#36454f] transition-all duration-300 ${
-                    pathname === "/blog"
-                      ? "w-full"
-                      : "w-0 group-hover:w-full"
+                    pathname === "/blog" ? "w-full" : "w-0 group-hover:w-full"
                   }`}
                 ></span>
               </Link>
@@ -484,7 +482,7 @@ const Header = () => {
                 <FaInstagram size={16} />
               </Link>
               <Link
-                href="https://twitter.com/"
+                href="https://x.com/nickroofingnj"
                 aria-label="X (Twitter)"
                 target="_blank"
                 rel="noopener noreferrer"
