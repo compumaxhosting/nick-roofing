@@ -21,7 +21,7 @@ const BlogSection = () => {
           <Link
             key={index}
             href={`/blog/${blog.slug}`}
-            className="block group p-4 bg-white shadow-lg rounded-lg  hover:shadow-xl transition-shadow duration-300"
+            className="block group p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300"
           >
             {/* Blog Image */}
             <div className="overflow-hidden rounded-lg">
@@ -44,17 +44,16 @@ const BlogSection = () => {
                 {blog.title}
               </h2>
 
-              {/* Description (Safe Type Handling) */}
+              {/* Limited Description */}
               {typeof blog.description === "string" ? (
-                <p className="text-gray-600 text-sm leading-relaxed mb-3">
-                  {blog.description.slice(0, 60)}...
+                <p className="text-gray-600 text-sm leading-relaxed mb-3 line-clamp-3">
+                  {blog.description}
                 </p>
               ) : (
-                <div className="text-gray-600 text-sm leading-relaxed mb-3">
+                <div className="text-gray-600 text-sm leading-relaxed mb-3 line-clamp-3">
                   {blog.description}
                 </div>
               )}
-
             </div>
           </Link>
         ))}
