@@ -20,6 +20,239 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "waterproofing Hawthorne NJ, waterproofing contractors Hawthorne NJ, basement waterproofing Hawthorne NJ, roof waterproofing Hawthorne NJ, foundation crack repair Hawthorne NJ, crawl space waterproofing Hawthorne NJ, sump pump installation Hawthorne NJ, Nick Roofing Hawthorne NJ, waterproofing services Hawthorne NJ, home waterproofing Hawthorne NJ, exterior waterproofing NJ, interior waterproofing NJ, waterproofing near Hawthorne NJ, drainage solutions Hawthorne NJ, French drain installation Hawthorne NJ, waterproofing experts NJ, mold prevention Hawthorne NJ, leak repair Hawthorne NJ, waterproof coatings NJ, waterproofing company Hawthorne NJ",
+
+    slug: "stop-leaks-before-they-start-waterproofing-hawthorne-nj",
+
+    metadescription:
+      "Protect your home in Hawthorne, NJ with professional waterproofing. Prevent leaks, foundation damage, and mold before they start.",
+
+    title:
+      "Stop Leaks Before They Start: Top Waterproofing Solutions in Hawthorne, NJ",
+
+    image: "/service3.jpg",
+
+    date: "November 10, 2025",
+
+    description: (
+      <p className="text-base leading-7 text-[#333] mb-4">
+        Living in Hawthorne, New Jersey, means enjoying charming neighborhoods
+        and lush green spaces, but it also means dealing with around 49–50
+        inches of annual rainfall. With such heavy precipitation, homeowners
+        face challenges like basement leaks, mold growth, and foundation cracks.
+        Waterproofing isn’t just a repair it&apos;s an investment in your
+        property’s long-term health. In this post, we’ll explore the top
+        waterproofing solutions available in Hawthorne, NJ, and how
+        professionals like{" "}
+        <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
+          Nick Roofing’s Waterproofing Experts
+        </Link>{" "}
+        can help you prevent leaks before they start.
+      </p>
+    ),
+
+    sections: [
+      {
+        title: "Why Waterproofing Matters in Hawthorne, NJ",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              Hawthorne’s weather brings moisture year-round, especially during
+              spring and late summer. Without proper waterproofing, water can
+              seep into cracks, leading to:
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Structural foundation damage</li>
+              <li>Mold and mildew growth</li>
+              <li>Electrical hazards</li>
+              <li>Reduced property value</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              According to Hawthorne’s Environmental Resource Inventory, the
+              borough receives over 50 inches of annual precipitation, which
+              makes waterproofing essential—not optional.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Top Waterproofing Solutions for Hawthorne Homes",
+        paragraph: (
+          <>
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-2">
+              1. Basement Waterproofing
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              Basements are the most vulnerable areas. Water intrusion often
+              starts here and spreads.
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>
+                <strong>Interior Waterproofing:</strong> Involves sealants,
+                coatings, and vapor barriers on basement walls and floors.
+              </li>
+              <li>
+                <strong>Exterior Waterproofing:</strong> Excavation around the
+                foundation, waterproof membranes, and proper drainage.
+              </li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              For reliable solutions, consider{" "}
+              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
+                Nick Roofing Waterproofing  
+              </Link> Hawthorne NJ.
+                
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              2. Foundation Crack Repair
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              Cracks let water infiltrate, causing structural issues.
+              Professionals use epoxy or polyurethane injections to permanently
+              seal them.
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              3. Sump Pump Installation
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              A sump pump automatically removes water from your basement during
+              heavy rainfall. Regular maintenance ensures it performs when you
+              need it most.
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              4. French Drains and Drainage Systems
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              Proper drainage prevents water from accumulating near your
+              foundation. A French drain system redirects water away, protecting
+              both yard and basement.
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              5. Crawl Space Encapsulation
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              Sealing crawl spaces prevents moisture buildup, wood rot, and mold
+              formation. This method also improves indoor air quality.
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              6. Roof Waterproofing
+            </h4>
+            <p className="text-base leading-7 text-[#333]">
+              Roofs are your first line of defense. Waterproof coatings, roof
+              sealants, and proper flashing prevent leaks before they cause
+              interior damage.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Benefits of Professional Waterproofing Services",
+        paragraph: (
+          <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+            <li>Enhanced property value: A dry basement adds livable space.</li>
+            <li>Mold prevention: Keeps your family safe from allergens.</li>
+            <li>Structural longevity: Stops cracks from widening.</li>
+            <li>
+              Energy efficiency: Drier spaces reduce humidity and lower cooling
+              costs.
+            </li>
+          </ul>
+        ),
+      },
+      {
+        title: "Signs You Need Waterproofing Now",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              If you notice these issues, it’s time to act fast:
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Musty odor in your basement</li>
+              <li>Damp or discolored walls</li>
+              <li>Cracks in the foundation or floors</li>
+              <li>Standing water after rain</li>
+              <li>Peeling paint or bubbling plaster</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              Ignoring these can turn small leaks into costly damage.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Choosing the Right Waterproofing Contractor in Hawthorne",
+        paragraph: (
+          <>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Local experience with Hawthorne’s soil and climate</li>
+              <li>Licensed and insured professionals</li>
+              <li>Positive local reviews</li>
+              <li>Comprehensive inspection and free estimates</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
+                Nick Roofing Waterproofing Services in Hawthorne, NJ
+              </Link>{" "}
+              is a trusted name that offers customized solutions for both
+              residential and commercial properties.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "FAQs",
+        paragraph: (
+          <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-2">
+            <li>
+              <strong>1. How long does waterproofing last?</strong> Depending on
+              the method used, waterproofing can last anywhere from 10 to 25
+              years or more with proper maintenance.
+            </li>
+            <li>
+              <strong>2. Can I waterproof my basement myself?</strong> DIY
+              solutions may help temporarily, but professional-grade
+              waterproofing provides long-term protection and warranty coverage.
+            </li>
+            <li>
+              <strong>3. What’s the best time to waterproof?</strong> Spring or
+              early summer is ideal before heavy rainfall begins, but
+              professionals can waterproof any time of year.
+            </li>
+            <li>
+              <strong>4. Is waterproofing covered by insurance?</strong> Most
+              home insurance policies don’t cover gradual water damage, so
+              preventive waterproofing is the smart choice.
+            </li>
+            <li>
+              <strong>5. How do I maintain waterproofing?</strong> Check your
+              drainage, clean gutters regularly, and schedule annual inspections
+              to prevent future leaks.
+            </li>
+          </ul>
+        ),
+      },
+      {
+        title: "Conclusion",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333]">
+            Waterproofing is more than stopping leaks—it’s about protecting your
+            home, health, and investment. In a town like Hawthorne, NJ, where
+            rain is frequent and foundations are often decades old, proactive
+            protection pays off. For professional inspection and long-lasting
+            solutions, contact Nick Roofing Waterproofing Hawthorne NJ today and
+            keep your home dry, safe, and strong.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "Skylight installation Hawthorne NJ, Roof window installation, Skylight repair service, Skylight replacement Hawthorne, Custom skylight design, Residential skylight experts, Commercial skylight installers, Skylight leak repair, Roof skylight maintenance, Energy-efficient skylights, Flat roof skylight solutions, Velux skylight installation, Sun tunnel installation, Skylight flashing repair, Dome skylight installation, Skylight waterproofing, Skylight contractor near me, Roofing and skylight services, Glass skylight installation, Skylight renovation experts, Roof lighting solutions, Skylight inspection service, Skylight window upgrade, Affordable skylight installer, Natural light roofing solutions",
 
     slug: "skylight-installation-hawthorne-nj",
@@ -345,11 +578,7 @@ export const BlogsData: Blog[] = [
             </ul>
             <p className="text-base leading-7 text-[#333] mt-3">
               Professional installers, like{" "}
-              <Link
-                href="https://www.wikidata.org/wiki/Q1086688"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
                 Nick Roofing in Hawthorne
               </Link>
               NJ, have the experience and tools to handle every aspect of gutter
