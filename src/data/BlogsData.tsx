@@ -30,7 +30,7 @@ export const BlogsData: Blog[] = [
     title:
       "Stop Leaks Before They Start: Top Waterproofing Solutions in Hawthorne, NJ",
 
-    image: "/service3.jpg",
+    image: "/blog/blog-3.jpeg",
 
     date: "November 10, 2025",
 
