@@ -96,15 +96,20 @@ export const Footer = () => {
               {/* Social Icons */}
               <div className="flex gap-4 text-black">
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/nickroofingnj/"
                   aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   <FaInstagram size={20} />
                 </Link>
+
                 <Link
                   href="https://x.com/nickroofingnj"
                   aria-label="X (Twitter)"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   {/* X (Twitter) SVG logo */}
@@ -123,10 +128,12 @@ export const Footer = () => {
                     </g>
                   </svg>
                 </Link>
+
                 <Link
                   href="https://www.facebook.com/NickroofingNJ"
-                  target="_blank"
                   aria-label="Facebook"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   <FaFacebookF size={20} />

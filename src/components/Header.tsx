@@ -474,7 +474,7 @@ const Header = () => {
             {/* Social Icons */}
             <div className="flex justify-center gap-4 mt-6 pb-4 text-white">
               <Link
-                href="http://instagram.com/"
+                href="https://www.instagram.com/nickroofingnj/"
                 aria-label="Instagram"
                 target="_blank"
                 className="hover:text-[#36454f] transition-colors duration-300 border-2 border-white rounded-full p-2 flex items-center justify-center"

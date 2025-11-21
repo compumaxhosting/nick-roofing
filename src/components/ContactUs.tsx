@@ -71,7 +71,7 @@ export const ContactUs = () => {
           {/* Social Icons */}
           <div className="flex justify-center gap-6 mt-4 pb-4 text-black">
             <Link
-              href="#"
+              href="https://www.instagram.com/nickroofingnj/"
               aria-label="Instagram"
               target="_blank"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
