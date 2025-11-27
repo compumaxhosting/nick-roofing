@@ -9,6 +9,7 @@ export type BlogSection = {
 export type Blog = {
   title: string;
   date: string;
+  metatitle: string;
   keywords: string;
   metadescription: string;
   slug: string;
@@ -20,6 +21,202 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "roof repair Hawthorne NJ, roofing contractor Hawthorne NJ, roof replacement Hawthorne NJ, North Jersey roof repair, local roofing company Hawthorne, emergency roof repair NJ, residential roofing Hawthorne NJ, shingle roof repair Hawthorne, best roofer Hawthorne NJ, Nick Roofing NJ",
+
+    slug: "how-to-know-when-its-time-to-repair-or-replace-your-roof",
+
+    metadescription:
+      "or replace your roof with this homeowner’s guide for Hawthorne, NJ. Discover warning signs, benefits of repair vs. replacement, maintenance tips, and trusted local roofing services from Nick Roofing.",
+
+    title:
+      "How to Know When It’s Time to Repair or Replace Your Roof — A Homeowner’s Guide",
+    metatitle:
+      "Roof Repair & Replacement in Hawthorne NJ | Local Guide by Nick Roofing",
+
+    image: "/blog-5.png",
+
+    date: "November 27, 2025",
+
+    description: (
+      <p className="text-base leading-7 text-[#333] mb-4">
+        Your roof is one of the main layers of protection your home has against
+        weather and structural damage. Over time, storms, aging materials, and
+        daily exposure can weaken it. If you’re a homeowner in Hawthorne, NJ,
+        understanding the difference between repair and replacement can help you
+        save money and avoid major problems. For expert help, you can check{" "}
+        <Link href="/roof-repair-hawthorne-nj" className="text-blue-500">
+          roof repair services in Hawthorne, NJ.
+        </Link>{" "}
+      </p>
+    ),
+
+    sections: [
+      {
+        title: "Common Signs Your Roof Needs Attention",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              If your home is in Hawthorne, NJ or nearby areas, these warning
+              signs can help you know when your roof needs professional
+              attention:
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>
+                Visible damage like cracked or missing shingles, sagging roof
+                lines, sunlight in the attic, or water stains on walls and
+                ceilings
+              </li>
+              <li>Old or aging roof nearing the end of its normal lifespan</li>
+              <li>
+                Leaks or moisture issues such as mold, damp attic spaces, or
+                water coming in after rain
+              </li>
+              <li>Granules in gutters, especially on shingle roofs</li>
+              <li>
+                Higher utility bills due to insulation or ventilation problems
+                caused by roof wear
+              </li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              Catching these signs early helps prevent bigger issues and
+              expensive structural repairs.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Repair vs. Replace — What’s Right for Your Home?",
+        paragraph: (
+          <>
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-2">
+              When Repair Is a Good Choice
+            </h4>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>The damage is small or limited to one area</li>
+              <li>The roof is still fairly new</li>
+              <li>You want to extend the roof’s life for a few more years</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              Repairs are quick, affordable, and ideal for minor issues.
+            </p>
+
+            <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
+              When Replacement Is the Better Option
+            </h4>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Your roof is old or past its lifespan</li>
+              <li>You see widespread or severe damage</li>
+              <li>You’ve patched the same issues many times</li>
+              <li>
+                You want better energy efficiency or plan to sell your home soon
+              </li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              A new roof offers long-term durability, better insulation, and
+              higher property value — especially in climates like North Jersey,
+              where winters and storms can be harsh.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "What Happens During a Roof Replacement",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              If you choose replacement, here’s what to expect:
+            </p>
+            <ol className="list-decimal ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>
+                Detailed inspection by an experienced Hawthorne, NJ roofing
+                contractor
+              </li>
+              <li>Customized estimate with material options</li>
+              <li>Removal of old roofing materials</li>
+              <li>
+                Installation of the new roof, including underlayment, shingles
+                or other materials, flashing, and ventilation
+              </li>
+              <li>Final inspection and cleanup</li>
+            </ol>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              A proper installation ensures your roof performs well through
+              North Jersey’s seasonal weather.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Easy Maintenance Tips for Homeowners in Hawthorne, NJ",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              To extend the life of your roof:
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Keep gutters clean</li>
+              <li>Inspect after heavy rain or snow</li>
+              <li>Trim trees near the roof</li>
+              <li>Maintain proper attic ventilation</li>
+              <li>Get periodic inspections from a local professional</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              Regular maintenance can help you avoid costly damage and extend
+              the lifespan of your roofing materials.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Choosing a Reliable Roofing Contractor in Hawthorne, NJ",
+        paragraph: (
+          <>
+            <p className="text-base leading-7 text-[#333]">
+              Finding a dependable roofing contractor makes a big difference in
+              the quality of your roof repair or replacement. Look for:
+            </p>
+            <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-1">
+              <li>Licensed and insured professionals</li>
+              <li>Good reviews from local homeowners</li>
+              <li>Detailed project estimates</li>
+              <li>Strong warranties on materials and workmanship</li>
+              <li>Experience with North Jersey weather conditions</li>
+            </ul>
+            <p className="text-base leading-7 text-[#333] mt-2">
+              To get started, visit{" "}
+              <Link href="/" className="text-blue-500">
+                Nick Roofing
+              </Link>{" "}
+              — a trusted roofing company serving Hawthorne, NJ and surrounding
+              areas.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333]">
+            Whether you need a repair or full replacement, taking action early
+            can save you from major damage. Keep an eye on signs of wear, stay
+            consistent with maintenance, and work with a trusted roofing expert
+            in Hawthorne, NJ to protect your home. If you&apos;re unsure about
+            your roof&apos;s condition, schedule an inspection with{" "}
+            <Link href="/" className="text-blue-500">
+              Nick Roofing’s roof repair and replacement services.
+            </Link>{" "}
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "waterproofing Hawthorne NJ, waterproofing contractors Hawthorne NJ, basement waterproofing Hawthorne NJ, roof waterproofing Hawthorne NJ, foundation crack repair Hawthorne NJ, crawl space waterproofing Hawthorne NJ, sump pump installation Hawthorne NJ, Nick Roofing Hawthorne NJ, waterproofing services Hawthorne NJ, home waterproofing Hawthorne NJ, exterior waterproofing NJ, interior waterproofing NJ, waterproofing near Hawthorne NJ, drainage solutions Hawthorne NJ, French drain installation Hawthorne NJ, waterproofing experts NJ, mold prevention Hawthorne NJ, leak repair Hawthorne NJ, waterproof coatings NJ, waterproofing company Hawthorne NJ",
 
     slug: "stop-leaks-before-they-start-waterproofing-hawthorne-nj",
@@ -28,6 +225,8 @@ export const BlogsData: Blog[] = [
       "Protect your home in Hawthorne, NJ with professional waterproofing. Prevent leaks, foundation damage, and mold before they start.",
 
     title:
+      "Stop Leaks Before They Start: Top Waterproofing Solutions in Hawthorne, NJ",
+    metatitle:
       "Stop Leaks Before They Start: Top Waterproofing Solutions in Hawthorne, NJ",
 
     image: "/blog/blog-3.jpeg",
@@ -98,10 +297,13 @@ export const BlogsData: Blog[] = [
             </ul>
             <p className="text-base leading-7 text-[#333] mt-2">
               For reliable solutions, consider{" "}
-              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
-                Nick Roofing Waterproofing  
-              </Link> Hawthorne NJ.
-                
+              <Link
+                href="/water-proofing-hawthorne-nj"
+                className="text-blue-500"
+              >
+                Nick Roofing Waterproofing
+              </Link>{" "}
+              Hawthorne NJ.
             </p>
 
             <h4 className="text-lg font-semibold text-[#364f4f] mt-3">
@@ -195,7 +397,10 @@ export const BlogsData: Blog[] = [
               <li>Comprehensive inspection and free estimates</li>
             </ul>
             <p className="text-base leading-7 text-[#333] mt-2">
-              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
+              <Link
+                href="/water-proofing-hawthorne-nj"
+                className="text-blue-500"
+              >
                 Nick Roofing Waterproofing Services in Hawthorne, NJ
               </Link>{" "}
               is a trusted name that offers customized solutions for both
@@ -261,6 +466,8 @@ export const BlogsData: Blog[] = [
       "Upgrade your Hawthorne NJ home with expert skylight installation tips. Protect your property and enhance natural lighting today!",
 
     title:
+      "Professional Skylight Installation in Hawthorne, NJ – Bring Natural Light to Your Home",
+    metatitle:
       "Professional Skylight Installation in Hawthorne, NJ – Bring Natural Light to Your Home",
 
     description: (
@@ -420,6 +627,8 @@ export const BlogsData: Blog[] = [
 
     title:
       "Transform Your Home with These Gutter Installation Tips in Hawthorne NJ",
+    metatitle:
+      "Transform Your Home with These Gutter Installation Tips in Hawthorne NJ",
 
     description: (
       <p className="text-base leading-7 text-[#333] mb-4">
@@ -578,7 +787,10 @@ export const BlogsData: Blog[] = [
             </ul>
             <p className="text-base leading-7 text-[#333] mt-3">
               Professional installers, like{" "}
-              <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
+              <Link
+                href="/water-proofing-hawthorne-nj"
+                className="text-blue-500"
+              >
                 Nick Roofing in Hawthorne
               </Link>
               NJ, have the experience and tools to handle every aspect of gutter

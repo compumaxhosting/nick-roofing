@@ -23,13 +23,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : `${baseUrl}${blog.image || "/og-image.jpg"}`;
 
   return {
-    title: blog.title,
+    title: blog.metatitle,
     description: blog.metadescription || "",
     keywords: blog.keywords
       ? blog.keywords.split(",").map((kw) => kw.trim())
       : [],
     openGraph: {
-      title: blog.title,
+      title: blog.metatitle,
       description: blog.metadescription || "",
       url: pageUrl,
       siteName: "Nick Roofing",
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: blog.title,
+          alt: blog.metatitle,
         },
       ],
     },
@@ -60,7 +60,7 @@ const generateSchema = (blog: Blog, slug: string) => {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: blog.title,
+    headline: blog.metatitle,
     description: blog.metadescription || "",
     image: imageUrl,
     author: {

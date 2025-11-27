@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { BlogsData } from "@/data/BlogsData";
 import Header from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { BlogsOverview } from "@/components/BlogsOverview";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -20,6 +21,7 @@ export default async function BlogPage({ params }: PageProps) {
   return (
     <>
       <Header />
+            <BlogsOverview />
       <main className="pt-8 border-b">
         <section className="bg-white text-black">
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
