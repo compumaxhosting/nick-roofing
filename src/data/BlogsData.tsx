@@ -42,8 +42,7 @@ export const BlogsData: Blog[] = [
         experienced local professionals who understand the unique weather
         challenges of the area. Whether it&apos;s storm damage, aging shingles,
         or emergency leaks, choosing the right roofing repair specialists
-        ensures long-lasting protection. For dependable service, visit
-        <Link href="/roof-repair-hawthorne-nj" className="text-blue-500">
+        ensures long-lasting protection. For dependable service, visit <Link href="/roof-repair-hawthorne-nj" className="text-blue-500">
           Nick Roofing – Roof Repair in Hawthorne NJ.
         </Link>
       </p>
@@ -54,14 +53,12 @@ export const BlogsData: Blog[] = [
         title: "Why Hawthorne, NJ Homeowners Need Expert Roof Repair",
         paragraph: (
           <p className="text-base leading-7 text-[#333] mb-4">
-            Roofs in
-            <Link
+            Roofs in <Link
               href="https://www.wikidata.org/wiki/Q1086688"
               className="text-blue-500"
             >
               Hawthorne
-            </Link>
-            face year-round stress — from heavy snow in winter to heat and
+            </Link> face year-round stress — from heavy snow in winter to heat and
             humidity in summer. These conditions often lead to cracked shingles,
             weakened flashing, water intrusion, and structural damage. Quick
             repairs prevent bigger issues and help extend the life of your roof.
