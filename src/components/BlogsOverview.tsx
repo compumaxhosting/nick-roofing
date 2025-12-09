@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Hawthorne NJ Roofing Repair Specialists You Can Trust",
+      path: "hawthorne-nj-roofing-repair-specialists-you-can-trust",
+    },
+    {
       name: "How to Know When It’s Time to Repair or Replace Your Roof",
       path: "how-to-know-when-its-time-to-repair-or-replace-your-roof",
     },
