@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "How to Protect Your Home from Moisture Damage in Hawthorne, NJ",
+      path: "protect-home-moisture-damage-hawthorne-nj",
+    },
+    {
       name: "Hawthorne NJ Roofing Repair Specialists You Can Trust",
       path: "hawthorne-nj-roofing-repair-specialists-you-can-trust",
     },

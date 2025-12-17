@@ -54,6 +54,9 @@ export const Footer = () => {
                 <li>
                   <Link href="contact">CONTACT US</Link>
                 </li>
+                <li>
+                  <Link href="site-map">SITE MAP</Link>
+                </li>
               </ul>
             </div>
 
