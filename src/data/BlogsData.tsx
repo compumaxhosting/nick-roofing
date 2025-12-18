@@ -78,15 +78,7 @@ export const BlogsData: Blog[] = [
             <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
               residential waterproof consultancy Hawthorne NJ
             </Link>{" "}
-            services,{" "}
-            <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
-              belowgrade enclosure safeguarding firms
-            </Link>
-            , and complete{" "}
-            <Link href="/water-proofing-hawthorne-nj" className="text-blue-500">
-              property moistureproof enhancement packages.
-            </Link>
-          </p>
+            services, belowgrade enclosure safeguarding firms , and complete property moistureproof enhancement packages.</p>
         ),
       },
       {
