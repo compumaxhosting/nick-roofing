@@ -33,7 +33,7 @@ export const BlogsData: Blog[] = [
 
     image: "/blog/blog-protect-roof.jpg",
 
-    date: "Dec 09, 2025",
+    date: "Dec 17, 2025",
 
     description: (
       <p className="text-base leading-7 text-[#333] mb-4">
