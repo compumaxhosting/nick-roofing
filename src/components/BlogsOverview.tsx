@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Seasonal Roof Maintenance Tips",
+      path: "seasonal-roof-maintenance-hawthorne-nj",
+    },
+    {
       name: "How to Protect Your Home from Moisture Damage in Hawthorne, NJ",
       path: "protect-home-moisture-damage-hawthorne-nj",
     },

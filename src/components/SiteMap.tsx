@@ -54,6 +54,10 @@ const SiteMap = () => {
      name: "Blog - Protect Home From Moisture Damage Hawthorne NJ",
      url: "https://www.nickroofing.com/blog/protect-home-moisture-damage-hawthorne-nj",
    },
+   {
+     name: "Blog - Seasonal Roof Maintenance Tips",
+     url: "https://www.nickroofing.com/blog/seasonal-roof-maintenance-hawthorne-nj",
+   },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];
 
