@@ -58,6 +58,10 @@ const SiteMap = () => {
      name: "Blog - Seasonal Roof Maintenance Tips",
      url: "https://www.nickroofing.com/blog/seasonal-roof-maintenance-hawthorne-nj",
    },
+   {
+     name: "Blog - Seasonal Roof Maintenance Tips",
+     url: "https://www.nickroofing.com/blog/what-to-expect-roof-repair-service-hawthorne-nj",
+   },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];
 

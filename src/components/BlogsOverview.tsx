@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "What to Expect When Hiring a Roof Repair Service",
+      path: "what-to-expect-roof-repair-service-hawthorne-nj",
+    },
+    {
       name: "Seasonal Roof Maintenance Tips",
       path: "seasonal-roof-maintenance-hawthorne-nj",
     },
