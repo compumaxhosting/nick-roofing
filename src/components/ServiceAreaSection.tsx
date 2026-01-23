@@ -26,8 +26,7 @@ export default function ServiceAreasSection() {
           We provide roofing, skylight installation, gutter installation, and
           waterproofing services with unmatched quality and reliability. If
           you’re located in any of these areas, our team is ready to deliver
-          expert solutions for your home or business.
-        </p>
+          expert solutions for your home or business.</p>
       </div>
     </section>
   );
