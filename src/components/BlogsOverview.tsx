@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "How New Siding Increases Property Value",
+      path: "how-new-siding-increases-property-value-hawthorne-nj",
+    },
+    {
       name: "What to Expect When Hiring a Roof Repair Service",
       path: "what-to-expect-roof-repair-service-hawthorne-nj",
     },
