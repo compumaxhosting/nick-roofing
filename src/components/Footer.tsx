@@ -147,7 +147,7 @@ export const Footer = () => {
         </div>
 
         <div className="bg-[#364f4f] mb-14 md:mb-0 lg:mb-0 text-white py-5 px-4 md:px-10 lg:px-20 text-center text-sm">
-          <p>2025 © Copyright Nick Roofing. All Rights Reserved.</p>
+          <p>2026 © Copyright Nick Roofing. All Rights Reserved.</p>
         </div>
         <BottomMenu />
       </section>
