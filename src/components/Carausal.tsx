@@ -53,7 +53,9 @@ export default function Carousel() {
 
         {/* CONTENT OVERLAY (ONLY ONE H1 HERE) */}
         <div className="absolute inset-0 flex flex-col justify-center items-start p-10 pl-4 md:pl-16 lg:pl-16 xl:pl-80 text-white z-20">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">NICK ROOFING</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Nick Roofing – Trusted <br /> Roofing Contractors
+          </h1>
 
           <p className="text-md md:text-2xl mb-4">
             35 years of experience in roofing business
