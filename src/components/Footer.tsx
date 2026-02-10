@@ -13,9 +13,9 @@ export const Footer = () => {
             {/* ABOUT US */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
-                <h1 className="text-sm font-semibold text-white mb-4">
+                <h2 className="text-sm font-semibold text-white mb-4">
                   ABOUT US
-                </h1>
+                </h2>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
               <p className="text-sm text-white">

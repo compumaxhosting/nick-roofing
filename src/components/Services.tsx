@@ -42,9 +42,9 @@ export default function Services() {
             <div className="max-w-screen-xl mx-auto">
                 {/* Section Heading */}
                 <div className="text-center mb-10">
-                    <h1 className="text-xl md:text-l font-semibold tracking-[1px] mb-5 text-[#364f4f]" >
+                    <h2 className="text-xl md:text-l font-semibold tracking-[1px] mb-5 text-[#364f4f]" >
                         OUR SERVICES
-                    </h1>
+                    </h2>
                     <span
                         className="block mx-auto w-10 h-0.5 bg-[#36454F] mb-7"
                     ></span>

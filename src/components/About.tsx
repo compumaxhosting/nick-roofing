@@ -43,9 +43,9 @@ export default function About() {
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* Left Content */}
           <div className="w-[85%] md:w-1/2">
-            <h1 className="text-xl md:text-l font-bold mb-[20px] tracking-[1px] text-[#364f4f]">
+            <h2 className="text-xl md:text-l font-bold mb-[20px] tracking-[1px] text-[#364f4f]">
               WHO ARE WE
-            </h1>
+            </h2>
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
