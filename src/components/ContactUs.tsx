@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaGoogle } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 import Link from "next/link";
 
@@ -69,22 +69,24 @@ export const ContactUs = () => {
             </div>
           </div>
           {/* Social Icons */}
-          <div className="flex justify-center gap-6 mt-4 pb-4 text-black">
+          <div className="flex gap-4 text-black pt-6">
             <Link
               href="https://www.instagram.com/nickroofingnj/"
               aria-label="Instagram"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaInstagram size={20} />
             </Link>
+
             <Link
               href="https://x.com/nickroofingnj"
               aria-label="X (Twitter)"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
-              {/* X (Twitter) SVG logo */}
               <svg
                 width="20"
                 height="20"
@@ -92,21 +94,32 @@ export const ContactUs = () => {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g>
-                  <path
-                    fill="currentColor"
-                    d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0ZM849.338 111.684H1072.09L649.877 670.246L849.338 111.684ZM150.662 111.684H373.415L751.123 631.246L373.415 1115.32H150.662L572.875 556.754L150.662 111.684ZM1072.09 1115.32H849.338L471.63 595.246L849.338 111.684H1072.09L649.877 670.246L1072.09 1115.32Z"
-                  />
-                </g>
+                <path
+                  fill="currentColor"
+                  d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0Z"
+                />
               </svg>
             </Link>
+
             <Link
               href="https://www.facebook.com/NickroofingNJ"
               aria-label="Facebook"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
             >
               <FaFacebookF size={20} />
+            </Link>
+
+            {/* Google Maps Link */}
+            <Link
+              href="https://maps.app.goo.gl/RMCBhtSQia5Vzor76"
+              aria-label="Google Maps"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+            >
+              <FaGoogle size={20} />
             </Link>
           </div>
         </div>
