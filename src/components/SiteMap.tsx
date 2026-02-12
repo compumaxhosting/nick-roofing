@@ -64,7 +64,7 @@ const SiteMap = () => {
    },
    {
      name: "Blog - Professional Gutter Installation NJ",
-     url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne-nj",
+     url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne",
    },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];
