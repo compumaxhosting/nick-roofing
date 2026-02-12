@@ -14,7 +14,7 @@ export function BlogsOverview() {
   const blogs = [
     {
       name: "Professional Gutter Installation NJ",
-      path: "gutter-installation-hw-nj",
+      path: "gutter-installation-hawthorne",
     },
     {
       name: "How New Siding Increases Property Value",
