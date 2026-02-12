@@ -59,8 +59,12 @@ const SiteMap = () => {
      url: "https://www.nickroofing.com/blog/seasonal-roof-maintenance-hawthorne-nj",
    },
    {
-     name: "Blog - Seasonal Roof Maintenance Tips",
+     name: "Blog - How New Siding Increases Property Value",
      url: "https://www.nickroofing.com/blog/what-to-expect-roof-repair-service-hawthorne-nj",
+   },
+   {
+     name: "Blog - Professional Gutter Installation NJ",
+     url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne-nj",
    },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];

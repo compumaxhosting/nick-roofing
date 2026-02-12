@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Professional Gutter Installation NJ",
+      path: "gutter-installation-hw-nj",
+    },
+    {
       name: "How New Siding Increases Property Value",
       path: "how-new-siding-increases-property-value-hawthorne-nj",
     },

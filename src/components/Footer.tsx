@@ -2,7 +2,7 @@ import React from "react";
 import { BottomMenu } from "./BottomMenu";
 import Link from "next/link";
 import BackToTop from "./BackToTop";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaGoogle } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -52,10 +52,10 @@ export const Footer = () => {
                   <Link href="/blog">BLOG</Link>
                 </li>
                 <li>
-                  <Link href="contact">CONTACT US</Link>
+                  <Link href="/contact">CONTACT US</Link>
                 </li>
                 <li>
-                  <Link href="site-map">SITE MAP</Link>
+                  <Link href="/site-map">SITE MAP</Link>
                 </li>
               </ul>
             </div>
@@ -115,7 +115,6 @@ export const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
-                  {/* X (Twitter) SVG logo */}
                   <svg
                     width="20"
                     height="20"
@@ -123,12 +122,10 @@ export const Footer = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g>
-                      <path
-                        fill="currentColor"
-                        d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0ZM849.338 111.684H1072.09L649.877 670.246L849.338 111.684ZM150.662 111.684H373.415L751.123 631.246L373.415 1115.32H150.662L572.875 556.754L150.662 111.684ZM1072.09 1115.32H849.338L471.63 595.246L849.338 111.684H1072.09L649.877 670.246L1072.09 1115.32Z"
-                      />
-                    </g>
+                    <path
+                      fill="currentColor"
+                      d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0Z"
+                    />
                   </svg>
                 </Link>
 
@@ -140,6 +137,17 @@ export const Footer = () => {
                   className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
                 >
                   <FaFacebookF size={20} />
+                </Link>
+
+                {/* Google Maps Link */}
+                <Link
+                  href="https://maps.app.goo.gl/RMCBhtSQia5Vzor76"
+                  aria-label="Google Maps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                >
+                  <FaGoogle size={20} />
                 </Link>
               </div>
             </div>

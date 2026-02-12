@@ -21,6 +21,131 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "gutter installation Hawthorne NJ, seamless gutters Hawthorne, gutter replacement Hawthorne NJ, gutter repair Hawthorne, gutter guards installation NJ, residential gutter services Hawthorne, rain gutter contractors NJ, seamless gutter benefits, foundation protection gutters, North Jersey gutter company",
+
+    slug: "gutter-installation-hawthorne",
+
+    metadescription:
+      "Professional gutter installation in Hawthorne, NJ. Protect your home from water damage with seamless gutters and gutter guards by Nick Roofing.",
+
+    title: "Professional Gutter Installation in Hawthorne, NJ | Nick Roofing",
+
+    metatitle:
+      "Gutter Installation in Hawthorne, NJ | Seamless Gutters by Nick Roofing",
+
+    image: "/blog/gutter4.png",
+
+    date: "Feb 12, 2026",
+
+    description: (
+      <p className="text-base leading-7 text-[#333] mb-4">
+        Most homeowners in Hawthorne, NJ don’t think about their gutters until
+        something goes wrong. But gutters play a major role in protecting your
+        siding, roof edges, foundation, landscaping, and even your basement from
+        water damage. Your gutter system collects rainwater and melting snow and
+        safely moves it away from your home through downspouts. When gutters
+        start leaking, sagging, or clogging, water overflows instead of
+        draining. This can lead to stains on siding, pooling near your
+        foundation, and even interior leaks. If you notice water spilling over
+        the edges during rain, your system isn’t working properly. That’s when
+        professional gutter installation in Hawthorne, NJ becomes important.
+      </p>
+    ),
+
+    sections: [
+      {
+        title: "Why Gutters Matter in Hawthorne",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333] mb-4">
+            North Jersey weather brings heavy rain, snow, and freezing
+            temperatures. Without proper drainage, water can quickly cause:{" "}
+            <br />
+            Foundation cracks • Rotting fascia boards • Siding damage • Basement
+            flooding • Landscaping erosion <br /> A properly installed gutter
+            system keeps your home protected year-round.{" "}
+            <Link
+              href="/gutter-installation-hawthorne-nj"
+              target="blank"
+              className="text-blue-500"
+            >
+              Gutter installation in Hawthorne, NJ
+            </Link>{" "}
+            ensures your home stays protected and attractive.
+          </p>
+        ),
+      },
+      {
+        title: "Signs You Need New Gutters",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333] mb-4">
+            <br />
+            • Water overflowing during storms • Gutters pulling away from the
+            roof • Rust, cracks, or holes • Paint peeling on siding • Standing
+            water near the foundation <br /> Catching these issues early
+            prevents bigger repair costs later.
+            <br />
+            <br />
+            <strong className="text-gray-600">
+              Seamless Gutters Are the Best Choice
+            </strong>
+            <br />
+            Nick Roofing installs seamless gutters custom-fit to your home. With
+            fewer joints, they offer: <br />• Better durability • Less
+            maintenance • Fewer leaks • A clean, modern look <br /> They perform
+            better in New Jersey’s changing temperatures.
+            <br />
+            <br />
+            <strong className="text-gray-600">
+              Reduce Clogs with Gutter Guards
+            </strong>
+            <br />
+            Trees around Hawthorne drop leaves and debris into gutters. Gutter
+            guards help keep water flowing by: <br />• Preventing clogs •
+            Reducing cleaning • Avoiding overflow damage <br />
+            <br />
+            <strong className="text-gray-600">
+              Get a Free Quote in Hawthorne, NJ
+            </strong>
+            For reliable
+            <Link
+              href="/gutter-installation-hawthorne-nj"
+              target="blank"
+              className="text-blue-500"
+            >
+              gutter installation in Hawthorne, NJ, Nick Roofing
+            </Link>{" "}
+            ,builds systems that protect your home for years. <br />
+            Contact Nick Roofing today for a free estimate and enjoy gutters
+            that work properly in every season.
+            <br />
+            <br />
+            <strong className="text-gray-600">
+              4. Reduced Maintenance Needs
+            </strong>
+            <br />
+          </p>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333] mb-4">
+            Professional gutter installation in Hawthorne, NJ is essential to
+            protect your home from water damage, foundation issues, and basement
+            flooding. Nick Roofing specializes in seamless gutters, gutter
+            replacement, and gutter guard installation built for North Jersey
+            weather. Our custom-fit gutter systems improve drainage, reduce
+            leaks, and require less maintenance year-round. Contact Nick Roofing
+            today for trusted gutter installation in Hawthorne, NJ and get your
+            free estimate.
+          </p>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "siding Hawthorne NJ, new siding installation, property value increase, home exterior upgrade, vinyl siding benefits, energy-efficient siding NJ, curb appeal improvement, Hawthorne home renovation, siding contractors Hawthorne, residential siding services",
 
     slug: "how-new-siding-increases-property-value-hawthorne-nj",
@@ -124,7 +249,6 @@ export const BlogsData: Blog[] = [
       },
     ],
   },
-
   {
     keywords:
       "roof repair services, roof repair Hawthorne NJ, roofing contractor Hawthorne NJ, professional roof repair, local roof repair service, residential roof repair, roof leak repair, emergency roof repair",
@@ -698,7 +822,7 @@ export const BlogsData: Blog[] = [
     keywords:
       "roof repair Hawthorne NJ, roofing contractor Hawthorne NJ, roof replacement Hawthorne NJ, North Jersey roof repair, local roofing company Hawthorne, emergency roof repair NJ, residential roofing Hawthorne NJ, shingle roof repair Hawthorne, best roofer Hawthorne NJ, Nick Roofing NJ",
 
-    slug: "hawthorne-nj-roofing-repair-experts",
+    slug: "how-to-know-when-its-time-to-repair-or-replace-your-roof",
 
     metadescription:
       "or replace your roof with this homeowner’s guide for Hawthorne, NJ. Discover warning signs, benefits of repair vs. replacement, maintenance tips, and trusted local roofing services from Nick Roofing.",
