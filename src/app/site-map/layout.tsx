@@ -3,37 +3,35 @@ import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 
 export const metadata: Metadata = {
-  title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
+  title: "Site Map | Nick Roofing",
   description:
-    "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
+    "Explore the full site map of Nick Roofing. Easily navigate our roofing services, service areas, emergency repairs, and contact information.",
   keywords: [
-    "roofing gallery Hawthorne NJ",
-    "gutter installation photos",
-    "skylight installation NJ",
-    "waterproofing project gallery",
-    "siding installation pictures",
-    "roof repair gallery",
-    "North Jersey roofing company",
-    "Ridgewood roofers",
-    "Wayne NJ exterior work",
-    "Fair Lawn roofing contractor",
+    "Nick Roofing site map",
+    "Roofing services NJ",
+    "Hawthorne NJ roofing contractor",
+    "Roof repair NJ",
+    "Roof replacement NJ",
+    "Emergency roofing services",
+    "Residential roofing NJ",
+    "Commercial roofing NJ",
   ],
 
   alternates: {
-    canonical: "https://www.nickroofing.com/gallery",
+    canonical: "https://www.nickroofing.com/site-map",
   },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
-    url: "https://www.nickroofing.com/gallery",
+      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
+    url: "https://www.nickroofing.com/site-map",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/gallery2.jpg",
+        url: "https://www.nickroofing.com/roof-repair1.jpg",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -42,9 +40,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
+    title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
+      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -56,7 +54,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
+    "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {

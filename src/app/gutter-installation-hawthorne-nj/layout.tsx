@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+    canonical: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
   },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Best Gutter Installation in Hawthorne, NJ | Seamless & Durable",
     description:
       "Expert gutter installation in Hawthorne, NJ—seamless, aluminum, & copper gutters for homes & businesses. Free estimates, repairs & emergency services. Call now.",
-    url: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+    url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
