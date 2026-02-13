@@ -153,6 +153,10 @@ export default function RootLayout({
           name="google-site-verification"
           content="YEt9cDcHycOEi1XrfeLJgGEMJ-kZgPwai7l0BgZLS8Y"
         />
+        <meta
+          name="p:domain_verify"
+          content="0a26af29bad486083adb6cf76fbc82a3"
+        />
         <script
           type="application/ld+json"
           // JSON-LD in <head> for the sitewide entity
