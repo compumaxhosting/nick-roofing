@@ -28,7 +28,7 @@ export const BlogsData: Blog[] = [
     metadescription:
       "Professional gutter installation in Hawthorne, NJ. Protect your home from water damage with seamless gutters and gutter guards by Nick Roofing.",
 
-    title: "Professional Gutter Installation in Hawthorne, NJ | Nick Roofing",
+    title: "Protect Your Home with Nick Roofing",
 
     metatitle:
       "Gutter Installation in Hawthorne, NJ | Seamless Gutters by Nick Roofing",
@@ -42,13 +42,22 @@ export const BlogsData: Blog[] = [
         Most homeowners in Hawthorne, NJ don’t think about their gutters until
         something goes wrong. But gutters play a major role in protecting your
         siding, roof edges, foundation, landscaping, and even your basement from
-        water damage. Your gutter system collects rainwater and melting snow and
-        safely moves it away from your home through downspouts. When gutters
-        start leaking, sagging, or clogging, water overflows instead of
-        draining. This can lead to stains on siding, pooling near your
-        foundation, and even interior leaks. If you notice water spilling over
-        the edges during rain, your system isn’t working properly. That’s when
-        professional gutter installation in Hawthorne, NJ becomes important.
+        water damage. <br />
+        Your gutter system collects rainwater and melting snow and safely moves
+        it away from your home through downspouts. When gutters start leaking,
+        sagging, or clogging, water overflows instead of draining. This can lead
+        to stains on siding, pooling near your foundation, and even interior
+        leaks. <br />
+        If you notice water spilling over the edges during rain, your system
+        isn’t working properly. That’s when{" "}
+        <Link
+          href="/gutter-installation-hawthorne-nj"
+          target="blank"
+          className="text-blue-500"
+        >
+          professional gutter installation in Hawthorne,
+        </Link>{" "}
+        NJ becomes important.
       </p>
     ),
 
@@ -56,57 +65,79 @@ export const BlogsData: Blog[] = [
       {
         title: "Why Gutters Matter in Hawthorne",
         paragraph: (
-          <p className="text-base leading-7 text-[#333] mb-4">
+          <p className="text-base leading-7 text-[#333]">
             North Jersey weather brings heavy rain, snow, and freezing
-            temperatures. Without proper drainage, water can quickly cause:{" "}
-            <br />
-            Foundation cracks • Rotting fascia boards • Siding damage • Basement
-            flooding • Landscaping erosion <br /> A properly installed gutter
-            system keeps your home protected year-round.{" "}
-            <Link
-              href="/gutter-installation-hawthorne-nj"
-              target="blank"
-              className="text-blue-500"
-            >
-              Gutter installation in Hawthorne, NJ
-            </Link>{" "}
-            ensures your home stays protected and attractive.
+            temperatures. Without proper drainage, water can quickly cause:
+            <br />• Foundation cracks
+            <br />• Rotting fascia boards
+            <br />• Siding damage
+            <br />• Basement flooding
+            <br />• Landscaping erosion <br />A properly installed gutter system
+            keeps your home protected year-round.
           </p>
         ),
       },
       {
         title: "Signs You Need New Gutters",
         paragraph: (
-          <p className="text-base leading-7 text-[#333] mb-4">
+          <p className="text-base leading-7 text-[#333]">
+            • Water overflowing during storms <br /> • Gutters pulling away from
+            the roof <br /> • Rust, cracks, or holes <br /> • Paint peeling on
+            siding <br /> • Standing water near the foundation <br /> Catching
+            these issues early prevents bigger repair costs later.
             <br />
-            • Water overflowing during storms • Gutters pulling away from the
-            roof • Rust, cracks, or holes • Paint peeling on siding • Standing
-            water near the foundation <br /> Catching these issues early
-            prevents bigger repair costs later.
-            <br />
-            <br />
-            <strong className="text-gray-600">
-              Seamless Gutters Are the Best Choice
-            </strong>
-            <br />
-            Nick Roofing installs seamless gutters custom-fit to your home. With
-            fewer joints, they offer: <br />• Better durability • Less
-            maintenance • Fewer leaks • A clean, modern look <br /> They perform
-            better in New Jersey’s changing temperatures.
-            <br />
-            <br />
+          </p>
+        ),
+      },
+      {
+        title: "Seamless Gutters Are the Best Choice",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] mb-4">
+            <p className="mt-2">
+              Nick Roofing installs seamless gutters custom-fit to your home.
+              With fewer joints, they offer:
+            </p>
+
+            <ul className="list-disc ml-5 mt-2 space-y-1">
+              <li>Better durability</li>
+              <li>Less maintenance</li>
+              <li>Fewer leaks</li>
+              <li>A clean, modern look</li>
+            </ul>
+
+            <p className="mt-2">
+              They perform better in New Jersey’s changing temperatures.
+            </p>
+          </div>
+        ),
+      },
+
+      {
+        title: "Reduce Clogs with Gutter Guards",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] mb-4">
             <strong className="text-gray-600">
               Reduce Clogs with Gutter Guards
             </strong>
-            <br />
-            Trees around Hawthorne drop leaves and debris into gutters. Gutter
-            guards help keep water flowing by: <br />• Preventing clogs •
-            Reducing cleaning • Avoiding overflow damage <br />
-            <br />
-            <strong className="text-gray-600">
-              Get a Free Quote in Hawthorne, NJ
-            </strong>
-            For reliable
+
+            <p className="mt-2">
+              Trees around Hawthorne drop leaves and debris into gutters. Gutter
+              guards help keep water flowing by:
+            </p>
+
+            <ul className="list-disc ml-5 mt-2 space-y-1">
+              <li>Preventing clogs</li>
+              <li>Reducing cleaning</li>
+              <li>Avoiding overflow damage</li>
+            </ul>
+          </div>
+        ),
+      },
+      {
+        title: "Get a Free Quote in Hawthorne, NJ",
+        paragraph: (
+          <p className="text-base leading-7 text-[#333] mb-4">
+            For reliable{" "}
             <Link
               href="/gutter-installation-hawthorne-nj"
               target="blank"
@@ -114,19 +145,12 @@ export const BlogsData: Blog[] = [
             >
               gutter installation in Hawthorne, NJ, Nick Roofing
             </Link>{" "}
-            ,builds systems that protect your home for years. <br />
-            Contact Nick Roofing today for a free estimate and enjoy gutters
-            that work properly in every season.
-            <br />
-            <br />
-            <strong className="text-gray-600">
-              4. Reduced Maintenance Needs
-            </strong>
-            <br />
+            builds systems that protect your home for years. <br /> Contact Nick
+            Roofing today for a free estimate and enjoy gutters that work
+            properly in every season.
           </p>
         ),
       },
-
       {
         title: "Conclusion",
         paragraph: (

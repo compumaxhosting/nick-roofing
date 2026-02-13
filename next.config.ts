@@ -34,6 +34,11 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/blog/contact",
+        destination: "/contact",
+        permanent: true,
+      },
     ];
   },
 };
