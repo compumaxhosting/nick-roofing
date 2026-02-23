@@ -131,12 +131,12 @@ export const ContactUs = () => {
           {/* Map */}
           <div className="overflow-hidden flex-shrink-0 w-full lg:w-80 h-64 lg:h-auto lg:min-h-[500px]">
             <iframe
-              title="Nick Roofing Contractor Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.4189642748006!2d-74.1640458240497!3d40.94959467135309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fae2e8c6b6e9%3A0x6e0e2b8949dcd51d!2s525%20Lafayette%20Ave%2C%20Hawthorne%2C%20NJ%2007506%2C%20USA!5e0!3m2!1sen!2sus!4v1718038450000!5m2!1sen!2sus"
+              title="Nick Roofing Contractor | nickroofing.com Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.1416884146156!2d-74.1548818!3d40.95647479999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fdb2acb897b1%3A0xdf8cadd431064b06!2sNick%20Roofing%20Contractor%20%7C%20nickroofing.com!5e0!3m2!1sen!2sin!4v1771856775118!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={true}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
