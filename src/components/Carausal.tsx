@@ -13,7 +13,6 @@ const slides = [
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
 
-  // Auto slide
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
@@ -43,7 +42,7 @@ export default function Carousel() {
           >
             <Image
               src={slide.image}
-              alt={`Slide ${slide.id}`}
+              alt="Nick Roofing providing roof repair and installation services in Hawthorne NJ"
               fill
               className="object-cover"
               priority={index === 0}
@@ -51,25 +50,31 @@ export default function Carousel() {
           </div>
         ))}
 
-        {/* CONTENT OVERLAY (ONLY ONE H1 HERE) */}
+        {/* CONTENT OVERLAY */}
         <div className="absolute inset-0 flex flex-col justify-center items-start p-10 pl-4 md:pl-16 lg:pl-16 xl:pl-80 text-white z-20">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Nick Roofing – Trusted <br /> Roofing Contractors
+          {/* 🔥 SEO OPTIMIZED H1 */}
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Roofing Contractor in Hawthorne NJ <br />
+            Residential & Commercial Roofing Experts
           </h1>
 
+          {/* First 100 words matter for SEO */}
           <p className="text-md md:text-2xl mb-4">
-            35 years of experience in roofing business
+            Nick Roofing is a trusted roofing contractor in Hawthorne, NJ
+            delivering professional roof repair, roof installation, and gutter
+            services backed by 35+ years of experience.
           </p>
 
           <p className="text-md md:text-2xl mb-6">
-            Residential & Commercial Services
+            Licensed, insured, and committed to protecting homes and businesses
+            throughout Passaic County.
           </p>
 
           <Link
             href="tel:9732070689"
             className="inline-flex items-center gap-3 px-6 py-3 bg-[#e07b3b] hover:bg-transparent transition-colors text-2xl font-bold duration-500"
           >
-            (973) - 207 - 0689
+            Call Now: (973) 207-0689
           </Link>
         </div>
 
@@ -77,6 +82,7 @@ export default function Carousel() {
         <button
           onClick={prevSlide}
           className="hidden lg:flex absolute top-1/2 left-4 transform -translate-y-1/2 w-10 h-10 items-center justify-center bg-[#364f4f] hover:bg-[#e07b3b] text-white transition-colors z-30 duration-500"
+          aria-label="Previous Slide"
         >
           <FaArrowLeft />
         </button>
@@ -85,6 +91,7 @@ export default function Carousel() {
         <button
           onClick={nextSlide}
           className="hidden lg:flex absolute top-1/2 right-4 transform -translate-y-1/2 w-10 h-10 items-center justify-center bg-[#364f4f] hover:bg-[#e07b3b] text-white transition-colors z-30 duration-500"
+          aria-label="Next Slide"
         >
           <FaArrowRight />
         </button>
@@ -100,15 +107,16 @@ export default function Carousel() {
               fontStyle: "italic",
             }}
           >
-            Looking for a high-quality roofing company for your project? Nick
-            Roofing has you covered!
+            Need roof repair or a new roof installation in Hawthorne, NJ? Nick
+            Roofing provides reliable, high-quality roofing solutions you can
+            trust.
           </p>
 
           <Link
             href="/contact"
             className="text-white border border-white px-[25px] py-[10px] hover:bg-white hover:text-[#36454F] transition-colors duration-300 whitespace-nowrap flex-shrink-0"
           >
-            Get a Quote
+            Get a Free Roofing Quote
           </Link>
         </div>
       </section>

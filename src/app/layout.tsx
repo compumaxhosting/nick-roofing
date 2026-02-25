@@ -18,47 +18,60 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.nickroofing.com"),
   alternates: {
-    canonical: "/", // root canonical
+    canonical: "/",
   },
-  title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+
+  title:
+    "Roofing Contractor Hawthorne NJ | Roof Repair, Gutters & Skylights | Nick Roofing",
+
   description:
-    "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+    "Nick Roofing is a licensed roofing contractor in Hawthorne NJ specializing in roof repair, replacement & more. Call (973) 207-0689 for a free estimate!",
+
   keywords: [
-    "roofing services Hawthorne NJ",
+    "roofing contractor Hawthorne NJ",
+    "roof repair Hawthorne NJ",
+    "roof replacement Hawthorne NJ",
+    "residential roofing Hawthorne NJ",
+    "commercial roofing Hawthorne NJ",
     "skylight installation Hawthorne NJ",
-    "gutter installation NJ",
-    "waterproofing contractors NJ",
-    "siding services Hawthorne NJ",
-    "roof repair Franklin Lakes NJ",
-    "gutter repair Midland Park NJ",
-    "siding contractor Ridgewood NJ",
-    "skylight repair Glen Rock NJ",
-    "waterproofing Fair Lawn NJ",
+    "gutter installation Hawthorne NJ",
+    "waterproofing contractor Hawthorne NJ",
+    "siding installation Hawthorne NJ",
+    "roofing contractor Ridgewood NJ",
+    "roofing contractor Fair Lawn NJ",
+    "roofing contractor Paramus NJ",
+    "roofing contractor Clifton NJ",
+    "roofing contractor Wayne NJ",
+    "licensed roofing contractor NJ",
+    "emergency roof repair NJ",
   ],
+
   openGraph: {
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Roofing Contractor Hawthorne NJ | Nick Roofing",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Trusted roofing contractor in Hawthorne NJ offering roof repair, replacement, gutters, skylights & siding. Serving Northern New Jersey. Free estimates.",
     url: "https://www.nickroofing.com",
     siteName: "Nick Roofing",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Nick Roofing team installing new roof",
+        alt: "Nick Roofing - Roofing Contractor in Hawthorne NJ",
       },
     ],
     type: "website",
     locale: "en_US",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Nick Roofing: Roof, Skylight & Gutter Services Hawthorne, NJ",
+    title: "Roofing Contractor Hawthorne NJ | Nick Roofing",
     description:
-      "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
+      "Roof repair, replacement, gutters, skylights & siding in Hawthorne NJ. Licensed & insured roofing experts.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
+
   robots: {
     index: true,
     follow: true,
@@ -69,8 +82,10 @@ export const metadata: Metadata = {
       noimageindex: false,
     },
   },
+
   authors: [{ name: "Nick Roofing Team", url: "https://www.nickroofing.com" }],
-  category: "Roofing Services",
+
+  category: "Roofing Contractor Services",
 };
 
 export default function RootLayout({

@@ -10,31 +10,33 @@ export const Footer = () => {
       <section>
         <div className="bg-[#e07b3b] py-6 px-6 md:px-10 lg:px-20">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-y-8 md:gap-y-0 md:gap-x-12">
-            {/* ABOUT US */}
+            {/* ABOUT */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
-                <h2 className="text-sm font-semibold text-white mb-4">
-                  ABOUT US
-                </h2>
+                <h3 className="text-sm font-semibold text-white mb-4">
+                  About Nick Roofing
+                </h3>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
+
               <p className="text-sm text-white">
-                Nick Roofing has provided top-quality residential, commercial,
-                and industrial roofing in Northern New Jersey. We&apos;re known
-                for integrity, craftsmanship, and exceptional customer care.
-                With expert installation and premium materials, we ensure
-                durable, reliable roofs. Your roof, our expertise—built to last!
+                Nick Roofing provides reliable residential, commercial, and
+                industrial roofing services in Hawthorne, NJ and surrounding
+                areas. With over 35 years of experience, we are known for
+                quality craftsmanship, honest pricing, and long-lasting roofing
+                solutions.
               </p>
             </div>
 
-            {/* QUICK LINKS */}
+            {/* QUICK LINKS – OLD LINKS KEPT */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
-                <h2 className="text-sm font-semibold text-white mb-4">
-                  QUICK LINKS
-                </h2>
+                <h3 className="text-sm font-semibold text-white mb-4">
+                  Quick Links
+                </h3>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
+
               <ul className="list-disc ml-4 text-sm text-white space-y-2">
                 <li>
                   <Link href="/">HOME</Link>
@@ -60,17 +62,20 @@ export const Footer = () => {
               </ul>
             </div>
 
-            {/* CONTACT US */}
+            {/* CONTACT */}
             <div className="w-full md:w-1/3 px-2">
               <div className="flex flex-col pb-6">
                 <h3 className="text-sm font-semibold text-white mb-4">
-                  CONTACT US
+                  Contact Information
                 </h3>
                 <span className="block w-10 h-0.5 bg-[#36454F] mb-2"></span>
               </div>
+
               <p className="text-white text-sm mb-4">
-                Got a roofing project? We&apos;re here to help!
+                Looking for a trusted roofing contractor in Hawthorne, NJ?
+                Contact Nick Roofing today for a free estimate.
               </p>
+
               <div
                 style={{ fontFamily: "'Oswald', sans-serif" }}
                 className="text-white text-sm space-y-2 mb-4"
@@ -81,6 +86,7 @@ export const Footer = () => {
                     (973) - 207 - 0689
                   </Link>
                 </div>
+
                 <div>
                   <span className="font-semibold">Email: </span>
                   <Link
@@ -90,62 +96,50 @@ export const Footer = () => {
                     nickcontractorllc@gmail.com
                   </Link>
                 </div>
+
                 <div>
                   <span className="font-semibold">Location: </span>
                   525 Lafayette Ave, Hawthorne, NJ 07506
                 </div>
               </div>
 
-              {/* Social Icons */}
+              {/* SOCIAL ICONS */}
               <div className="flex gap-4 text-black">
                 <Link
                   href="https://www.instagram.com/nickroofingnj/"
-                  aria-label="Instagram"
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                  className="border-2 border-black rounded-md p-2"
                 >
                   <FaInstagram size={20} />
                 </Link>
 
                 <Link
                   href="https://x.com/nickroofingnj"
-                  aria-label="X (Twitter)"
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                  className="border-2 border-black rounded-md p-2"
                 >
                   <svg
                     width="20"
                     height="20"
                     viewBox="0 0 1200 1227"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
                   >
-                    <path
-                      fill="currentColor"
-                      d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0Z"
-                    />
+                    <path d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0Z" />
                   </svg>
                 </Link>
 
                 <Link
                   href="https://www.facebook.com/NickroofingNJ"
-                  aria-label="Facebook"
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                  className="border-2 border-black rounded-md p-2"
                 >
                   <FaFacebookF size={20} />
                 </Link>
 
-                {/* Google Maps Link */}
                 <Link
                   href="https://maps.app.goo.gl/RMCBhtSQia5Vzor76"
-                  aria-label="Google Maps"
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#36454f] transition-colors duration-300 border-2 border-black rounded-md p-2 flex items-center justify-center"
+                  className="border-2 border-black rounded-md p-2"
                 >
                   <FaGoogle size={20} />
                 </Link>
@@ -154,11 +148,13 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-[#364f4f] mb-14 md:mb-0 lg:mb-0 text-white py-5 px-4 md:px-10 lg:px-20 text-center text-sm">
-          <p>2026 © Copyright Nick Roofing. All Rights Reserved.</p>
+        <div className="bg-[#364f4f] mb-14 md:mb-0 text-white py-5 text-center text-sm">
+          <p>© 2026 Nick Roofing. All Rights Reserved.</p>
         </div>
+
         <BottomMenu />
       </section>
+
       <BackToTop />
     </>
   );
