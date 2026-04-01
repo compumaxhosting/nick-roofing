@@ -8,10 +8,11 @@ import Link from "next/link";
 const slides = [
   { id: 1, image: "/slide1.webp" },
   { id: 2, image: "/slide4.webp" },
-  { id: 4, image: "/slide-2.webp" },
-  { id: 5, image: "/slide-3.webp" },
-  { id: 6, image: "/slide-4.webp" },
+  { id: 3, image: "/slide-2.webp" },
+  { id: 4, image: "/slide-3.webp" },
+  { id: 5, image: "/slide-4.webp" },
 ];
+
 
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
