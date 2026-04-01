@@ -4,6 +4,7 @@ import { ContactUs } from "@/components/ContactUs";
 import { Footer } from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
+import ServiceAreasSection from "@/components/ServiceAreaSection";
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Services />
       <Gallery />
+      <ServiceAreasSection /> 
       <ContactUs />
       <Footer />
     </>

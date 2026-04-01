@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function AboutUs() {
@@ -214,7 +215,7 @@ export default function AboutUs() {
           </h5>
 
           <p className="mb-[20px] text-sm leading-relaxed text-[#333]">
-            Ready to improve your home? Call Nick Roofing at <a href="tel:+19732070689" className="font-bold text-[#364f4f] hover:text-[#2e3d45] transition-colors duration-200">(973) - 207 - 0689</a> for a free estimate or visit our website. Experience the best roofing and home improvement services in New Jersey!
+            Ready to improve your home? Call Nick Roofing at <Link href="tel:+19732070689" className="font-bold text-[#364f4f] hover:text-[#2e3d45] transition-colors duration-200">(973) - 207 - 0689</Link> for a free estimate or visit our website. Experience the best roofing and home improvement services in New Jersey!
           </p>
 
         </div>

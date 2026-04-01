@@ -27,7 +27,7 @@ export async function POST(req: Request) {
 
     const data = await resend.emails.send({
       from: process.env.FROM_EMAIL as string,
-      to: recipients, // Safe: always a string[]
+      to: recipients, // multiple recipients supported
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Inquiry</h2>
@@ -35,7 +35,8 @@ export async function POST(req: Request) {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Service:</strong> ${service}</p>
-        <p><strong>Message:</strong> ${message}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
       `,
     });
 

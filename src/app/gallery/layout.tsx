@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "Wayne NJ exterior work",
     "Fair Lawn roofing contractor",
   ],
+
   alternates: {
     canonical: "https://www.nickroofing.com/gallery",
   },
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/gallery2.jpg",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
-      "See skylight, gutter, roofing, waterproofing & siding projects we’ve completed across North Jersey.",
+      "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -67,7 +68,6 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -89,32 +89,7 @@ const schemaData = {
       "Wayne",
     ],
   },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
+  priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {

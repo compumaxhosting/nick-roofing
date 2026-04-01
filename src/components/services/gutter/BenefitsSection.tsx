@@ -4,11 +4,10 @@ export const BenefitsSection = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-2xl sm:text-3xl font-bold mb-4">
-            Benefits of Gutter Installation
+            Benefits of Our Gutter Solutions
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-2xl mx-auto">
-            Invest in quality workmanship that delivers lasting value for your
-            home.
+            	Prevent water damage to siding, roof, and foundation
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
@@ -27,7 +26,7 @@ export const BenefitsSection = () => {
               </svg>
             </div>
             <p className="text-base text-slate-200">
-              Prevents foundation damage and basement flooding
+              Prevent water damage to siding, roof, and foundation
             </p>
           </div>
           <div className="flex items-start">
@@ -45,7 +44,7 @@ export const BenefitsSection = () => {
               </svg>
             </div>
             <p className="text-base text-slate-200">
-              Protects siding, windows, and landscaping
+              	Reduce maintenance and prevent clogging
             </p>
           </div>
           <div className="flex items-start">
@@ -63,7 +62,7 @@ export const BenefitsSection = () => {
               </svg>
             </div>
             <p className="text-base text-slate-200">
-              Reduces maintenance with quality materials
+              	Improve home curb appeal and property value
             </p>
           </div>
           <div className="flex items-start">
@@ -81,11 +80,22 @@ export const BenefitsSection = () => {
               </svg>
             </div>
             <p className="text-base text-slate-200">
-              Increases curb appeal and home value
+              	Protect your investment with professional installation
             </p>
           </div>
         </div>
+        <div className="bg-slate-800 border border-slate-700 rounded-lg p-8 mt-8 lg:mt-12 max-w-3xl mx-auto">
+  <h2 className="text-xl sm:text-2xl font-semibold mb-3">
+    Call to Action
+  </h2>
+
+  <p className="text-slate-300 mb-6">
+    Ready to safeguard your home? Contact Nick Roofing today for a free gutter consultation in Hawthorne, NJ and ensure your property is protected with expert gutter solutions.
+  </p>
+
+</div>
       </div>
+      
     </section>
   );
 };

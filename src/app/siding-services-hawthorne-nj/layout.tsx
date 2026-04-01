@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/siding1.png",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
     description:
-      "Siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Free estimates.",
+      "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -67,7 +67,6 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -89,32 +88,7 @@ const schemaData = {
       "Wayne",
     ],
   },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
+  priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {

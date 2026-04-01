@@ -22,8 +22,8 @@ export default function Page() {
       <IntroductionSection />
       <FeaturesSection />
       <BenefitsSection />
-      <FAQSection />
-      <ServiceAreas />
+      <FAQSection /> 
+      <ServiceAreas />  
       <GallerySection />
       <CtaSection />
       <Footer />

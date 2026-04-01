@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -21,20 +22,20 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
-          <li><a href="#" className="hover:text-gray-300">Home</a></li>
-          <li><a href="#" className="hover:text-gray-300">About</a></li>
-          <li><a href="#" className="hover:text-gray-300">Services</a></li>
-          <li><a href="#" className="hover:text-gray-300">Contact</a></li>
+          <li><Link href="/" className="hover:text-gray-300">Home</Link></li>
+          <li><Link href="/about" className="hover:text-gray-300">About</Link></li>
+          <li><Link href="/services" className="hover:text-gray-300">Services</Link></li>
+          <li><Link href="/contact" className="hover:text-gray-300">Contact</Link></li>
         </ul>
       </div>
 
       {/* Mobile Menu */}
       {menuOpen && (
         <ul className="mt-4 space-y-2 md:hidden">
-          <li><a href="#" className="block">Home</a></li>
-          <li><a href="#" className="block">About</a></li>
-          <li><a href="#" className="block">Services</a></li>
-          <li><a href="#" className="block">Contact</a></li>
+          <li><Link href="/" className="block">Home</Link></li>
+          <li><Link href="/about" className="block">About</Link></li>
+          <li><Link href="/services" className="block">Services</Link></li>
+          <li><Link href="/contact" className="block">Contact</Link></li>
         </ul>
       )}
     </nav>

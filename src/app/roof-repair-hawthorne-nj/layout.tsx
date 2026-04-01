@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "Roof restoration services",
     "Waterproofing and sealant services",
   ],
+
   alternates: {
     canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
   },
@@ -25,14 +26,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates.",
+      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
     url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/roof-repair1.jpg",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
-      "Fast roof leak fixes, storm damage repairs, shingles & flashing. 24/7 emergency service. Free estimates.",
+      "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
     images: ["https://www.nickroofing.com/og-image.jpg"],
   },
 };
@@ -55,7 +56,7 @@ const schemaData = {
   url: "https://www.nickroofing.com/",
   image: "https://www.nickroofing.com/og-image.jpg",
   description:
-    "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates.",
+    "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
   telephone: "(973) 207-0689",
   email: "nickcontractorllc@gmail.com",
   address: {
@@ -67,7 +68,6 @@ const schemaData = {
     addressCountry: "US",
   },
   openingHours: "Mo-Fr 08:00-18:00",
-  priceRange: "$$",
   areaServed: {
     "@type": "Place",
     name: [
@@ -89,32 +89,7 @@ const schemaData = {
       "Wayne",
     ],
   },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Roofing & Exterior Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Skylight Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Gutter Installation" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Waterproofing Services" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Roofing Repair" },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: { "@type": "Service", name: "Siding Services" },
-      },
-    ],
-  },
+  priceRange: "$$",
 };
 
 export default function Layout({ children }: { children: ReactNode }) {

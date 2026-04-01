@@ -21,7 +21,7 @@ export default function Page() {
       <Header />
       <HeroSection />
       <TrustIndicators />
-      <IntroductionSection />
+      <IntroductionSection />  
       <FeaturesSection />
       <BenefitsSection />
       <FAQSection />
