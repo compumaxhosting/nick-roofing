@@ -53,7 +53,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Nick Roofing"
             width={180}
             height={60}
@@ -167,7 +167,7 @@ export default function Header() {
           </button>
 
           <div className="mb-8">
-            <Image src="/logo.png" alt="Nick Roofing" width={160} height={50} />
+            <Image src="/logo.webp" alt="Nick Roofing" width={160} height={50} />
           </div>
 
           <div className="flex flex-col gap-5 font-semibold tracking-wide text-sm">

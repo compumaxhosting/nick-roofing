@@ -7,11 +7,11 @@ export default function About() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const images = [
-    "/skylights-intro.jpg",
-    "/gutter1.png",
-    "/waterproofing3.jpg",
-    "/roof-repair2.jpg",
-    "/gallery5.jpg",
+    "/skylights-intro.webp",
+    "/gutter1.webp",
+    "/waterproofing3.webp",
+    "/roof-repair2.webp",
+    "/gallery5.webp",
   ];
 
   useEffect(() => {

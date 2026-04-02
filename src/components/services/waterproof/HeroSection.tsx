@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section className="relative h-[60vh] w-full overflow-hidden">
       <Image
-        src="/waterproofing2.jpg"
+        src="/waterproofing2.webp"
         alt="Waterproofing Services"
         fill
         className="object-cover"

@@ -11,37 +11,23 @@ export const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How long does skylight installation take?",
+      question: "How do I know if I need a skylight replacement?",
       answer:
-        "Most residential skylight installations can be completed in 1-2 days, depending on roof type and skylight complexity.",
+        "If you notice condensation between panes or water stains on your ceiling, it’s time for a skylight replacement in NJ. Modern units offer significantly better insulation than older models.",
     },
     {
-      question: "Will skylights cause leaks?",
+      question: "Is custom installation available for unique roof types?",
       answer:
-        "Not when installed by the experts at Nick Roofing. We use flashing kits and waterproofing materials to ensure leak-proof results.",
-    },
-    {
-      question: "What types of skylights do you install?",
-      answer:
-        "We install fixed, venting, tubular, and custom skylights in various sizes and materials to match your home's architecture.",
-    },
-    {
-      question: "Are skylights energy-efficient?",
-      answer:
-        "Yes! We install ENERGY STAR®-rated skylights that include glazing, insulation, and UV coatings to reduce heat transfer.",
+        "Yes. We specialize in custom roof skylight installation in Hawthorne, NJ, ensuring a seamless fit for both flat and pitched roofs.",
     },
   ];
 
   return (
     <section className="py-10 px-4 max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
           Frequently Asked Questions
-        </h1>
-        <p className="text-base sm:text-lg text-slate-600">
-          Get answers to common questions about our Skylight Installation
-          services.
-        </p>
+        </h2>
       </div>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
@@ -67,6 +53,7 @@ export const FAQSection = () => {
           </div>
         ))}
       </div>
+      <p className="text-slate-900 pt-4">[Get Your Free Skylight Estimate Today]</p>
     </section>
   );
 };

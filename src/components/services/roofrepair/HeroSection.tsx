@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section className="relative h-[60vh] w-full overflow-hidden">
       <Image
-        src="/slide1.jpeg"
+        src="/slide1.webp"
         alt="Roof Repair Services"
         fill
         className="object-cover"
@@ -16,9 +16,9 @@ export const HeroSection = () => {
         <div className="h-full flex items-center">
           <div className="max-w-6xl mx-auto px-4 w-full">
             <div className="max-w-2xl">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
                 Roof Repair Services
-              </h1>
+              </h2>
               <p className="text-base sm:text-lg md:text-xl text-slate-200 mb-8 leading-relaxed">
                 Your roof, our expertise—built to last
               </p>

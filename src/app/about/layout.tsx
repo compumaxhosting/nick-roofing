@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.jpg",
+        url: "https://www.nickroofing.com/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -45,7 +45,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/og-image.webp",
   description:
     "Learn about Nick Roofing — Hawthorne, NJ’s trusted provider of roofing, siding, gutter, and waterproofing services. Local expertise. Quality guaranteed.",
   telephone: "(973) 207-0689",

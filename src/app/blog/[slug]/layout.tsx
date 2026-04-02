@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const imageUrl =
     blog.image && blog.image.startsWith("http")
       ? blog.image
-      : `${baseUrl}${blog.image || "/og-image.jpg"}`;
+      : `${baseUrl}${blog.image || "/og-image.webp"}`;
 
   return {
     title: blog.metatitle,
@@ -55,7 +55,7 @@ const generateSchema = (blog: Blog, slug: string) => {
   const imageUrl =
     blog.image && blog.image.startsWith("http")
       ? blog.image
-      : `${baseUrl}${blog.image || "/og-image.jpg"}`;
+      : `${baseUrl}${blog.image || "/og-image.webp"}`;
 
   return {
     "@context": "https://schema.org",
@@ -73,7 +73,7 @@ const generateSchema = (blog: Blog, slug: string) => {
       name: "Nick Roofing",
       logo: {
         "@type": "ImageObject",
-        url: `${baseUrl}/logo.png`,
+        url: `${baseUrl}/logo.webp`,
       },
     },
     datePublished: blog.date || "2025-01-01",

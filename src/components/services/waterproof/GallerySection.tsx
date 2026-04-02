@@ -2,17 +2,17 @@ import Image from "next/image";
 
 export const GallerySection = () => {
   const images = [
-    { src: "/waterproofing1.jpg", alt: "Skylight Installation project 1" },
-    { src: "/waterproofing2.jpg", alt: "Skylight Installation project 2" },
-    { src: "/waterproofing3.jpg", alt: "Skylight Installation project 3" },
+    { src: "/waterproofing1.webp", alt: "Skylight Installation project 1" },
+    { src: "/waterproofing2.webp", alt: "Skylight Installation project 2" },
+    { src: "/waterproofing3.webp", alt: "Skylight Installation project 3" },
   ];
 
   return (
     <section className="py-10 px-4 max-w-6xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
           Our Waterproofing Services Gallery
-        </h1>
+        </h2>
         <p className="text-base sm:text-lg text-slate-600">
           See examples of our quality workmanship and attention to detail.
         </p>

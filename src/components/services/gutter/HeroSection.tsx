@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section className="relative h-[60vh] w-full overflow-hidden">
       <Image
-        src="/gutter-installation-hero.png"
+        src="/gutter-installation-hero.webp"
         alt="Skylight Installation"
         fill
         className="object-cover"

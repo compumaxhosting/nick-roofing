@@ -7,31 +7,31 @@ export default function Services() {
     {
       title: "Skylight Repair & Installation",
       subtitle: "Customized Skylight Solutions in Hawthorne NJ",
-      image: "/skylight1.png",
+      image: "/skylight1.webp",
       link: "/skylight-repair-hawthorne-nj",
     },
     {
       title: "Gutter Installation",
       subtitle: "Seamless Gutters with Attention to Detail",
-      image: "/service2.jpg",
+      image: "/service2.webp",
       link: "/gutter-installation-hawthorne-nj",
     },
     {
       title: "Waterproofing Services",
       subtitle: "Efficient & Reliable Protection for Your Property",
-      image: "/service3.jpg",
+      image: "/service3.webp",
       link: "/water-proofing-hawthorne-nj",
     },
     {
       title: "Roof Repair",
       subtitle: "Prompt & Professional Roofing Repair Services",
-      image: "/service4.jpg",
+      image: "/service4.webp",
       link: "/roof-repair-hawthorne-nj",
     },
     {
       title: "Siding Services",
       subtitle: "Durable & Professional Siding Installation",
-      image: "/gallery5.jpg",
+      image: "/gallery5.webp",
       link: "/siding-services-hawthorne-nj",
     },
   ];

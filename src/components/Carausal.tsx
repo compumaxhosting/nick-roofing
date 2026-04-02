@@ -6,8 +6,11 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 
 const slides = [
-  { id: 1, image: "/slide1.jpeg" },
-  { id: 2, image: "/slide4.png" },
+  { id: 1, image: "/slide1.webp" },
+  { id: 2, image: "/slide4.webp" },
+  { id: 4, image: "/slide-2.webp" },
+  { id: 5, image: "/slide-3.webp" },
+  { id: 6, image: "/slide-4.webp" },
 ];
 
 export default function Carousel() {
@@ -54,20 +57,16 @@ export default function Carousel() {
         <div className="absolute inset-0 flex flex-col justify-center items-start p-10 pl-4 md:pl-16 lg:pl-16 xl:pl-80 text-white z-20">
           {/* 🔥 SEO OPTIMIZED H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            Roofing Contractor in Hawthorne NJ <br />
+            Roofing Contractor in Hawthorne, NJ <br />
             Residential & Commercial Roofing Experts
           </h1>
 
-          {/* First 100 words matter for SEO */}
           <p className="text-md md:text-2xl mb-4">
-            Nick Roofing is a trusted roofing contractor in Hawthorne, NJ
-            delivering professional roof repair, roof installation, and gutter
-            services backed by 35+ years of experience.
+            Roof Repair • Installation • Gutters • Skylights • Waterproofing • Siding
           </p>
 
           <p className="text-md md:text-2xl mb-6">
-            Licensed, insured, and committed to protecting homes and businesses
-            throughout Passaic County.
+            35+ Years Experience • Licensed & Insured
           </p>
 
           <Link

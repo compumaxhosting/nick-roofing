@@ -33,7 +33,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Gutter Installation in Hawthorne, NJ | Seamless Gutters by Nick Roofing",
 
-    image: "/blog/gutter4.png",
+    image: "/blog/gutter4.webp",
 
     date: "Feb 12, 2026",
 
@@ -181,7 +181,7 @@ export const BlogsData: Blog[] = [
 
     metatitle: "How New Siding Increases Property Value in Hawthorne, NJ",
 
-    image: "/blog/property-value.png",
+    image: "/blog/property-value.webp",
 
     date: "Jan 30, 2026",
 
@@ -287,7 +287,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "What to Expect When Hiring a Roof Repair Service in Hawthorne, NJJ",
 
-    image: "/blog/blog-repair.png",
+    image: "/blog/blog-repair.webp",
 
     date: "Jan 20, 2026",
 
@@ -380,7 +380,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Seasonal Roof Maintenance Tips | Roof Repair Services in Hawthorne, NJ",
 
-    image: "/blog/blog-seasonal.png",
+    image: "/blog/blog-seasonal.webp",
 
     date: "Dec 30, 2025",
 
@@ -687,7 +687,7 @@ export const BlogsData: Blog[] = [
     title: "How to Protect Your Home from Moisture Damage in Hawthorne, NJ",
     metatitle: "How to Protect Your Home from Moisture Damage in Hawthorne, NJ",
 
-    image: "/blog/blog-protect-roof.jpg",
+    image: "/blog/blog-protect-roof.webp",
 
     date: "Dec 17, 2025",
 
@@ -764,7 +764,7 @@ export const BlogsData: Blog[] = [
     title: "Hawthorne NJ Roofing Repair Specialists You Can Trust",
     metatitle: "Trusted Roof Repair Specialists in Hawthorne, NJ",
 
-    image: "/blog-5.jpeg",
+    image: "/blog-4.webp",
 
     date: "Dec 09, 2025",
 
@@ -856,7 +856,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Roof Repair & Replacement in Hawthorne NJ | Local Guide by Nick Roofing",
 
-    image: "/blog-5.png",
+    image: "/blog-7.webp",
 
     date: "November 27, 2025",
 
@@ -1052,7 +1052,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Stop Leaks Before They Start: Top Waterproofing Solutions in Hawthorne, NJ",
 
-    image: "/blog/blog-3.jpeg",
+    image: "/blog/blog-3.webp",
 
     date: "November 10, 2025",
 
@@ -1305,7 +1305,7 @@ export const BlogsData: Blog[] = [
 
     date: "October 30, 2025",
 
-    image: "/blog/skylight-blog.png",
+    image: "/blog/skylight-blog.webp",
 
     sections: [
       {
@@ -1475,7 +1475,7 @@ export const BlogsData: Blog[] = [
 
     date: "November 6, 2025",
 
-    image: "/service2.jpg",
+    image: "/service2.webp",
 
     sections: [
       {

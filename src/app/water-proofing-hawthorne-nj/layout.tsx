@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/roof-repair1.jpg",
+        url: "https://www.nickroofing.com/roof-repair1.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Waterproofing in Hawthorne, NJ | Nick Roofing",
     description:
       "Basement, roof & foundation waterproofing in Hawthorne, NJ. Emergency leak repair. Free estimates.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/og-image.webp"],
   },
 };
 
@@ -53,7 +53,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/og-image.webp",
   description:
     "Expert waterproofing services in Hawthorne, NJ—basement, roof & foundation sealing.",
   telephone: "(973) 207-0689",

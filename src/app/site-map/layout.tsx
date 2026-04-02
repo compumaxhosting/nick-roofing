@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/roof-repair1.jpg",
+        url: "https://www.nickroofing.com/roof-repair1.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
       "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/og-image.webp"],
   },
 };
 
@@ -52,7 +52,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/og-image.webp",
   description:
     "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
   telephone: "(973) 207-0689",

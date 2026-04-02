@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/gallery2.jpg",
+        url: "https://www.nickroofing.com/gallery2.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Roofing & Siding Gallery – Nick Roofing | Hawthorne, NJ",
     description:
       "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/og-image.webp"],
   },
 };
 
@@ -54,7 +54,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/og-image.webp",
   description:
     "Browse Nick Roofing’s gallery featuring skylight, gutter, roofing, waterproofing & siding projects across Hawthorne, Ridgewood, Wayne, and nearby NJ towns.",
   telephone: "(973) 207-0689",

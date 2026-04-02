@@ -9,44 +9,30 @@ export const FAQSection = () => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
 
-  const faqs = [
-    {
-      question: "How often should gutters be replaced?",
-      answer:
-        "Quality gutters typically last 20-25 years. Signs for replacement include rust, cracks, sagging, or frequent clogs.",
-    },
-    {
-      question: "Do you offer gutter guards?",
-      answer:
-        "Yes, we install premium micro-mesh gutter guards that keep leaves and debris out while allowing water to flow freely.",
-    },
-    {
-      question: "What's the difference between seamless and sectional gutters?",
-      answer:
-        "Seamless gutters are custom-formed on-site with no joints, eliminating common leak points that occur with sectional gutters.",
-    },
-    {
-      question: "What size gutters do I need?",
-      answer:
-        "Most residential homes benefit from 5 or 6 seamless gutters. We also offer oversized systems for commercial buildings.",
-    },
-    {
-      question: "How long does gutter installation take?",
-      answer:
-        "Most installations are completed within a single day, depending on the building size and system type.",
-    },
-  ];
+const faqs = [
+  {
+    question: "How long does gutter installation take?",
+    answer:
+      "Most residential gutter installations in Hawthorne, NJ are completed within 1–2 days, depending on home size and complexity.",
+  },
+  {
+    question: "Do you offer leaf guard options?",
+    answer:
+      "Yes! We provide durable leaf guard systems to prevent clogging and reduce maintenance.",
+  },
+  {
+    question: "Can you repair old gutters?",
+    answer:
+      "Absolutely. Our team can repair or replace damaged gutters efficiently.",
+  },
+];
 
   return (
     <section className="py-10 px-4 max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
           Frequently Asked Questions
-        </h1>
-        <p className="text-base sm:text-lg text-slate-600">
-          Get answers to common questions about our Skylight Installation
-          services.
-        </p>
+        </h2>
       </div>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
@@ -71,6 +57,11 @@ export const FAQSection = () => {
             )}
           </div>
         ))}
+      </div>
+      <div className="mt-12 text-justify">
+        <p className="text-slate-600 text-base sm:text-lg">
+          Nick Roofing provides professional gutter installation in Hawthorne, NJ, offering seamless, durable gutters for residential homes. Our services prevent water damage, reduce maintenance, and improve property value—ideal for homeowners seeking reliable, customized gutter solutions with expert installation.
+        </p>
       </div>
     </section>
   );

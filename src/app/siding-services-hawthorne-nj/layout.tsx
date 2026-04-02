@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.nickroofing.com/siding1.png",
+        url: "https://www.nickroofing.com/siding1.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Expert Siding Services in Hawthorne, NJ | Nick Roofing",
     description:
       "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/og-image.webp"],
   },
 };
 
@@ -53,7 +53,7 @@ const schemaData = {
   "@type": "RoofingContractor",
   name: "Nick Roofing",
   url: "https://www.nickroofing.com/",
-  image: "https://www.nickroofing.com/og-image.jpg",
+  image: "https://www.nickroofing.com/og-image.webp",
   description:
     "Trust Nick Roofing for top-quality siding installation, repair & replacement in Hawthorne, NJ. Vinyl, wood & fiber cement siding services. Local experts, honest pricing!",
   telephone: "(973) 207-0689",

@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "Nick Roofing",
     images: [
       {
-        url: "https://www.nickroofing.com/og-image.png",
+        url: "https://www.nickroofing.com/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Nick Roofing - Roofing Contractor in Hawthorne NJ",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     title: "Roofing Contractor Hawthorne NJ | Nick Roofing",
     description:
       "Roof repair, replacement, gutters, skylights & siding in Hawthorne NJ. Licensed & insured roofing experts.",
-    images: ["https://www.nickroofing.com/og-image.jpg"],
+    images: ["https://www.nickroofing.com/og-image.webp"],
   },
 
   robots: {
@@ -99,7 +99,7 @@ export default function RootLayout({
     "@type": "RoofingContractor",
     name: "Nick Roofing",
     url: "https://www.nickroofing.com/",
-    image: "https://www.nickroofing.com/og-image.jpg",
+    image: "https://www.nickroofing.com/og-image.webp",
     description:
       "Trusted roofing, skylight, gutter, siding & waterproofing experts in Hawthorne, NJ & nearby towns. Local pros. Free estimates. Quality guaranteed!",
     telephone: "+1-973-207-0689",

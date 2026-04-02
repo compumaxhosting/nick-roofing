@@ -23,14 +23,14 @@ export default function Gallery() {
 
     // Gallery images array with dimensions
     const galleryImages: GalleryImageType[] = [
-        { src: "/gallery1.JPG", alt: "Gallery Image 1", width: 1920, height: 1280 },
-        { src: "/gallery2.jpg", alt: "Gallery Image 2", width: 1920, height: 1280 },
-        { src: "/service1.jpg", alt: "Gallery Image 3", width: 1920, height: 1280 },
-        { src: "/service3.jpg", alt: "Gallery Image 4", width: 1920, height: 1280 },
-        { src: "/gallery3.jpg", alt: "Gallery Image 5", width: 1920, height: 1280 },
-        { src: "/gallery4.jpg", alt: "Gallery Image 6", width: 1920, height: 1280 },
-        { src: "/gallery5.jpg", alt: "Gallery Image 7", width: 1920, height: 1280 },
-        { src: "/gallery6.jpg", alt: "Gallery Image 8", width: 1920, height: 1280 }
+        { src: "/gallery1.webp", alt: "Gallery Image 1", width: 1920, height: 1280 },
+        { src: "/gallery2.webp", alt: "Gallery Image 2", width: 1920, height: 1280 },
+        { src: "/service1.webp", alt: "Gallery Image 3", width: 1920, height: 1280 },
+        { src: "/service3.webp", alt: "Gallery Image 4", width: 1920, height: 1280 },
+        { src: "/gallery3.webp", alt: "Gallery Image 5", width: 1920, height: 1280 },
+        { src: "/gallery4.webp", alt: "Gallery Image 6", width: 1920, height: 1280 },
+        { src: "/gallery5.webp", alt: "Gallery Image 7", width: 1920, height: 1280 },
+        { src: "/gallery6.webp", alt: "Gallery Image 8", width: 1920, height: 1280 }
     ];
 
     const openSlider = (index: number) => {
@@ -105,9 +105,9 @@ export default function Gallery() {
             <section className="py-16 px-4 md:px-10 lg:px-20">
                 {/* Section Heading */}
                 <div className="text-center mb-10">
-                    <h2 className="text-xl md:text-l font-semibold tracking-[2px] mb-5 text-[#364f4f]">
+                    <h1 className="text-xl md:text-l font-semibold tracking-[2px] mb-5 text-[#364f4f]">
                         Gallery
-                    </h2>
+                    </h1>
                     <span className="block mx-auto w-10 h-0.5 bg-[#36454F] mb-7"></span>
                 </div>
 

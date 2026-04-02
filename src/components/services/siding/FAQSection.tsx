@@ -35,9 +35,9 @@ export const FAQSection = () => {
   return (
     <section className="py-10 px-4 max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
           Frequently Asked Questions
-        </h1>
+        </h2>
         <p className="text-base sm:text-lg text-slate-600">
           Get answers to common questions about our siding services services.
         </p>

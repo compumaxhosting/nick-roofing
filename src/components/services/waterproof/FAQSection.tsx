@@ -11,37 +11,33 @@ export const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How do I know if I need waterproofing?",
+      question: "How do I know if I need professional waterproofing?",
       answer:
-        "Signs include basement moisture, musty odors, wall stains, peeling paint, or visible mold. We offer free assessments to determine your needs.",
+        'Look for damp spots, musty odors, or white powdery residue (efflorescence) on basement walls. These are "pain points" indicating active moisture intrusion that requires professional drainage solutions.',
     },
     {
-      question: "How long does waterproofing last?",
+      question: "Is exterior or interior waterproofing better for NJ homes?",
       answer:
-        "Our systems last between 10 and 20 years, depending on materials used and roof conditions.",
+        "It depends on your foundation. We offer free inspections to determine if a French drain, interior sump pump, or exterior sealant is the most cost-effective route for your specific property layout.",
     },
     {
-      question: "Can you waterproof my roof in winter?",
+      question: "Can waterproofing increase my home's market value?",
       answer:
-        "Yes, we offer cold-weather solutions and can work year-round when conditions allow.",
+        "Yes. A dry, certified waterproofed basement protects structural integrity and increases usable square footage, making it a major asset for Hawthorne real estate valuations.",
     },
     {
-      question: "Is roof coating the same as waterproofing?",
+      question: "How long does a typical waterproofing project take?",
       answer:
-        "Roof coatings are a type of waterproofing, but we also offer multi-layered systems for enhanced protection.",
+        "Most residential projects in the Hawthorne area are completed within 2 to 5 days, depending on the scale of foundation repairs or drainage systems required.",
     },
   ];
 
   return (
     <section className="py-10 px-4 max-w-4xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
           Frequently Asked Questions
-        </h1>
-        <p className="text-base sm:text-lg text-slate-600">
-          Get answers to common questions about our waterproofing services
-          services.
-        </p>
+        </h2>
       </div>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
