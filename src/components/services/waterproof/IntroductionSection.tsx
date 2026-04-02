@@ -48,7 +48,7 @@ export const IntroductionSection = () => {
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/skylights-intro.webp"
+              src="/waterproofing2.webp"
               alt="Skylight Installation example"
               fill
               className="object-cover"

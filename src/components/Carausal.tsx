@@ -58,12 +58,15 @@ export default function Carousel() {
         <div className="absolute inset-0 flex flex-col justify-center items-start p-10 pl-4 md:pl-16 lg:pl-16 xl:pl-80 text-white z-20">
           {/* 🔥 SEO OPTIMIZED H1 */}
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            Roofing Contractor in Hawthorne, NJ <br />
-            Residential & Commercial Roofing Experts
+            Roofing Contractor in Hawthorne, NJ
           </h1>
+          <p className="text-md md:text-2xl mb-4">
+            Residential & Commercial Roofing Experts
+          </p>
 
           <p className="text-md md:text-2xl mb-4">
-            Roof Repair • Installation • Gutters • Skylights • Waterproofing • Siding
+            Roof Repair • Installation • Gutters • Skylights • Waterproofing •
+            Siding
           </p>
 
           <p className="text-md md:text-2xl mb-6">
