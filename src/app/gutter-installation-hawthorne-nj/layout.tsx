@@ -46,11 +46,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-<<<<<<< HEAD
         url: "https://www.nickroofing.com/images/gutter-installation-social-share.webp",
-=======
-        url: "https://www.nickroofing.com/images/gutter-installation-social-share.jpg",
->>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
         width: 1200,
         height: 630,
         alt: "Gutter Installation Hawthorne NJ - Nick Roofing",
@@ -64,11 +60,7 @@ export const metadata: Metadata = {
     description:
       "Durable, seamless gutter solutions tailored to Hawthorne's weather. Contact Nick Roofing for a free consultation.",
     images: [
-<<<<<<< HEAD
       "https://www.nickroofing.com/images/gutter-installation-social-share.webp",
-=======
-      "https://www.nickroofing.com/images/gutter-installation-social-share.jpg",
->>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
     ],
     creator: "@NickRoofing",
   },
@@ -82,11 +74,7 @@ const schemaData = {
       "@id": "https://www.nickroofing.com/#organization",
       name: "Nick Roofing",
       url: "https://www.nickroofing.com/",
-<<<<<<< HEAD
       image: "https://www.nickroofing.com/images/logo.webp",
-=======
-      image: "https://www.nickroofing.com/images/logo.png",
->>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
       description:
         "Nick Roofing is a trusted roofing contractor in Hawthorne, NJ specializing in gutter installation, repair, and exterior services.",
       telephone: "+1-973-207-0689",
