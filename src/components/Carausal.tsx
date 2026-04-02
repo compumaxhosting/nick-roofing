@@ -13,6 +13,7 @@ const slides = [
   { id: 6, image: "/slide-4.webp" },
 ];
 
+
 export default function Carousel() {
   const [current, setCurrent] = useState(0);
 

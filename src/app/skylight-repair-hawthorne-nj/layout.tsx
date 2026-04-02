@@ -42,7 +42,11 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
+<<<<<<< HEAD
         url: "https://www.nickroofing.com/images/skylight-repair-hawthorne.webp",
+=======
+        url: "https://www.nickroofing.com/images/skylight-repair-hawthorne.jpg",
+>>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
         width: 1200,
         height: 630,
         alt: "Skylight Repair Hawthorne NJ",
@@ -56,7 +60,11 @@ export const metadata: Metadata = {
     description:
       "Trusted local skylight repair experts. We stop leaks and replace damaged glass quickly.",
     images: [
+<<<<<<< HEAD
       "https://www.nickroofing.com/images/skylight-repair-hawthorne.webp",
+=======
+      "https://www.nickroofing.com/images/skylight-repair-hawthorne.jpg",
+>>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
     ],
     site: "@NickRoofing",
   },
@@ -73,7 +81,11 @@ const schemaData = {
       telephone: "+1-973-207-0689",
       email: "nickcontractorllc@gmail.com",
       image:
+<<<<<<< HEAD
         "https://www.nickroofing.com/images/skylight-repair-hawthorne.webp",
+=======
+        "https://www.nickroofing.com/images/skylight-repair-hawthorne.jpg",
+>>>>>>> 2f35ee160a21a57968ab1bbd8c75977429eb54f7
       priceRange: "$$",
 
       address: {
