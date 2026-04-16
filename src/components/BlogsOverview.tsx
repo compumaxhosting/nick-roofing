@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "How Weather Affects Your Home’s Waterproofing Needs",
+      path: "new-jersey-weather-home-waterproofing-guide",
+    },
+    {
       name: "Professional Gutter Installation NJ",
       path: "gutter-installation-hawthorne",
     },

@@ -66,6 +66,10 @@ const SiteMap = () => {
      name: "Blog - Professional Gutter Installation NJ",
      url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne",
    },
+   {
+     name: "Blog - How Weather Affects Your Home’s Waterproofing Needs",
+     url: "https://www.nickroofing.com/blog/new-jersey-weather-home-waterproofing-guide",
+   },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];
 
