@@ -36,30 +36,28 @@ export default function About() {
 
             <span className="block w-[40px] h-[2px] bg-[#364f4f] mb-[30px]"></span>
 
-            <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
-              Nick Roofing is a trusted roofing contractor serving Hawthorne, NJ
-              and surrounding Passaic County communities. We specialize in
-              <strong>
-                {" "}
-                roof repair, roof installation, gutter installation, skylights,
-                and waterproofing services
-              </strong>{" "}
-              for residential and commercial properties.
+            <p className="mb-[15px] text-L leading-relaxed text-[#333] font-semibold">
+              Trusted Roofing & Exterior Pros Right Here in Hawthorne, NJ
             </p>
 
             <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
-              With over <strong>35 years of hands-on roofing experience</strong>
-              , our team delivers durable, weather-resistant roofing solutions
-              designed to protect your home or business year-round. We proudly
-              serve Hawthorne, Franklin Lakes, Midland Park, Allendale,
-              Waldwick, Ramsey, Saddle River, Ridgewood, Glen Rock, Fair Lawn,
-              Clifton, Paramus, Oradell, North Haledon, Totowa, and Wayne.
+              Keeping a home bone-dry in North Jersey is no small feat,
+              especially with our unpredictable mix of humid summers and heavy
+              winter snow. At Nick Roofing, we specialize in complete roofing
+              and exterior solutions in Hawthorne, NJ, helping your home stand
+              strong against the elements. Whether you’re dealing with a
+              stubborn leak near Goffle Brook Park or looking to brighten up
+              your living room with a new skylight, we bring local expertise to
+              every shingle and seam.
             </p>
 
             <p className="mb-[15px] text-sm leading-relaxed text-[#333]">
-              Whether you need emergency roof repair, new roof installation, or
-              professional gutter services, Nick Roofing provides quality
-              workmanship, honest pricing, and reliable service you can trust.
+              Nick Roofing provides complete roofing and exterior solutions in
+              Hawthorne, NJ, for homeowners needing reliable repairs, siding,
+              and gutter systems. Our primary benefit is long-term moisture
+              protection; by combining advanced waterproofing with expert roof
+              repair and maintenance, we ensure your property remains leak-free
+              and energy-efficient year-round.
             </p>
 
             <Link

@@ -46,13 +46,51 @@ export default function Services() {
           </h2>
           <span className="block mx-auto w-10 h-0.5 bg-[#36454F] mb-7"></span>
 
-          <p className="max-w-2xl mx-auto text-sm text-[#333] leading-relaxed">
-            Nick Roofing provides professional roof repair, roof installation,
-            gutter installation, skylight repair, waterproofing, and siding
-            services in Hawthorne, NJ and surrounding areas. Our experienced
-            roofing contractors deliver durable, weather-resistant solutions
-            built to protect your home or business.
-          </p>
+          <div className="max-w-4xl mx-auto text-sm text-[#333] leading-relaxed text-left space-y-4">
+            <h3 className="font-semibold text-[#364f4f] text-base">
+              Total Protection From Top to Bottom
+            </h3>
+
+            <p>
+              We focus on the &quot;big picture&quot; of your home’s exterior to ensure
+              one problem doesn&apos;t lead to another. Our team handles everything
+              your home needs to stay efficient and protected:
+            </p>
+
+            <div>
+              <span className="font-semibold">Roof Repair & Maintenance: </span>
+              <span>
+                From fixing minor leaks to replacing aged materials, we stop
+                damage in its tracks.
+              </span>
+            </div>
+
+            <div>
+              <span className="font-semibold">Skylights & Gutters: </span>
+              <span>
+                Professional installation to bring in natural light while
+                ensuring water drains safely away from your foundation.
+              </span>
+            </div>
+
+            <div>
+              <span className="font-semibold">Waterproofing & Siding: </span>
+              <span>
+                Advanced moisture barriers and high-quality siding that boost
+                your curb appeal and lower your energy bills.
+              </span>
+            </div>
+
+            <div>
+              <span className="font-semibold">
+                Early-Detection Inspections:{" "}
+              </span>
+              <span>
+                We spot the &quot;invisible&quot; issues before they turn into expensive
+                midnight emergencies.
+              </span>
+            </div>
+          </div>
         </div>
 
         {/* Services Grid */}
