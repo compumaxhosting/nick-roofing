@@ -14,7 +14,7 @@ export default function Home() {
       <Carausal />
       <About />
       <Services />
-      <Gallery />
+       <Gallery />
       <ServiceAreasSection /> 
       <ContactUs />
       <Footer />
