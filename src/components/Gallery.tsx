@@ -36,12 +36,6 @@ export default function Gallery() {
       height: 1280,
     },
     {
-      src: "/gallery9.webp",
-      alt: "Gallery Image 11",
-      width: 1920,
-      height: 1280,
-    },
-    {
       src: "/gallery10.webp",
       alt: "Gallery Image 12",
       width: 1920,
@@ -77,9 +71,10 @@ export default function Gallery() {
       width: 1920,
       height: 1280,
     },
+
     {
-      src: "/service3.webp",
-      alt: "Gallery Image 4",
+      src: "/gallery6.webp",
+      alt: "Gallery Image 8",
       width: 1920,
       height: 1280,
     },
@@ -90,8 +85,8 @@ export default function Gallery() {
       height: 1280,
     },
     {
-      src: "/gallery6.webp",
-      alt: "Gallery Image 8",
+      src: "/service3.webp",
+      alt: "Gallery Image 4",
       width: 1920,
       height: 1280,
     },
