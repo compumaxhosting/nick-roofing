@@ -11,25 +11,22 @@ export const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How do I know if I need professional waterproofing?",
+      question: "What is the average cost of roof repair in Hawthorne, NJ? ",
       answer:
-        'Look for damp spots, musty odors, or white powdery residue (efflorescence) on basement walls. These are "pain points" indicating active moisture intrusion that requires professional drainage solutions.',
+        'Look for damp spots, musty odors, or white powdery residue (efflorescence) on basement walls. These areMinor repairs (shingles/flashing) typically range from $300 to $800. Moderate leak repairs usually cost between $800 and $2,500. We provide free, itemized quotes. "pain points" indicating active moisture intrusion that requires professional drainage solutions.',
     },
     {
-      question: "Is exterior or interior waterproofing better for NJ homes?",
+      question:
+        "Do you offer emergency roof repair near me? Is exterior or interior waterproofing better for NJ homes?",
       answer:
-        "It depends on your foundation. We offer free inspections to determine if a French drain, interior sump pump, or exterior sealant is the most cost-effective route for your specific property layout.",
+        "Yes. We provide emergency roof repair in Hawthorne for storm damage and urgent leaks, often offering same-day service to protect your interior.It depends on your foundation. We offer free inspections to determine if a French drain, interior sump pump, or exterior sealant is the most cost-effective route for your specific property layout.",
     },
     {
-      question: "Can waterproofing increase my home's market value?",
+      question: "How long does a typical repair take? ",
       answer:
-        "Yes. A dry, certified waterproofed basement protects structural integrity and increases usable square footage, making it a major asset for Hawthorne real estate valuations.",
+        "Most standard repairs, like shingle or flashing fixes, are completed within 3 to 8 hours. Major storm damage may take 1–2 days.Yes. A dry, certified waterproofed basement protects structural integrity and increases usable square footage, making it a major asset for Hawthorne real estate valuations.",
     },
-    {
-      question: "How long does a typical waterproofing project take?",
-      answer:
-        "Most residential projects in the Hawthorne area are completed within 2 to 5 days, depending on the scale of foundation repairs or drainage systems required.",
-    },
+    
   ];
 
   return (

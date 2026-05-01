@@ -11,19 +11,20 @@ export const FAQSection = () => {
 
 const faqs = [
   {
-    question: "How long does gutter installation take?",
+    question:
+      "How do I know if I need a full gutter replacement in Hawthorne, NJ? ",
     answer:
-      "Most residential gutter installations in Hawthorne, NJ are completed within 1–2 days, depending on home size and complexity.",
+      "If you notice peeling paint, basement moisture, or sagging troughs, it’s time for a replacement. Our team provides honest assessments to determine if a repair or a new residential gutter installation is necessary.",
   },
   {
-    question: "Do you offer leaf guard options?",
+    question: "What are the benefits of seamless gutters?",
     answer:
-      "Yes! We provide durable leaf guard systems to prevent clogging and reduce maintenance.",
+      "Unlike sectional gutters, seamless systems have no joints, which significantly reduces the risk of leaks and clogs, providing better protection for your Hawthorne property.",
   },
   {
-    question: "Can you repair old gutters?",
+    question: "Do you offer gutter repair services near Hawthorne, NJ?",
     answer:
-      "Absolutely. Our team can repair or replace damaged gutters efficiently.",
+      "Yes! We provide comprehensive gutter repair services for minor leaks, loose brackets, and downspout realignments throughout Northern New Jersey.",
   },
 ];
 
