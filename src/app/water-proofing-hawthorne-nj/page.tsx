@@ -3,6 +3,7 @@ export const revalidate = 86400; // 24h
 
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
+import ServiceBar from "@/components/ServiceBar";
 import { BenefitsSection } from "@/components/services/waterproof/BenefitsSection";
 import { CtaSection } from "@/components/services/waterproof/CtaSection";
 import { FAQSection } from "@/components/services/waterproof/FAQSection";
@@ -21,6 +22,7 @@ export default function Page() {
       <TrustIndicators />
       <IntroductionSection />
       <FeaturesSection />
+      <ServiceBar />
       <BenefitsSection />
       <FAQSection /> 
       <ServiceAreas />  

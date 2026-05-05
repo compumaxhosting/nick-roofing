@@ -1,4 +1,3 @@
-import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -6,43 +5,26 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(req: Request) {
   try {
     const body = await req.json();
+
     const { name, email, phone, service, message } = body;
 
-    // Debug log (development only)
-    console.log("📩 Contact form submission:", {
-      name,
-      email,
-      phone,
-      service,
-      message,
-    });
-
-    // Ensure recipients array is never undefined
-    const recipients =
-      process.env.TO_EMAILS?.split(",").map((email) => email.trim()) || [];
-
-    if (recipients.length === 0) {
-      throw new Error("No recipient emails defined in TO_EMAILS");
-    }
-
     const data = await resend.emails.send({
-      from: process.env.FROM_EMAIL as string,
-      to: recipients, // multiple recipients supported
-      subject: `New Contact Form Submission from ${name}`,
+      from: "Contact Form <noreply@nickroofing.com>", // ⚠️ replace with your verified domain email
+      to: ["nickcontractorllc@gmail.com", "wassay@compumaxllc.com"],
+      subject: `New Contact Form Submission - ${service || "General"}`,
       html: `
-        <h2>New Inquiry</h2>
+        <h2>New Contact Form Message</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Service:</strong> ${service}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message}</p>
+        <p><strong>Message:</strong><br/>${message}</p>
       `,
     });
 
-    return NextResponse.json({ success: true, data });
+    return Response.json({ success: true, data });
   } catch (error) {
-    console.error("❌ Error sending email:", error);
-    return NextResponse.json({ success: false, error });
+    console.error(error);
+    return new Response("Error sending email", { status: 500 });
   }
 }

@@ -4,6 +4,7 @@ export const revalidate = 86400; // 24h
 
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
+import ServiceBar from "@/components/ServiceBar";
 import { BenefitsSection } from "@/components/services/skylight/BenefitsSection";
 import { CtaSection } from "@/components/services/skylight/CtaSection";
 import { FAQSection } from "@/components/services/skylight/FAQSection";
@@ -20,9 +21,11 @@ export default function Page() {
     <>
       <Header />
       <HeroSection />
+
       <TrustIndicators />
-      <IntroductionSection />  
+      <IntroductionSection />
       <FeaturesSection />
+      <ServiceBar />
       <BenefitsSection />
       <FAQSection />
       <ServiceAreas />
