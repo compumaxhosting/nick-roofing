@@ -4,7 +4,6 @@ import { BlogsData } from "@/data/BlogsData";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import React from "react";
 
 const BlogSection = () => {
   const router = useRouter();

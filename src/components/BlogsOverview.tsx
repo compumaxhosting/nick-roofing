@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "2026 Guide: Siding Installation Cost in Hawthorne, NJ?",
+      path: "siding-installation-cost-hawthorne-nj",
+    },
+     {
       name: "How Weather Affects Your Home’s Waterproofing Needs",
       path: "new-jersey-weather-home-waterproofing-guide",
     },

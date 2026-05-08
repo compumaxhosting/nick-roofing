@@ -70,6 +70,10 @@ const SiteMap = () => {
      name: "Blog - How Weather Affects Your Home’s Waterproofing Needs",
      url: "https://www.nickroofing.com/blog/new-jersey-weather-home-waterproofing-guide",
    },
+   {
+     name: "Blog - 2026 Guide: Siding Installation Cost in Hawthorne, NJ?",
+     url: "https://www.nickroofing.com/blog/siding-installation-cost-hawthorne-nj",
+   },
    { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
  ];
 
