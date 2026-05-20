@@ -2,6 +2,7 @@ import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
+
 export const revalidate = 86400; // 24h
 
 export default function BookAppointmentPage() {
