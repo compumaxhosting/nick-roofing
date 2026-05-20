@@ -6,7 +6,7 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    const { name, email, phone, service, message } = body;
+    const { name, email, phone, appointmentDate, service, message } = body;
 
     const data = await resend.emails.send({
       from: "Contact Form <noreply@nickroofing.com>", // ⚠️ replace with your verified domain email
@@ -51,6 +51,13 @@ export async function POST(req: Request) {
                   <div class="label">📞 Phone</div>
                   <div class="value"><a href="tel:${phone}" style="color: #35454f; text-decoration: none;">${phone}</a></div>
                 </div>
+
+                ${appointmentDate ? `
+                <div class="field">
+                  <div class="label">📅 Appointment Date</div>
+                  <div class="value">${appointmentDate}</div>
+                </div>
+                ` : ""}
                 
                 <div class="field">
                   <div class="label">🔧 Service</div>

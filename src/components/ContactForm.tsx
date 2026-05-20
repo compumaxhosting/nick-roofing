@@ -8,11 +8,16 @@ type ContactFormData = {
   name: string;
   email: string;
   phone: string;
+  appointmentDate?: string;
   service: string;
   message: string;
 };
 
-export default function ContactForm() {
+type ContactFormProps = {
+  showAppointmentDate?: boolean;
+};
+
+export default function ContactForm({ showAppointmentDate = false }: ContactFormProps) {
   const { register, handleSubmit, reset } = useForm<ContactFormData>();
   const [captcha, setCaptcha] = useState("");
   const [captchaInput, setCaptchaInput] = useState("");
@@ -74,6 +79,13 @@ export default function ContactForm() {
         placeholder="Phone"
         className="w-full border py-3 px-5"
       />
+      {showAppointmentDate && (
+        <input
+          {...register("appointmentDate")}
+          type="date"
+          className="w-full border py-3 px-5"
+        />
+      )}
       <select
         {...register("service")}
         className="w-full border py-3 px-5 bg-white"
