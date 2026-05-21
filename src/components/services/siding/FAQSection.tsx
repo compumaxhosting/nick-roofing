@@ -39,7 +39,7 @@ export const FAQSection = () => {
           Frequently Asked Questions
         </h2>
         <p className="text-base sm:text-lg text-slate-600">
-          Get answers to common questions about our siding services services.
+          Get answers to common questions about our siding services.
         </p>
       </div>
       <div className="space-y-4">

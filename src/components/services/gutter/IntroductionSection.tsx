@@ -27,16 +27,7 @@ export const IntroductionSection = () => {
             we ensure your home remains dry, safe, and beautiful.
           </p>
 
-          <h3 className="text-xl font-semibold text-slate-900 mb-4">
-            Our Core Services Include:
-          </h3>
-
-          <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Old, leaky, or clogged gutters do more than just drip—they threaten
-            your siding, landscaping, and structural integrity. We provide
-            advanced seamless gutters in Hawthorne, NJ, fabricated on-site to
-            ensure a perfect fit with zero leaks.
-          </p>
+          
 
           <h3 className="text-xl font-semibold text-slate-900 mb-4">
             Our Core Services Include:
