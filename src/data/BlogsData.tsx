@@ -35,7 +35,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Top 7 Signs You Need Roof Repair Services in Hawthorne NJ Before a Small Leak Becomes a Major Problem",
 
-    image: "/blog/Siding Installation Cost in Hawthorne NJ (2026 Guide).webp",
+    image: "/blog/BestRoofingContractorsinHawthornenj.webp",
 
     date: "june 5, 2026",
 
