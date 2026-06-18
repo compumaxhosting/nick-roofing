@@ -6,31 +6,21 @@ export const IntroductionSection = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-            Expert Siding Services in Hawthorne, NJ
+            Siding Services Hawthorne NJ | Professional Home Siding Installation
+            & Repair
           </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Need top-quality siding services in Hawthorne, NJ? At Nick Roofing &
-            Siding, we provide expert siding installation, repair, and
-            replacement tailored to New Jersey homes.
+            Siding services in Hawthorne, NJ help homeowners protect, improve,
+            and maintain their exterior walls with durable siding installation,
+            repair, and replacement solutions.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Whether you need durable vinyl siding, classic wood siding, or
-            modern fiber cement options, our experienced team delivers lasting
-            results with honest pricing and dependable service. As a trusted
-            local contractor, we understand the climate and building codes in
-            Hawthorne and the surrounding Passaic County area.
+            Professional siding improves curb appeal, energy efficiency, weather
+            protection, and the long-term performance of residential properties.
+            Nick Roofing provides siding services throughout Hawthorne NJ,
+            Passaic County, Bergen County, and surrounding Northern New Jersey
+            areas.
           </p>
-          <div className="bg-blue-50 p-6 rounded-lg">
-            <h2 className="font-semibold text-slate-900 mb-2">
-              Why Choose Nick Roofing?
-            </h2>
-            <p className="text-slate-600 text-sm sm:text-sm">
-              We help homeowners choose the right siding materials to protect
-              their property and boost curb appeal. From storm damage repairs to
-              full exterior upgrades, we handle every siding project with
-              precision and care.
-            </p>
-          </div>
         </div>
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
@@ -42,6 +32,51 @@ export const IntroductionSection = () => {
             />
           </div>
         </div>
+      </div>
+       <div className="mt-12 bg-slate-50 rounded-xl p-6 border border-slate-200">
+        <h3 className="text-2xl font-bold text-slate-900 mb-6">
+          Key Takeaways
+        </h3>
+      <ul className="space-y-4 text-slate-700">
+        <li className="flex items-start">
+          <span className="mr-3 text-green-600 font-bold">✓</span>
+          <span>
+            Professional siding protects homes from weather, moisture, and
+            exterior damage.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-3 text-green-600 font-bold">✓</span>
+          <span>
+            Siding replacement can improve energy efficiency and curb appeal.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-3 text-green-600 font-bold">✓</span>
+          <span>
+            Proper installation helps prevent water intrusion and structural
+            problems.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-3 text-green-600 font-bold">✓</span>
+          <span>
+            Different siding materials offer different durability and
+            maintenance benefits.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="mr-3 text-green-600 font-bold">✓</span>
+          <span>
+            Expert siding contractors ensure correct installation and long-term
+            performance.
+          </span>
+        </li>
+      </ul>
       </div>
     </section>
   );
