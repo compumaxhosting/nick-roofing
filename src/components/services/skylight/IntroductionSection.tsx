@@ -6,43 +6,16 @@ export const IntroductionSection = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-            Professional Skylight Installation in Hawthorne, NJ
+            Skylight Repair Hawthorne NJ: Expert Skylight Leak Repair &
+            Replacement
           </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Brighten your home and slash energy costs with expert roof skylight installation. At Nick Roofing, we bridge the gap between aesthetic beauty and structural integrity. Whether you are searching for skylight installers near me for a new build or need a high-performance skylight replacement in NJ, our team delivers leak-proof results tailored to the Garden State’s changing seasons.
+            Skylight repair in Hawthorne, NJ helps homeowners stop leaks,
+            improve energy efficiency, and restore natural daylight without
+            unnecessary roof damage. Professional skylight repair addresses
+            issues such as water intrusion, cracked glass, damaged flashing,
+            condensation, and aging skylight systems.
           </p>
-          <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            As the best skylight contractors in Hawthorne, New Jersey, we don’t just &quot;fit&quot; windows—we engineer solutions. From custom roof skylight installation to repairs, our Velux skylight installation specialists ensure every unit is perfectly flashed to prevent moisture intrusion.
-          </p>
-          <div className="bg-blue-50 p-6 rounded-lg">
-            <h2 className="font-semibold text-slate-900 mb-4">
-              Why Choose Nick Roofing?
-            </h2>
-
-            <ul className="space-y-3 text-slate-600 text-sm sm:text-sm">
-              <li>
-                <span className="font-medium text-slate-800">
-                  Residential Skylight Installation Services:
-                </span>{" "}
-                Modern, energy-efficient designs for any room.
-              </li>
-
-              <li>
-                <span className="font-medium text-slate-800">
-                  Skylight Repair in Hawthorne, NJ:
-                </span>{" "}
-                Fast, reliable fixes for foggy glass or stubborn leaks.
-              </li>
-
-              <li>
-                <span className="font-medium text-slate-800">
-                  Affordable Solutions:
-                </span>{" "}
-                Premium craftsmanship that fits your home improvement budget.
-              </li>
-            </ul>
-          </div>
-          
         </div>
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
@@ -55,13 +28,51 @@ export const IntroductionSection = () => {
           </div>
         </div>
       </div>
-      <div className="p-6 rounded-lg">
-        <h2 className="font-semibold text-slate-900 mb-3">
-          Skylight Installation in Hawthorne, NJ: Direct Answer
-        </h2>
-        <p className="text-slate-600 text-base leading-relaxed">
-          Nick Roofing provides professional skylight installation in Hawthorne, NJ, for homeowners seeking natural light and ventilation. Our specialists offer skylight repair and replacement using premium Velux products. Protect your roof and enhance your interior with our leak-proof, energy-efficient skylight solutions today.
-        </p>
+     
+      <div className="mt-12 bg-slate-50 rounded-xl p-6 border border-slate-200">
+        <h3 className="text-2xl font-bold text-slate-900 mb-6">
+          Key Takeaways
+        </h3>
+
+        <ul className="space-y-4 text-slate-700">
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Professional skylight repair prevents roof leaks and water damage.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Damaged flashing is one of the most common causes of skylight
+              leaks.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Many skylights can be repaired instead of fully replaced.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Energy-efficient skylights improve natural lighting and indoor
+              comfort.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Timely repairs help extend the life of both the skylight and
+              roofing system.
+            </span>
+          </li>
+        </ul>
       </div>
     </section>
   );

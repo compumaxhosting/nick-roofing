@@ -90,7 +90,9 @@ export default function SidingContentSections() {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold mb-3">Energy-Efficient Siding</h3>
+            <h3 className="text-xl font-semibold mb-3">
+              Energy-Efficient Siding
+            </h3>
             <p className="text-slate-600 leading-relaxed mb-3">
               Energy-efficient siding helps improve home comfort by supporting
               insulation performance and reducing heat transfer.
@@ -137,16 +139,20 @@ export default function SidingContentSections() {
           material selection, installation, and final quality checks.
         </p>
 
-        <h3 className="text-xl font-semibold mb-3">Step 1: Exterior Inspection</h3>
+        <h3 className="text-xl font-semibold mb-3">
+          Step 1: Exterior Inspection
+        </h3>
         <p className="text-slate-600 mb-5">
           We evaluate existing siding condition, moisture concerns, wall
           structure, and drainage areas.
         </p>
 
-        <h3 className="text-xl font-semibold mb-3">Step 2: Material Selection</h3>
+        <h3 className="text-xl font-semibold mb-3">
+          Step 2: Material Selection
+        </h3>
         <p className="text-slate-600 mb-5">
-          We help choose siding based on budget, design goals, durability
-          needs, and maintenance preferences.
+          We help choose siding based on budget, design goals, durability needs,
+          and maintenance preferences.
         </p>
 
         <h3 className="text-xl font-semibold mb-3">Step 3: Installation</h3>
@@ -167,36 +173,73 @@ export default function SidingContentSections() {
           Siding Repair vs Replacement
         </h2>
 
-        <p className="text-slate-600 leading-relaxed mb-4">
+        <p className="text-slate-600 leading-relaxed mb-6">
           Siding repair fixes localized damage, while siding replacement is
-          recommended when materials are extensively damaged or outdated. A
-          siding inspection helps identify the best approach.
+          recommended when materials are extensively damaged or outdated.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-6 text-slate-600">
-          <div>
-            <h3 className="text-xl font-semibold mb-3">Siding Repair</h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Small damaged areas</li>
-              <li>Minor cracks</li>
-              <li>Limited moisture issues</li>
-              <li>Local repairs</li>
-            </ul>
-          </div>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full max-w-2xl border border-slate-300 text-slate-700">
+            <thead>
+              <tr>
+                <th className="border border-slate-300 px-4 py-3 font-semibold text-center">
+                  Siding Repair
+                </th>
+                <th className="border border-slate-300 px-4 py-3 font-semibold text-center">
+                  Siding Replacement
+                </th>
+              </tr>
+            </thead>
 
-          <div>
-            <h3 className="text-xl font-semibold mb-3">Siding Replacement</h3>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Widespread deterioration</li>
-              <li>Aging materials</li>
-              <li>Structural concerns</li>
-              <li>Complete upgrade</li>
-            </ul>
-          </div>
+            <tbody>
+              <tr>
+                <td className="border border-slate-300 px-4 py-3">
+                  Small damaged areas
+                </td>
+                <td className="border border-slate-300 px-4 py-3">
+                  Widespread deterioration
+                </td>
+              </tr>
+
+              <tr>
+                <td className="border border-slate-300 px-4 py-3">
+                  Minor cracks
+                </td>
+                <td className="border border-slate-300 px-4 py-3">
+                  Aging materials
+                </td>
+              </tr>
+
+              <tr>
+                <td className="border border-slate-300 px-4 py-3">
+                  Limited moisture issues
+                </td>
+                <td className="border border-slate-300 px-4 py-3">
+                  Structural concerns
+                </td>
+              </tr>
+
+              <tr>
+                <td className="border border-slate-300 px-4 py-3">
+                  Local repairs
+                </td>
+                <td className="border border-slate-300 px-4 py-3">
+                  Complete upgrade
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+
+        <p className="text-slate-600 leading-relaxed">
+          A siding inspection helps identify the best approach.
+        </p>
       </section>
 
-      <section id="benefits-of-professional-siding-services" className="scroll-mt-24">
+      <section
+        id="benefits-of-professional-siding-services"
+        className="scroll-mt-24"
+      >
         <h2 className="text-3xl font-bold text-slate-900 mb-6">
           Benefits of Professional Siding Services
         </h2>
@@ -222,8 +265,8 @@ export default function SidingContentSections() {
         </h2>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Siding works with roofing, flashing, and waterproofing systems to
-          help prevent water intrusion and protect the building structure.
+          Siding works with roofing, flashing, and waterproofing systems to help
+          prevent water intrusion and protect the building structure.
         </p>
 
         <p className="text-slate-600 leading-relaxed">
@@ -238,14 +281,14 @@ export default function SidingContentSections() {
         </h2>
 
         <p className="text-slate-600 leading-relaxed mb-4">
-          Siding problems usually result from weather exposure, aging
-          materials, moisture, or improper installation.
+          Siding problems usually result from weather exposure, aging materials,
+          moisture, or improper installation.
         </p>
 
         <p className="text-slate-600 leading-relaxed mb-4">
           Common issues include cracks, gaps, loose panels, moisture entry,
-          fading, and warping. Ignoring siding problems may lead to wall
-          damage, insulation issues, and increased repairs.
+          fading, and warping. Ignoring siding problems may lead to wall damage,
+          insulation issues, and increased repairs.
         </p>
       </section>
 
@@ -302,9 +345,9 @@ export default function SidingContentSections() {
               What is the best siding material for New Jersey homes?
             </h3>
             <p className="leading-relaxed">
-              The best siding depends on your home&apos;s needs, budget, and design
-              goals. Vinyl and fiber cement siding are common choices because of
-              their durability and weather resistance.
+              The best siding depends on your home&apos;s needs, budget, and
+              design goals. Vinyl and fiber cement siding are common choices
+              because of their durability and weather resistance.
             </p>
           </div>
 
@@ -324,9 +367,9 @@ export default function SidingContentSections() {
               Does siding improve energy efficiency?
             </h3>
             <p className="leading-relaxed">
-              Energy-efficient siding can improve exterior insulation performance
-              by helping reduce heat transfer and improving indoor comfort when
-              installed correctly.
+              Energy-efficient siding can improve exterior insulation
+              performance by helping reduce heat transfer and improving indoor
+              comfort when installed correctly.
             </p>
           </div>
 

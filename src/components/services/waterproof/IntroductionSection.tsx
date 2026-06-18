@@ -6,44 +6,25 @@ export const IntroductionSection = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-            Professional Waterproofing Services in Hawthorne, NJ
+            Waterproofing Hawthorne NJ | Basement, Roof & Exterior Waterproofing
+            Services
           </h2>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Looking for reliable waterproofing services in Hawthorne, NJ? We
-            specialize in residential and commercial waterproofing to protect
-            your property from leaks, moisture, and structural damage. Our team
-            offers basement waterproofing, foundation sealing, and crawl space
-            waterproofing for complete protection.
+            Waterproofing in Hawthorne, NJ helps protect homes from water
+            intrusion, moisture damage, leaks, and structural deterioration by
+            creating a reliable barrier against unwanted water entry.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            We provide both interior and exterior waterproofing solutions,
-            including flat roof waterproofing, roof leak waterproofing, and
-            waterproof coating for long-lasting durability. As the best
-            waterproofing company in Hawthorne, NJ, we deliver affordable
-            services without compromising quality.
+            Professional waterproofing solutions help protect residential
+            roofing systems, foundations, basements, exterior walls, and other
+            vulnerable areas from New Jersey weather conditions.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Our experts handle brick waterproofing, concrete waterproofing, and
-            wall sealing to prevent water infiltration. Need urgent help? We
-            offer emergency waterproofing services to stop leaks before they
-            cause major damage.
+            Nick Roofing provides waterproofing, roof leak repair, roofing
+            inspection, and exterior protection services throughout Hawthorne
+            NJ, Passaic County, Bergen County, and surrounding Northern New
+            Jersey areas.
           </p>
-          <div className="bg-blue-50 p-6 rounded-lg">
-            <h2 className="font-semibold text-slate-900 mb-2">
-              Why Choose Nick Roofing?
-            </h2>
-            <p className="text-slate-600 text-sm sm:text-sm">
-              We offer emergency waterproofing services to stop leaks before
-              they cause major damage.Whether you need residential roof
-              waterproofing, commercial waterproofing, or waterproofing repair
-              in Hawthorne, we’ve got you covered. Our services also include
-              custom waterproofing and sealing solutions for homes and
-              businesses.Choose our local waterproofing experts in Hawthorne, NJ
-              for quality craftsmanship, competitive pricing, and guaranteed
-              results. Contact us today for a free waterproofing cost estimate
-              and protect your property from water damage.
-            </p>
-          </div>
         </div>
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
@@ -55,6 +36,51 @@ export const IntroductionSection = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="mt-12 bg-slate-50 rounded-xl p-6 border border-slate-200">
+        <h3 className="text-2xl font-bold text-slate-900 mb-6">
+          Key Takeaways
+        </h3>
+
+        <ul className="space-y-4 text-slate-700">
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Professional waterproofing helps prevent water intrusion and
+              structural damage.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Roof flashing and drainage systems play a major role in moisture
+              protection.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Waterproofing solutions address leaks, foundation moisture, and
+              exterior water problems.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Roofing inspections help identify hidden moisture issues early.
+            </span>
+          </li>
+
+          <li className="flex items-start">
+            <span className="mr-3 text-green-600 font-bold">✓</span>
+            <span>
+              Proper waterproofing improves long-term property protection.
+            </span>
+          </li>
+        </ul>
       </div>
     </section>
   );
