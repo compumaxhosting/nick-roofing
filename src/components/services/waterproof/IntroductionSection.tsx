@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const IntroductionSection = () => {
   return (
@@ -20,10 +21,15 @@ export const IntroductionSection = () => {
             vulnerable areas from New Jersey weather conditions.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Nick Roofing provides waterproofing, roof leak repair, roofing
-            inspection, and exterior protection services throughout Hawthorne
-            NJ, Passaic County, Bergen County, and surrounding Northern New
-            Jersey areas.
+            <Link
+              href="/"
+              className="text-[#e07b3b] font-semibold hover:underline"
+            >
+              Nick Roofing
+            </Link>{" "}
+            provides waterproofing, roof leak repair, roofing inspection, and
+            exterior protection services throughout Hawthorne NJ, Passaic
+            County, Bergen County, and surrounding Northern New Jersey areas.
           </p>
         </div>
         <div className="relative">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const IntroductionSection = () => {
   return (
@@ -10,11 +11,16 @@ export const IntroductionSection = () => {
             Replacement
           </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Skylight repair in Hawthorne, NJ helps homeowners stop leaks,
-            improve energy efficiency, and restore natural daylight without
-            unnecessary roof damage. Professional skylight repair addresses
-            issues such as water intrusion, cracked glass, damaged flashing,
-            condensation, and aging skylight systems.
+            <Link
+              href="/skylight-repair"
+              className="text-[#e07b3b] font-semibold hover:underline"
+            >
+              Skylight repair in Hawthorne, NJ
+            </Link>{" "}
+            helps homeowners stop leaks, improve energy efficiency, and restore
+            natural daylight without unnecessary roof damage. Professional
+            skylight repair addresses issues such as water intrusion, cracked
+            glass, damaged flashing, condensation, and aging skylight systems.
           </p>
         </div>
         <div className="relative">
@@ -28,7 +34,7 @@ export const IntroductionSection = () => {
           </div>
         </div>
       </div>
-     
+
       <div className="mt-12 bg-slate-50 rounded-xl p-6 border border-slate-200">
         <h3 className="text-2xl font-bold text-slate-900 mb-6">
           Key Takeaways
