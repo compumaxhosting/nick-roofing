@@ -7,33 +7,36 @@ export const IntroductionSection = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-            Roof Repair Fair Lawn NJ | Professional Roof Leak Repair & Roofing
-            Services
+            Roof Repair Ridgewood NJ | Roof Leak Repair, Storm Damage Solutions
+            & Residential Roofing Services
           </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Roof repair in Fair Lawn, NJ helps homeowners protect their
-            properties from leaks, weather damage, structural issues, and
-            premature roof deterioration. Professional roof repair services
-            identify roofing problems early and restore the safety, durability,
-            and performance of your roofing system.
+            Roof problems can develop gradually or appear suddenly after severe
+            weather. Whether you&apos;re dealing with a roof leak, damaged
+            shingles, flashing failure, or storm-related issues, timely roof
+            repair helps protect your home from water intrusion and costly
+            structural damage.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
+            In{" "}
             <Link
               href="/"
               className="text-[#e07b3b] font-semibold hover:underline"
             >
-              Nick Roofing
-            </Link>{" "}
-            provides expert roof repair, roof leak repair, roofing inspections,
-            waterproofing, and residential roofing services for homeowners
-            throughout Fair Lawn NJ and surrounding Bergen County communities.
+              Ridgewood, NJ
+            </Link>
+            , changing weather conditions, aging roofing materials, and seasonal
+            storms can affect the performance of residential roofing systems.
+            Nick Roofing provides professional roof repair services designed to
+            restore protection, improve durability, and extend the life of your
+            roof.
           </p>
         </div>
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/roof-repair-fair-lawn-nj.webp"
-              alt="Professional Roof Repair in Fair Lawn, NJ"
+              src="/roofing-repair-ridgewood-nj.webp"
+              alt="Professional Roof Repair in Ridgewood, NJ"
               fill
               className="object-cover"
             />
@@ -48,39 +51,39 @@ export const IntroductionSection = () => {
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Roof repair helps prevent water damage and costly structural
-              repairs.
+              Roof repair helps prevent leaks, mold growth, and structural
+              deterioration.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Professional roof inspections identify hidden roofing problems
-              early.
+              Ridgewood homes are exposed to rain, snow, ice, wind, and seasonal
+              temperature changes that can affect roofing systems.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Roof leaks often require targeted repairs instead of full
-              replacement.
+              Professional roof inspections help identify hidden damage before
+              major repairs become necessary.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Proper flashing, ventilation, and waterproofing extend roof
-              lifespan.
+              Prompt roof leak repair reduces the risk of interior water damage.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Local roofing expertise matters for New Jersey weather conditions.
+              Regular maintenance and repairs can help extend the lifespan of
+              your roof.
             </span>
           </li>
         </ul>

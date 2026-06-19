@@ -7,33 +7,38 @@ export const IntroductionSection = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">
-            Roof Repair Fair Lawn NJ | Professional Roof Leak Repair & Roofing
-            Services
+            Roofing Contractor Clifton NJ | Roof Repair, Replacement & Full
+            Roofing Services
           </h1>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
-            Roof repair in Fair Lawn, NJ helps homeowners protect their
-            properties from leaks, weather damage, structural issues, and
-            premature roof deterioration. Professional roof repair services
-            identify roofing problems early and restore the safety, durability,
-            and performance of your roofing system.
+            Clifton, NJ properties face constant exposure to seasonal weather
+            shifts, including heavy rain, snow, wind, and temperature changes.
+            These conditions gradually wear down roofing systems, leading to
+            leaks, missing shingles, flashing failures, and long-term structural
+            risks.
           </p>
           <p className="text-base sm:text-base text-slate-600 mb-6 leading-relaxed">
+            A roofing contractor in Clifton, NJ plays a critical role in
+            protecting both residential and commercial buildings by maintaining,
+            repairing, and upgrading roofing systems before small issues become
+            expensive damage.
+            <br />
             <Link
               href="/"
               className="text-[#e07b3b] font-semibold hover:underline"
             >
               Nick Roofing
             </Link>{" "}
-            provides expert roof repair, roof leak repair, roofing inspections,
-            waterproofing, and residential roofing services for homeowners
-            throughout Fair Lawn NJ and surrounding Bergen County communities.
+            provides full-service roofing solutions throughout Clifton and
+            Passaic County, focusing on durability, weather resistance, and
+            long-term protection.
           </p>
         </div>
         <div className="relative">
           <div className="relative h-80 sm:h-96 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/roof-repair-fair-lawn-nj.webp"
-              alt="Professional Roof Repair in Fair Lawn, NJ"
+              src="/roofing-contractor-clifton-nj.webp"
+              alt="Professional Roofing Contractor in Clifton, NJ"
               fill
               className="object-cover"
             />
@@ -48,39 +53,39 @@ export const IntroductionSection = () => {
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Roof repair helps prevent water damage and costly structural
-              repairs.
+              Roofing issues in Clifton often develop due to seasonal storms and
+              aging materials.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Professional roof inspections identify hidden roofing problems
-              early.
+              Early roof repairs help prevent structural damage and interior
+              water intrusion.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Roof leaks often require targeted repairs instead of full
-              replacement.
+              Professional inspections identify hidden issues before they
+              escalate.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Proper flashing, ventilation, and waterproofing extend roof
-              lifespan.
+              Local roofing experience improves repair accuracy and material
+              selection.
             </span>
           </li>
 
           <li className="flex items-start">
             <span className="mr-3 text-green-600 font-bold">✓</span>
             <span>
-              Local roofing expertise matters for New Jersey weather conditions.
+              Regular maintenance significantly extends roof lifespan.
             </span>
           </li>
         </ul>

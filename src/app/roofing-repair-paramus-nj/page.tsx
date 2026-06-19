@@ -7,13 +7,11 @@ import Header from "@/components/Header";
 import LocationBar from "@/components/LocationBar";
 import ServiceBar from "@/components/ServiceBar";
 import { CtaSection } from "@/components/services/roofrepair/CtaSection";
-import { HeroSection } from "@/components/services/roofrepair/HeroSection";
-import { IntroductionSection } from "@/components/services/roofrepair/IntroductionSection";
 import { ServiceAreas } from "@/components/services/roofrepair/ServiceAreas";
-import RoofRepairContentSections from "@/components/services/roofrepair/tablecontent/RoofRepairContentSections";
-import TableOfContents from "@/components/services/roofrepair/tablecontent/TableOfContents";
 import { TrustIndicators } from "@/components/services/roofrepair/TrustIndicators";
-import React from "react";
+import { HeroSection } from "@/components/services/roofrepairfairlawnnj/HeroSection";
+import { IntroductionSection } from "@/components/services/roofrepairParamusnj/IntroductionSection";
+import RoofRepairContentSections from "@/components/services/roofrepairParamusnj/tablecontent/RoofRepairContentSections";
 
 export default function Page() {
   return (
@@ -23,7 +21,6 @@ export default function Page() {
       <TrustIndicators />
       <LocationBar />
       <IntroductionSection />
-      <TableOfContents />
       <RoofRepairContentSections />
       <ServiceBar />
       <ServiceAreas />

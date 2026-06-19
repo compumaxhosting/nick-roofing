@@ -7,12 +7,13 @@ import Header from "@/components/Header";
 import LocationBar from "@/components/LocationBar";
 import ServiceBar from "@/components/ServiceBar";
 import { CtaSection } from "@/components/services/roofrepair/CtaSection";
-import { HeroSection } from "@/components/services/roofrepair/HeroSection";
-import { IntroductionSection } from "@/components/services/roofrepair/IntroductionSection";
 import { ServiceAreas } from "@/components/services/roofrepair/ServiceAreas";
-import RoofRepairContentSections from "@/components/services/roofrepair/tablecontent/RoofRepairContentSections";
-import TableOfContents from "@/components/services/roofrepair/tablecontent/TableOfContents";
+
 import { TrustIndicators } from "@/components/services/roofrepair/TrustIndicators";
+import { HeroSection } from "@/components/services/roofrepairfairlawnnj/HeroSection";
+import { IntroductionSection } from "@/components/services/roofrepairfairlawnnj/IntroductionSection";
+import RoofRepairContentSections from "@/components/services/roofrepairfairlawnnj/tablecontent/RoofRepairContentSections";
+import TableOfContents from "@/components/services/roofrepairfairlawnnj/tablecontent/TableOfContents";
 import React from "react";
 
 export default function Page() {
