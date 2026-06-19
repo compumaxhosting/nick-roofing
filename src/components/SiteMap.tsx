@@ -74,7 +74,26 @@ const SiteMap = () => {
      name: "Blog - 2026 Guide: Siding Installation Cost in Hawthorne, NJ?",
      url: "https://www.nickroofing.com/blog/siding-installation-cost-hawthorne-nj",
    },
-   { name: "Site Map", url: "https://www.nickroofing.com/site-map" },
+   {
+     name: "Blog - Roofing Contractor Services in Clifton, NJ",
+     url: "http://localhost:3000/roofing-contractor-clifton-nj",
+   },
+   {
+     name: "Blog - Roof Repair Services in Fair Lawn, NJ",
+     url: "http://localhost:3000/roofing-repair-fair-lawn-nj",
+   },
+   {
+     name: "Blog - Roof Repair Services in Paramus, NJ",
+     url: "http://localhost:3000/roofing-repair-paramus-nj",
+   },
+   {
+     name: "Blog - Roof Repair Services in Ridgewood, NJ",
+     url: "http://localhost:3000/roofing-repair-ridgewood-nj",
+   },
+   { 
+    name: "Site Map", 
+    url: "https://www.nickroofing.com/site-map"
+   },
  ];
 
 

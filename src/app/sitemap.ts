@@ -152,8 +152,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
-     {
+    {
       url: `${baseUrl}/blog/siding-installation-cost-hawthorne-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/roofing-contractor-clifton-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/roofing-repair-fair-lawn-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/roofing-repair-paramus-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/roofing-repair-ridgewood-nj`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
