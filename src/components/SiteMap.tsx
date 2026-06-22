@@ -5,94 +5,94 @@ import { FaLink } from "react-icons/fa";
 
 const SiteMap = () => {
  const links = [
-   { name: "Home", url: "https://www.nickroofing.com/" },
-   { name: "About", url: "https://www.nickroofing.com/about" },
+   { name: "Home", url: "/" },
+   { name: "About", url: "/about" },
    {
      name: "Skylight Repair Hawthorne NJ",
-     url: "https://www.nickroofing.com/skylight-repair-hawthorne-nj",
+     url: "/skylight-repair-hawthorne-nj",
    },
    {
      name: "Gutter Installation Hawthorne NJ",
-     url: "https://www.nickroofing.com/gutter-installation-hawthorne-nj",
+     url: "/gutter-installation-hawthorne-nj",
    },
    {
      name: "Water Proofing Hawthorne NJ",
-     url: "https://www.nickroofing.com/water-proofing-hawthorne-nj",
+     url: "/water-proofing-hawthorne-nj",
    },
    {
      name: "Roof Repair Hawthorne NJ",
-     url: "https://www.nickroofing.com/roofing-repair-hawthorne-nj",
+     url: "/roofing-repair-hawthorne-nj",
    },
    {
      name: "Siding Services Hawthorne NJ",
-     url: "https://www.nickroofing.com/siding-services-hawthorne-nj",
+     url: "/siding-services-hawthorne-nj",
    },
-   { name: "Gallery", url: "https://www.nickroofing.com/gallery" },
-   { name: "Contact", url: "https://www.nickroofing.com/contact" },
-   { name: "Blog Home", url: "https://www.nickroofing.com/blog" },
+   { name: "Gallery", url: "/gallery" },
+   { name: "Contact", url: "/contact" },
+   { name: "Blog Home", url: "/blog" },
    {
      name: "Blog - Gutter Installation Hawthorne NJ Blog",
-     url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne-nj",
+     url: "/blog/gutter-installation-hawthorne-nj",
    },
    {
      name: "Blog - Skylight Installation Hawthorne NJ Blog",
-     url: "https://www.nickroofing.com/blog/skylight-installation-hawthorne-nj",
+     url: "/blog/skylight-installation-hawthorne-nj",
    },
    {
      name: "Blog - Stop Leaks Before They Start Waterproofing Hawthorne NJ",
-     url: "https://www.nickroofing.com/blog/stop-leaks-before-they-start-waterproofing-hawthorne-nj",
+     url: "/blog/stop-leaks-before-they-start-waterproofing-hawthorne-nj",
    },
    {
      name: "Blog - When to Repair or Replace Your Roof",
-     url: "https://www.nickroofing.com/blog/how-to-know-when-its-time-to-repair-or-replace-your-roof",
+     url: "/blog/how-to-know-when-its-time-to-repair-or-replace-your-roof",
    },
    {
      name: "Blog - Hawthorne NJ Roofing Repair Experts",
-     url: "https://www.nickroofing.com/blog/hawthorne-nj-roofing-repair-experts",
+     url: "/blog/hawthorne-nj-roofing-repair-experts",
    },
    {
      name: "Blog - Protect Home From Moisture Damage Hawthorne NJ",
-     url: "https://www.nickroofing.com/blog/protect-home-moisture-damage-hawthorne-nj",
+     url: "/blog/protect-home-moisture-damage-hawthorne-nj",
    },
    {
      name: "Blog - Seasonal Roof Maintenance Tips",
-     url: "https://www.nickroofing.com/blog/seasonal-roof-maintenance-hawthorne-nj",
+     url: "/blog/seasonal-roof-maintenance-hawthorne-nj",
    },
    {
      name: "Blog - How New Siding Increases Property Value",
-     url: "https://www.nickroofing.com/blog/what-to-expect-roof-repair-service-hawthorne-nj",
+     url: "/blog/what-to-expect-roof-repair-service-hawthorne-nj",
    },
    {
      name: "Blog - Professional Gutter Installation NJ",
-     url: "https://www.nickroofing.com/blog/gutter-installation-hawthorne",
+     url: "/blog/gutter-installation-hawthorne",
    },
    {
      name: "Blog - How Weather Affects Your Home’s Waterproofing Needs",
-     url: "https://www.nickroofing.com/blog/new-jersey-weather-home-waterproofing-guide",
+     url: "/blog/new-jersey-weather-home-waterproofing-guide",
    },
    {
      name: "Blog - 2026 Guide: Siding Installation Cost in Hawthorne, NJ?",
-     url: "https://www.nickroofing.com/blog/siding-installation-cost-hawthorne-nj",
+     url: "/blog/siding-installation-cost-hawthorne-nj",
    },
    {
      name: "Blog - Roofing Contractor Services in Clifton, NJ",
-     url: "http://localhost:3000/roofing-contractor-clifton-nj",
+     url: "/roofing-contractor-clifton-nj",
    },
    {
      name: "Blog - Roof Repair Services in Fair Lawn, NJ",
-     url: "http://localhost:3000/roofing-repair-fair-lawn-nj",
+     url: "/roofing-repair-fair-lawn-nj",
    },
    {
      name: "Blog - Roof Repair Services in Paramus, NJ",
-     url: "http://localhost:3000/roofing-repair-paramus-nj",
+     url: "/roofing-repair-paramus-nj",
    },
    {
      name: "Blog - Roof Repair Services in Ridgewood, NJ",
-     url: "http://localhost:3000/roofing-repair-ridgewood-nj",
+     url: "/roofing-repair-ridgewood-nj",
    },
    { 
     name: "Site Map", 
-    url: "https://www.nickroofing.com/site-map"
+    url: "/site-map"
    },
  ];
 
