@@ -41,7 +41,7 @@ export default function Header() {
     { name: "SKYLIGHTS", href: "/skylight-repair-hawthorne-nj" },
     { name: "GUTTER INSTALLATION", href: "/gutter-installation-hawthorne-nj" },
     { name: "WATERPROOFING", href: "/water-proofing-hawthorne-nj" },
-    { name: "ROOFING REPAIR", href: "/roof-repair-hawthorne-nj" },
+    { name: "ROOFING REPAIR", href: "/roofing-repair-hawthorne-nj" },
     { name: "SIDING", href: "/siding-services-hawthorne-nj" },
   ];
 

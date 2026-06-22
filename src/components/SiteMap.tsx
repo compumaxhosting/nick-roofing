@@ -21,7 +21,7 @@ const SiteMap = () => {
    },
    {
      name: "Roof Repair Hawthorne NJ",
-     url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+     url: "https://www.nickroofing.com/roofing-repair-hawthorne-nj",
    },
    {
      name: "Siding Services Hawthorne NJ",
