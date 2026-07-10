@@ -431,7 +431,7 @@ export const BlogsData: Blog[] = [
 
             <p className="mt-2">
               <Link
-                href="/roof-leak-repair-hawthorne-nj"
+                href="/roofing-repair-hawthorne-nj"
                 className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
               >
                 Professional roof leak repair Hawthorne NJ
@@ -1239,7 +1239,7 @@ export const BlogsData: Blog[] = [
             <p>
               When it comes to dependable{" "}
               <Link
-                href="/roof-repair-hawthorne-nj"
+                href="/"
                 className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
               >
                 roof repair services in Hawthorne NJ
@@ -2510,7 +2510,7 @@ export const BlogsData: Blog[] = [
         dealing with the aftermath of a heavy winter snow or preparing for
         summer thunderstorms, finding a reliable{" "}
         <Link
-          href="/blog/best-roofing-contractors-hawthorne-nj"
+          href="/roofing-repair-hawthorne-nj"
           target="blank"
           className="text-blue-500"
         >
@@ -2776,12 +2776,18 @@ export const BlogsData: Blog[] = [
               <strong>Final Thoughts for Hawthorne Homeowners</strong>
             </p>
             <p className="mt-2">
-              Choosing the right roofing contractor is about balancing quality,
-              local reputation, and fair pricing. By focusing on fully insured,
-              manufacturer-certified Hawthorne experts, you ensure your home
-              stays protected and your curb appeal stays strong for decades.
+              Choosing the right{" "}
+              <Link
+                href="/"
+                className="text-[#3945e7] hover:text-blue-800 underline"
+              >
+                roofing contractor
+              </Link>{" "}
+              is about balancing quality, local reputation, and fair pricing. By
+              focusing on fully insured, manufacturer-certified Hawthorne
+              experts, you ensure your home stays protected and your curb appeal
+              stays strong for decades.
             </p>
-
             <p className="mt-2">
               Ready to start your roofing project? Don’t wait for a leak—start
               vetting your top three Hawthorne contractors today.

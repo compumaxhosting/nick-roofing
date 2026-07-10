@@ -15,6 +15,26 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/roof-repair-hawthorne-nj ",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/skylight-repair",
+        destination: "/skylight-repair-hawthorne-nj",
+        permanent: true,
+      },
+      {
+        source: "/roof-leak-repair-hawthorne-nj",
+        destination: "/blog/top-signs-you-need-roof-repair-services-hawthorne-nj",
+        permanent: true,
+      },
+      {
+        source: "/roof-leak-repair-hawthorne-nj",
+        destination: "/blog/top-signs-you-need-roof-repair-services-hawthorne-nj",
+        permanent: true,
+      },
+      {
         source: "/about.html",
         destination: "/about",
         permanent: true,

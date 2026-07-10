@@ -87,6 +87,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/top-signs-you-need-roof-repair-services-hawthorne-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/gutter-installation-hawthorne`,
       lastModified: new Date(),
       changeFrequency: "weekly",
