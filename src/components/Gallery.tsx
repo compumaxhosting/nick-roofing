@@ -25,19 +25,19 @@ export default function Gallery() {
   const galleryImages: GalleryImageType[] = [
     {
       src: "/gallery13.webp",
-      alt: "Gallery Image 10",
+      alt: "Roofing Contractor in Hawthorne ,NJ ",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery14.webp",
-      alt: "Gallery Image 10",
+      alt: "Roofing Contractor in Hawthorne ,NJ ",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery8.webp",
-      alt: "Gallery Image 10",
+      alt: "Roofing Contractor in Hawthorne ,NJ ",
       width: 1920,
       height: 1280,
     },
