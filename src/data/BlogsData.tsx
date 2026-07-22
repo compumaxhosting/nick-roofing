@@ -3090,7 +3090,7 @@ export const BlogsData: Blog[] = [
         paragraph: (
           <p className="text-base leading-7 text-[#333] mb-4">
             The first step is a thorough roof inspection. A trusted{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               roof repair service in Hawthorne, NJ
             </Link>{" "}
             will check for leaks, cracked shingles, water damage, and structural
@@ -3105,7 +3105,7 @@ export const BlogsData: Blog[] = [
           <p className="text-base leading-7 text-[#333] mb-4">
             After the inspection, you should receive a clear estimate.
             Professional{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               roof repair services
             </Link>{" "}
             explain what needs to be fixed, how long it will take, and the total
@@ -3120,7 +3120,7 @@ export const BlogsData: Blog[] = [
           <p className="text-base leading-7 text-[#333] mb-4">
             Once approved, repairs begin using quality materials and proper
             safety measures. A skilled{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               roof repair company in Hawthorne, NJ
             </Link>{" "}
             will complete the job efficiently while protecting your property and
@@ -3301,7 +3301,7 @@ export const BlogsData: Blog[] = [
             <br />
             For homeowners who want peace of mind, professional help from
             trusted{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               Roof Repair Services in Hawthorne, NJ
             </Link>{" "}
             can ensure everything is winter-ready.
@@ -3357,7 +3357,7 @@ export const BlogsData: Blog[] = [
             <br />
             <br />
             Experienced professionals like{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               Nick Roofing’s Roof Repair Services in Hawthorne, NJ
             </Link>{" "}
             can spot problems homeowners often miss and fix them the right way.
@@ -3447,7 +3447,7 @@ export const BlogsData: Blog[] = [
             <br />
             And when you need expert help, don’t wait. Trusted professionals
             like{" "}
-            <Link href="/roof-repair-hawthorne-nj" className="text-blue-400">
+            <Link href="/roofing-repair-hawthorne-nj" className="text-blue-400">
               Roof Repair Services in Hawthorne, NJ
             </Link>{" "}
             are just a call away and can make sure your roof stays strong
@@ -3560,7 +3560,7 @@ export const BlogsData: Blog[] = [
         challenges of the area. Whether it&apos;s storm damage, aging shingles,
         or emergency leaks, choosing the right roofing repair specialists
         ensures long-lasting protection. For dependable service, visit{" "}
-        <Link href="/roof-repair-hawthorne-nj" className="text-blue-500">
+        <Link href="/roofing-repair-hawthorne-nj" className="text-blue-500">
           Nick Roofing – Roof Repair in Hawthorne NJ.
         </Link>
       </p>
@@ -3651,7 +3651,7 @@ export const BlogsData: Blog[] = [
         daily exposure can weaken it. If you’re a homeowner in Hawthorne, NJ,
         understanding the difference between repair and replacement can help you
         save money and avoid major problems. For expert help, you can check{" "}
-        <Link href="/roof-repair-hawthorne-nj" className="text-blue-500">
+        <Link href="/roofing-repair-hawthorne-nj" className="text-blue-500">
           roof repair services in Hawthorne, NJ.
         </Link>{" "}
       </p>

@@ -20,14 +20,14 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+    canonical: "https://www.nickroofing.com/roofing-repair-hawthorne-nj",
   },
   robots: { index: true, follow: true },
   openGraph: {
     title: "Emergency Roof Repair in Hawthorne, NJ | Nick Roofing",
     description:
       "Hawthorne's trusted roof repair experts. Fast fixes for leaks, storm damage & shingle repairs. 24/7 emergency services and free estimates for residential & commercial properties.",
-    url: "https://www.nickroofing.com/roof-repair-hawthorne-nj",
+    url: "https://www.nickroofing.com/roofing-repair-hawthorne-nj",
     siteName: "Nick Roofing",
     locale: "en_US",
     type: "website",

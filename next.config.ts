@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/roof-repair-hawthorne-nj ",
+        source: "/roofing-repair-hawthorne-nj ",
         destination: "/",
         permanent: true,
       },

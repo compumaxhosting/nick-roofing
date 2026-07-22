@@ -28,7 +28,7 @@ export default function Services() {
       title: "Roof Repair",
       subtitle: "Prompt & Professional Roofing Repair Services",
       image: "/service4.webp",
-      link: "/roof-repair-hawthorne-nj",
+      link: "/roofing-repair-hawthorne-nj",
     },
     {
       title: "Siding Services",
@@ -110,7 +110,7 @@ export default function Services() {
             <div>
               <span className="font-semibold">
                 <Link
-                  href="/roof-repair-hawthorne-nj"
+                  href="/roofing-repair-hawthorne-nj"
                   className="hover:underline"
                 >
                   Roof Repair

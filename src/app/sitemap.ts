@@ -38,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Service Location Pages
     {
-      url: `${baseUrl}/roof-repair-hawthorne-nj`,
+      url: `${baseUrl}/roofing-repair-hawthorne-nj`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.9,

@@ -7,7 +7,7 @@ const services = [
   { name: "Skylights", href: "/skylight-repair-hawthorne-nj" },
   { name: "Gutters", href: "/gutter-installation-hawthorne-nj" },
   { name: "Waterproofing", href: "/water-proofing-hawthorne-nj" },
-  { name: "Roof Repair", href: "/roof-repair-hawthorne-nj" },
+  { name: "Roof Repair", href: "/roofing-repair-hawthorne-nj" },
   { name: "Siding", href: "/siding-services-hawthorne-nj" },
 ];
 

@@ -100,7 +100,7 @@ export default function AboutUs() {
 
               <li>
                 <Link
-                  href="/roof-repair-hawthorne-nj"
+                  href="/roofing-repair-hawthorne-nj"
                   className="hover:underline"
                 >
                   <strong>Roof Repair Services</strong>
