@@ -24,6 +24,18 @@ export default function Gallery() {
 
   const galleryImages: GalleryImageType[] = [
     {
+      src: "/gallery13.webp",
+      alt: "Gallery Image 10",
+      width: 1920,
+      height: 1280,
+    },
+    {
+      src: "/gallery14.webp",
+      alt: "Gallery Image 10",
+      width: 1920,
+      height: 1280,
+    },
+    {
       src: "/gallery8.webp",
       alt: "Gallery Image 10",
       width: 1920,
@@ -31,62 +43,62 @@ export default function Gallery() {
     },
     {
       src: "/gallery7.webp",
-      alt: "Gallery Image 9",
+      alt: "Silicon roof Coating",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery10.webp",
-      alt: "Gallery Image 12",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery11.webp",
-      alt: "Gallery Image 13",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery12.webp",
-      alt: "Gallery Image 14",
+      alt: "Roofing Services4",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery1.webp",
-      alt: "Gallery Image 1",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery2.webp",
-      alt: "Gallery Image 2",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/service1.webp",
-      alt: "Gallery Image 3",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
 
     {
       src: "/gallery6.webp",
-      alt: "Gallery Image 8",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/gallery5.webp",
-      alt: "Gallery Image 7",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },
     {
       src: "/service3.webp",
-      alt: "Gallery Image 4",
+      alt: "Roofing Services",
       width: 1920,
       height: 1280,
     },

@@ -35,7 +35,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Top 7 Signs You Need Roof Repair Services in Hawthorne NJ Before a Small Leak Becomes a Major Problem",
 
-    image: "/blog/BestRoofingContractorsinHawthornenj.webp",
+    image: "/blog/Top 7 Signs You Need Roof Repair Services.jpg",
 
     date: "june 5, 2026",
 
