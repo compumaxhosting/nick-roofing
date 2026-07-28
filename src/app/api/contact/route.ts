@@ -1,16 +1,50 @@
 import { Resend } from "resend";
+import { NextResponse } from "next/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
+    const { name, phone, email, service, message } = await req.json();
 
-    const { name, email, phone, appointmentDate, service, message } = body;
+    if (!name || !phone || !email || !message) {
+      return NextResponse.json(
+        { error: "Missing required fields" },
+        { status: 400 },
+      );
+    }
 
-    const data = await resend.emails.send({
-      from: "Contact Form <noreply@nickroofing.com>", // ⚠️ replace with your verified domain email
+    const normalizedEmail = email.toLowerCase().trim();
+
+    const blockedEmails = [
+      "exampleblocked@email.com",
+      "webrank04@gmail.com",
+      "cristianawebdegital@gmail.com",
+      
+    ];
+
+    if (blockedEmails.includes(normalizedEmail)) {
+      return NextResponse.json({ error: "Email is blocked" }, { status: 403 });
+    }
+
+    const blockedDomains = [
+      "exampleblocked.com",
+      
+    ];
+
+    const emailDomain = normalizedEmail.split("@")[1];
+
+    if (blockedDomains.includes(emailDomain)) {
+      return NextResponse.json(
+        { error: "Email domain is blocked" },
+        { status: 403 },
+      );
+    }
+
+    await resend.emails.send({
+      from: "Contact Form <noreply@nickroofing.com>",
       to: ["nickcontractorllc@gmail.com", "wassay@compumaxllc.com"],
+      replyTo: normalizedEmail,
       subject: `New Contact Form Submission - ${service || "General"}`,
       html: `
         <!DOCTYPE html>
@@ -41,34 +75,27 @@ export async function POST(req: Request) {
                   <div class="label">👤 Name</div>
                   <div class="value">${name}</div>
                 </div>
-                
+
                 <div class="field">
                   <div class="label">📧 Email</div>
-                  <div class="value"><a href="mailto:${email}" style="color: #35454f; text-decoration: none;">${email}</a></div>
-                </div>
-                
-                <div class="field">
-                  <div class="label">📞 Phone</div>
-                  <div class="value"><a href="tel:${phone}" style="color: #35454f; text-decoration: none;">${phone}</a></div>
+                  <div class="value"><a href="mailto:${normalizedEmail}" style="color: #35454f; text-decoration: none;">${normalizedEmail}</a></div>
                 </div>
 
-                ${appointmentDate ? `
                 <div class="field">
-                  <div class="label">📅 Appointment Date</div>
-                  <div class="value">${appointmentDate}</div>
+                  <div class="label">📞 Phone</div>
+                  <div class="value">${phone}</div>
                 </div>
-                ` : ""}
-                
+
                 <div class="field">
                   <div class="label">🔧 Service</div>
                   <div class="value">${service || "Not specified"}</div>
                 </div>
-                
+
                 <div class="divider"></div>
-                
+
                 <div class="field">
                   <div class="label">💬 Message</div>
-                  <div class="message-box">${message.replace(/\n/g, "<br/>")}</div>
+                  <div class="message-box">${message.replace(/\n/g, "<br />")}</div>
                 </div>
               </div>
               <div class="footer">
@@ -80,9 +107,12 @@ export async function POST(req: Request) {
       `,
     });
 
-    return Response.json({ success: true, data });
+    return NextResponse.json({ success: true });
   } catch (error) {
-    console.error(error);
-    return new Response("Error sending email", { status: 500 });
+    console.error("EMAIL ERROR:", error);
+    return NextResponse.json(
+      { error: "Failed to send message" },
+      { status: 500 },
+    );
   }
 }
