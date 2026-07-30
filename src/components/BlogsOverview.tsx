@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Basement Waterproofing Near Me in Hawthorne NJ",
+      path: "basement-waterproofing-near-me-hawthorne-nj",
+    },
+    {
       name: "2026 Guide: Siding Installation Cost in Hawthorne, NJ?",
       path: "siding-installation-cost-hawthorne-nj",
     },

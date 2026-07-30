@@ -13,6 +13,19 @@ export type Blog = {
   metatitle: string;
   keywords: string;
   metadescription: string;
+
+  canonical?: string;
+
+  ogtitle?: string;
+  ogdescription?: string;
+  twitterdescription?: string;
+
+  ogtype?: "article" | "website";
+
+  imagealt?: string;
+
+  category?: string; // <-- ADD THIS
+
   slug: string;
   description: string | React.ReactNode;
   image: string;
@@ -20,6 +33,153 @@ export type Blog = {
 };
 
 export const BlogsData: Blog[] = [
+  {
+    keywords:
+      "Basement Waterproofing Hawthorne NJ, Basement Waterproofing Contractors Hawthorne NJ, Basement Waterproofing Near Me, Basement Waterproofing Company Hawthorne NJ, Basement Leak Repair Hawthorne NJ, Foundation Waterproofing Hawthorne NJ, Wet Basement Repair Hawthorne NJ, Basement Water Removal Hawthorne NJ, Basement Sealing Hawthorne NJ, Foundation Crack Repair Hawthorne NJ",
+    slug: "basement-waterproofing-near-me-hawthorne-nj",
+    metadescription:
+      "Looking for Basement Waterproofing Near Me in Hawthorne NJ? Learn how to find trusted local experts for basement leak repair and foundation waterproofing.",
+    title:
+      "Basement Waterproofing Near Me in Hawthorne NJ: How to Find Trusted Local Experts",
+    metatitle:
+      "Basement Waterproofing Near Me in Hawthorne NJ | Nick Roofing",
+    canonical:
+      "https://www.nickroofing.com/blog/basement-waterproofing-near-me-hawthorne-nj",
+    ogtitle:
+      "Basement Waterproofing Near Me in Hawthorne NJ | Trusted Local Experts",
+    ogdescription:
+      "Discover how to choose trusted Basement Waterproofing Contractors in Hawthorne NJ for leak repair, foundation waterproofing, and long-lasting protection.",
+    twitterdescription:
+      "Find trusted Basement Waterproofing Contractors in Hawthorne NJ for foundation waterproofing, basement leak repair, and wet basement solutions.",
+    ogtype: "article",
+    imagealt: "Basement Waterproofing Hawthorne NJ by Nick Roofing",
+    category: "Basement Waterproofing",
+    image: "/blog/basement-waterproofing.webp",
+    date: "July 30, 2026",
+    description: (
+      <p className="text-base leading-7 text-[#333] mb-4">
+        If you&apos;re searching for basement waterproofing near me in Hawthorne
+        NJ, an experienced local contractor can protect your home from water
+        damage, mold growth, foundation issues, and costly structural repairs.
+        Professional solutions identify the source of moisture, repair existing
+        damage, and provide long-term protection that keeps your basement dry.
+      </p>
+    ),
+    sections: [
+      {
+        title: "Table of Contents",
+        paragraph: (
+          <ol className="list-decimal ml-5 space-y-2 text-base leading-7 text-[#333]">
+            <li><a href="#what-is-basement-waterproofing" className="text-blue-600 hover:underline">What Is Basement Waterproofing?</a></li>
+            <li><a href="#how-waterproofing-works" className="text-blue-600 hover:underline">How Basement Waterproofing Works</a></li>
+            <li><a href="#benefits" className="text-blue-600 hover:underline">Benefits of Professional Waterproofing</a></li>
+            <li><a href="#common-problems" className="text-blue-600 hover:underline">Common Basement Water Problems</a></li>
+            <li><a href="#cost-factors" className="text-blue-600 hover:underline">Cost Factors</a></li>
+            <li><a href="#local-experts" className="text-blue-600 hover:underline">Why Local Experts Matter</a></li>
+            <li><a href="#maintenance" className="text-blue-600 hover:underline">Maintenance Tips</a></li>
+            <li><a href="#comparison" className="text-blue-600 hover:underline">Professional Waterproofing vs DIY</a></li>
+            <li><a href="#faqs" className="text-blue-600 hover:underline">Frequently Asked Questions</a></li>
+            <li><a href="#why-nick-roofing" className="text-blue-600 hover:underline">Why Choose Nick Roofing</a></li>
+          </ol>
+        ),
+      },
+      {
+        title: "What Is Basement Waterproofing?",
+        id: "what-is-basement-waterproofing",
+        paragraph: (
+          <div id="what-is-basement-waterproofing" className="text-base leading-7 text-[#333]">
+            <p>Basement waterproofing prevents groundwater and moisture from entering through foundation walls, floors, joints, windows, or cracks. Professional waterproofing combines repairs, drainage improvements, sealing systems, and moisture control to create a dry basement.</p>
+            <p className="mt-2">A wet basement can weaken concrete, damage flooring and belongings, create unhealthy mold conditions, and eventually compromise structural integrity. Local contractors evaluate interior and exterior conditions before recommending a solution that addresses the root cause.</p>
+            <p className="mt-2 font-semibold">Typical services include:</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1"><li>Foundation waterproofing and crack sealing</li><li>Basement leak and wet basement repair</li><li>Interior drainage systems and sump pumps</li><li>Exterior waterproof membranes and French drains</li><li>Basement sealing and moisture barriers</li></ul>
+          </div>
+        ),
+      },
+      {
+        title: "How Basement Waterproofing Works",
+        id: "how-waterproofing-works",
+        paragraph: (
+          <div id="how-waterproofing-works" className="text-base leading-7 text-[#333]">
+            <p>Professional waterproofing stops water before it damages your foundation by combining drainage improvements, crack repairs, waterproof coatings, and foundation protection systems designed for long-term performance.</p>
+            <p className="mt-2 font-semibold">An inspection checks for:</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1"><li>Foundation and floor cracks, water stains, and mold growth</li><li>Drainage around the property, soil grading, gutters, and downspouts</li><li>Water entry through cracks, window wells, pipe penetrations, and floor joints</li></ul>
+            <p className="mt-2">Depending on the property, repairs may include concrete crack injections, joint sealing, wall repairs, interior drainage channels, exterior membranes, vapor barriers, waterproof coatings, French drains, or a high-performance sump pump system.</p>
+          </div>
+        ),
+      },
+      {
+        title: "Benefits of Basement Waterproofing Hawthorne NJ",
+        id: "benefits",
+        paragraph: (
+          <div id="benefits" className="text-base leading-7 text-[#333]">
+            <p>Waterproofing protects your investment by preventing structural damage, improving indoor air quality, increasing usable living space, and reducing future repair costs.</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1"><li>Prevents water from weakening concrete and foundation walls</li><li>Reduces moisture that encourages mold, mildew, and bacteria</li><li>Helps protect property value and buyer confidence</li><li>Makes space available for storage, a family room, office, or home gym</li><li>Improves insulation performance and reduces humidity throughout the home</li></ul>
+          </div>
+        ),
+      },
+      {
+        title: "Common Basement Water Problems in Hawthorne NJ",
+        id: "common-problems",
+        paragraph: (
+          <div id="common-problems" className="text-base leading-7 text-[#333]">
+            <p>Local weather, drainage issues, and aging foundations can all contribute to basement moisture. Warning signs should be inspected before they become more expensive to repair.</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1"><li>Wet floors, standing water, or damp carpeting</li><li>Musty odors, mold growth, or peeling paint</li><li>White mineral deposits and wall discoloration</li><li>Foundation cracks or bowing basement walls</li></ul>
+          </div>
+        ),
+      },
+      {
+        title: "Basement Waterproofing Cost Factors",
+        id: "cost-factors",
+        paragraph: (
+          <div id="cost-factors" className="text-base leading-7 text-[#333]">
+            <p>The cost depends on the severity of water intrusion, foundation condition, repair methods, basement size, and drainage requirements. A professional inspection provides the most accurate estimate because every basement has unique conditions.</p>
+            <div className="w-full overflow-x-auto mt-3"><table className="w-full text-left border-collapse text-sm md:text-base"><thead><tr className="bg-gray-100"><th className="p-2 border border-gray-300">Factor</th><th className="p-2 border border-gray-300">Impact</th></tr></thead><tbody><tr><td className="p-2 border border-gray-300">Basement size</td><td className="p-2 border border-gray-300">Larger areas require more materials</td></tr><tr><td className="p-2 border border-gray-300">Crack repairs</td><td className="p-2 border border-gray-300">Multiple cracks increase labor</td></tr><tr><td className="p-2 border border-gray-300">Interior drainage</td><td className="p-2 border border-gray-300">Additional installation cost</td></tr><tr><td className="p-2 border border-gray-300">Exterior excavation</td><td className="p-2 border border-gray-300">Higher labor requirements</td></tr><tr><td className="p-2 border border-gray-300">Sump pump installation</td><td className="p-2 border border-gray-300">Equipment and installation costs</td></tr></tbody></table></div>
+          </div>
+        ),
+      },
+      {
+        title: "Why Professional Basement Waterproofing Contractors Matter",
+        id: "local-experts",
+        paragraph: (
+          <div id="local-experts" className="text-base leading-7 text-[#333]">
+            <p>Experienced contractors identify hidden moisture problems, use commercial-grade materials, and install systems designed for lasting protection. DIY waterproofing can address visible symptoms while hidden moisture continues damaging the foundation.</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1"><li>Accurate diagnosis and proper drainage design</li><li>Licensed workmanship and code-conscious installation</li><li>High-quality waterproof materials and long-term warranties</li><li>Permanent repair solutions tailored to local conditions</li></ul>
+          </div>
+        ),
+      },
+      {
+        title: "Maintenance Tips for a Dry Basement",
+        id: "maintenance",
+        paragraph: (
+          <div id="maintenance" className="text-base leading-7 text-[#333]">
+            <p>Even after waterproofing, routine maintenance helps preserve the system and reduce future risks.</p>
+            <ol className="list-decimal ml-5 mt-2 space-y-1"><li>Clean gutters twice yearly.</li><li>Extend downspouts away from the foundation.</li><li>Inspect basement walls regularly.</li><li>Test sump pumps before heavy rain.</li><li>Maintain proper yard grading.</li><li>Seal new foundation cracks promptly.</li><li>Keep drainage systems free of debris.</li></ol>
+          </div>
+        ),
+      },
+      {
+        title: "Professional Waterproofing vs DIY",
+        id: "comparison",
+        paragraph: (
+          <div id="comparison" className="text-base leading-7 text-[#333]"><div className="w-full overflow-x-auto"><table className="w-full text-left border-collapse text-sm md:text-base"><thead><tr className="bg-gray-100"><th className="p-2 border border-gray-300">Professional Waterproofing</th><th className="p-2 border border-gray-300">DIY Repairs</th></tr></thead><tbody><tr><td className="p-2 border border-gray-300">Permanent solutions</td><td className="p-2 border border-gray-300">Temporary fixes</td></tr><tr><td className="p-2 border border-gray-300">Foundation evaluation</td><td className="p-2 border border-gray-300">Surface-level treatment</td></tr><tr><td className="p-2 border border-gray-300">Warranty protection</td><td className="p-2 border border-gray-300">No warranty</td></tr><tr><td className="p-2 border border-gray-300">Advanced equipment</td><td className="p-2 border border-gray-300">Basic materials</td></tr><tr><td className="p-2 border border-gray-300">Long-term moisture control</td><td className="p-2 border border-gray-300">Short-term improvement</td></tr></tbody></table></div></div>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        id: "faqs",
+        paragraph: (
+          <div id="faqs" className="text-base leading-7 text-[#333] space-y-4"><p><strong>What causes basement leaks?</strong><br />Basement leaks commonly result from hydrostatic pressure, poor drainage, foundation cracks, clogged gutters, heavy rainfall, aging waterproofing materials, or improperly graded landscaping.</p><p><strong>Is basement waterproofing worth the investment?</strong><br />Yes. It helps prevent costly structural damage, protects indoor air quality, reduces mold risks, and can preserve property value.</p><p><strong>How long does basement waterproofing last?</strong><br />Professionally installed systems can provide decades of protection when properly maintained. Longevity depends on installation quality, drainage conditions, and ongoing maintenance.</p><p><strong>Can foundation cracks be repaired?</strong><br />Most can be repaired with specialized injection systems, sealants, or structural repair methods before they develop into larger problems.</p><p><strong>When should I call a waterproofing contractor?</strong><br />Schedule an inspection when you notice water stains, musty odors, standing water, mold, wall cracks, peeling paint, or recurring dampness.</p><p><strong>Does waterproofing prevent mold?</strong><br />It significantly reduces the moisture that supports mold growth. Proper ventilation and humidity control further improve results.</p></div>
+        ),
+      },
+      {
+        title: "Why Homeowners Trust Nick Roofing for Basement Waterproofing",
+        id: "why-nick-roofing",
+        paragraph: (
+          <div id="why-nick-roofing" className="text-base leading-7 text-[#333]"><p>At Nick Roofing, we understand that every basement has unique waterproofing challenges. Our team provides basement waterproofing, foundation waterproofing, foundation crack repair, basement leak repair, wet basement repair, basement water removal, and basement sealing services in Hawthorne NJ.</p><p className="mt-2">We focus on practical solutions, detailed inspections, honest recommendations, quality workmanship, and customer satisfaction. Whether you need preventive waterproofing or emergency repairs, our team is ready to help protect your home from long-term moisture damage.</p><p className="mt-2">A dry basement helps protect your home&apos;s structure, indoor air quality, and long-term value. Contact Nick Roofing to schedule a consultation and receive a customized waterproofing solution.</p></div>
+        ),
+      },
+    ],
+  },
   {
     keywords:
       "siding installation Hawthorne NJ, siding cost NJ, vinyl siding installation, siding contractors Hawthorne NJ",

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 import { BlogsData, Blog } from "@/data/BlogsData";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
@@ -6,6 +6,10 @@ import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
 type Props = {
   children: ReactNode;
   params: Promise<{ slug: string }>;
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 // ✅ Generate metadata dynamically for each blog
@@ -19,7 +23,7 @@ export async function generateMetadata({
   if (!blog) return {};
 
   const baseUrl = "https://www.nickroofing.com";
-  const pageUrl = `${baseUrl}/blog/${slug}`;
+  const pageUrl = blog.canonical || `${baseUrl}/blog/${slug}`;
 
   const imageUrl =
     blog.image && blog.image.startsWith("http")
@@ -32,6 +36,10 @@ export async function generateMetadata({
     title: blog.metatitle,
 
     description: blog.metadescription || "",
+
+    authors: [{ name: "Nick Roofing" }],
+
+    referrer: "strict-origin-when-cross-origin",
 
     keywords: blog.keywords
       ? blog.keywords.split(",").map((kw) => kw.trim())
@@ -47,19 +55,21 @@ export async function generateMetadata({
     },
 
     openGraph: {
-      title: blog.metatitle,
-      description: blog.metadescription || "",
+      title: blog.ogtitle || blog.metatitle,
+      description: blog.ogdescription || blog.metadescription || "",
       url: pageUrl,
       siteName: "Nick Roofing",
       locale: "en_US",
-      type: "article",
+      type: blog.ogtype || "article",
+      publishedTime: blog.date,
+      modifiedTime: blog.date,
 
       images: [
         {
           url: imageUrl,
           width: 1200,
           height: 630,
-          alt: blog.metatitle,
+          alt: blog.imagealt || blog.metatitle,
         },
       ],
     },
@@ -67,8 +77,13 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title: blog.metatitle,
-      description: blog.metadescription || "",
-      images: [imageUrl],
+      description: blog.twitterdescription || blog.metadescription || "",
+      images: [
+        {
+          url: imageUrl,
+          alt: blog.imagealt || blog.metatitle,
+        },
+      ],
     },
   };
 }
@@ -123,7 +138,7 @@ const staticSchema = {
 // ✅ Dynamic BlogPosting Schema
 const generateBlogSchema = (blog: Blog, slug: string) => {
   const baseUrl = "https://www.nickroofing.com";
-  const pageUrl = `${baseUrl}/blog/${slug}`;
+  const pageUrl = blog.canonical || `${baseUrl}/blog/${slug}`;
 
   const imageUrl =
     blog.image && blog.image.startsWith("http")
@@ -164,7 +179,15 @@ const generateBlogSchema = (blog: Blog, slug: string) => {
       "@id": pageUrl,
     },
 
-    articleSection: "Roofing",
+    articleSection: blog.category || "Roofing",
+    inLanguage: "en-US",
+
+    isAccessibleForFree: true,
+
+    about: {
+      "@type": "Thing",
+      name: blog.category || "Roofing",
+    },
 
     url: pageUrl,
   };
