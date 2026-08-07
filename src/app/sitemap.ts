@@ -164,6 +164,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+{
+      url: `${baseUrl}/blog/skylight-maintenance-services-hawthorne-nj`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
     {
       url: `${baseUrl}/blog/basement-waterproofing-near-me-hawthorne-nj`,
       lastModified: new Date(),

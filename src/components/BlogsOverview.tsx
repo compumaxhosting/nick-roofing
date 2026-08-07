@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Skylight Maintenance Services in Hawthorne NJ: Repair, Installation & Protection",
+      path: "skylight-maintenance-services-hawthorne-nj",
+    },
+    {
       name: "Basement Waterproofing Near Me in Hawthorne NJ",
       path: "basement-waterproofing-near-me-hawthorne-nj",
     },
