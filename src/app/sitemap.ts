@@ -177,6 +177,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/roof-repair-hawthorne-nj-cost-guide-2026`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/roofing-contractor-clifton-nj`,
       lastModified: new Date(),
       changeFrequency: "weekly",
