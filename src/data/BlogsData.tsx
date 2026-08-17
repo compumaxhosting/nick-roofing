@@ -48,9 +48,6 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Roof Repair Hawthorne NJ: Cost, Common Problems & Expert Repair Services (2026 Guide)",
 
-    canonical:
-      "https://www.nickroofing.com/blog/roof-repair-hawthorne-nj-cost-guide-2026",
-
     ogtitle:
       "Roof Repair Hawthorne NJ: Cost, Common Problems & Expert Guide 2026",
 
@@ -615,8 +612,6 @@ export const BlogsData: Blog[] = [
     title:
       "The Complete 2026 Guide to Skylight Maintenance Services in Hawthorne, NJ: Repair, Installation & Long-Term Protection",
     metatitle: "Skylight Maintenance Services Hawthorne NJ | Nick Roofing",
-    canonical:
-      "https://www.nickroofing.com/blog/skylight-maintenance-services-hawthorne-nj",
     ogtitle: "Skylight Maintenance Services Hawthorne NJ | Nick Roofing",
     ogdescription:
       "Skylight Maintenance Services Hawthorne NJ by Nick Roofing. Expert skylight repair, installation, waterproofing, and replacement solutions for lasting roof protection.",
@@ -1184,8 +1179,6 @@ export const BlogsData: Blog[] = [
     title:
       "Basement Waterproofing Near Me in Hawthorne NJ: How to Find Trusted Local Experts",
     metatitle: "Basement Waterproofing Near Me in Hawthorne NJ | Nick Roofing",
-    canonical:
-      "https://www.nickroofing.com/blog/basement-waterproofing-near-me-hawthorne-nj",
     ogtitle:
       "Basement Waterproofing Near Me in Hawthorne NJ | Trusted Local Experts",
     ogdescription:
@@ -1727,7 +1720,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "Top 7 Signs You Need Roof Repair Services in Hawthorne NJ Before a Small Leak Becomes a Major Problem",
 
-    image: "/blog/Top 7 Signs You Need Roof Repair Services.jpg",
+    image: "/blog/Top-7-Signs-You-Need-Roof-Repair-Services.jpg",
 
     date: "june 5, 2026",
 
@@ -3356,7 +3349,7 @@ export const BlogsData: Blog[] = [
     metatitle:
       "How Much Does Siding Installation Cost in Hawthorne, NJ? (2026 Guide)",
 
-    image: "/blog/Siding Installation Cost in Hawthorne NJ (2026 Guide).webp",
+    image: "/blog/Siding-Installation-Cost-in-Hawthorne-NJ-2026-Guide.webp",
 
     date: "May 8, 2026",
 
