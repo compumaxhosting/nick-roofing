@@ -183,6 +183,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/why-hawthorne-nj-homeowners-are-upgrading-homes-with-new-siding`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/roofing-contractor-clifton-nj`,
       lastModified: new Date(),
       changeFrequency: "weekly",
