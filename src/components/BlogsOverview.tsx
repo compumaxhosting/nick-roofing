@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Skylight Installation in New Jersey: What Every Homeowner Should Know Before Starting",
+      path: "skylight-repair-hawthorne-nj",
+    },
+    {
       name: "Skylight Maintenance Services in Hawthorne NJ: Repair, Installation & Protection",
       path: "skylight-maintenance-services-hawthorne-nj",
     },

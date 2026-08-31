@@ -56,7 +56,7 @@ export default async function BlogPage({ params }: PageProps) {
           <div className="max-w-7xl mx-auto px-6 pt-8 pb-2">
             {blog.sections.map((section, index) => (
               <article key={index} className="mb-10">
-                <h2 className="mt-4 text-lg md:text-xl font-semibold text-[#364f4f] mb-3">
+                <h2 id={section.id} className="mt-4 text-lg md:text-xl font-semibold text-[#364f4f] mb-3">
                   {section.title}
                 </h2>
                 <div className="text-slate-800 text-xl md:text-2xl leading-relaxed text-justify">

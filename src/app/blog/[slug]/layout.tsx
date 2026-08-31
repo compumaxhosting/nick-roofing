@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!blog) return {};
 
   const baseUrl = "https://www.nickroofing.com";
-  const pageUrl = blog.canonical || `${baseUrl}/blog/${slug}`;
+  const pageUrl = `${baseUrl}/blog/${slug}`;
 
   const imageUrl =
     blog.image && blog.image.startsWith("http")
@@ -138,7 +138,7 @@ const staticSchema = {
 // ✅ Dynamic BlogPosting Schema
 const generateBlogSchema = (blog: Blog, slug: string) => {
   const baseUrl = "https://www.nickroofing.com";
-  const pageUrl = blog.canonical || `${baseUrl}/blog/${slug}`;
+  const pageUrl = `${baseUrl}/blog/${slug}`;
 
   const imageUrl =
     blog.image && blog.image.startsWith("http")
