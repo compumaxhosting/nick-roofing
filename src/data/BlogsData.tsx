@@ -901,9 +901,9 @@ export const BlogsData: Blog[] = [
                 href="/skylight-repair-hawthorne-nj"
                 className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
               >
-                Nick Roofing&apos;s Skylight Repair Hawthorne NJ page
+                Nick Roofing&apos;s
               </Link>{" "}
-              to learn more about professional skylight inspection, repair, and
+               Skylight Repair Hawthorne NJ page to learn more about professional skylight inspection, repair, and
               replacement services. Addressing skylight issues early can help
               protect your roof, ceiling, insulation, and interior spaces from
               ongoing water damage.
