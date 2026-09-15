@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Gutter Maintenance Checklist",
+      path: "gutter-maintenance-checklist-hawthorne-nj",
+    },
+    {
       name: "Skylight Installation in New Jersey: What Every Homeowner Should Know Before Starting",
       path: "skylight-repair-hawthorne-nj",
     },

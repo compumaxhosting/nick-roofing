@@ -90,6 +90,10 @@ const SiteMap = () => {
      name: "Blog - Roof Repair Services in Ridgewood, NJ",
      url: "/roofing-repair-ridgewood-nj",
    },
+   {
+     name: "Blog - Gutter Maintenance Checklist",
+     url: "/gutter-maintenance-checklist-hawthorne-nj",
+   },
    { 
     name: "Site Map", 
     url: "/site-map"
