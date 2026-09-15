@@ -486,7 +486,7 @@ export const BlogsData: Blog[] = [
         id: "promote-home-protection",
         paragraph: (
           <div className="text-base leading-7 text-[#333] space-y-3">
-            <p>When your Hawthorne, NJ home needs dependable gutter installation or an evaluation of its existing drainage system, <strong>Nick Roofing</strong> can be a valuable resource to consider. Visit <Link href="/gutter-installation-hawthorne-nj" className="text-blue-600 hover:underline">Nick Roofing&apos;s gutter installation service page</Link> to learn more about gutter solutions for local homeowners. Whether you are dealing with overflowing gutters, damaged sections, or planning a new installation, professional guidance can help you choose a system that supports effective rainwater management and complements your home&apos;s exterior. Contact Nick Roofing to discuss your gutter needs and request information about available installation services.</p>
+            <p>When your Hawthorne, NJ home needs dependable gutter installation or an evaluation of its existing drainage system, <strong>Nick Roofing</strong> can be a valuable resource to consider. Visit <Link href="/gutter-installation-hawthorne-nj" className="text-blue-600 hover:underline">Nick Roofing&apos;s gutter installation service</Link> to learn more about gutter solutions for local homeowners. Whether you are dealing with overflowing gutters, damaged sections, or planning a new installation, professional guidance can help you choose a system that supports effective rainwater management and complements your home&apos;s exterior. Contact Nick Roofing to discuss your gutter needs and request information about available installation services.</p>
           </div>
         ),
       },
@@ -513,7 +513,7 @@ export const BlogsData: Blog[] = [
           <div className="text-base leading-7 text-[#333] space-y-3">
             <p>A well-maintained gutter system is an essential part of protecting your Hawthorne, NJ home from rainwater and seasonal weather challenges. By following a regular <strong>gutter maintenance checklist</strong>, inspecting for damage, clearing debris, checking downspouts, and addressing problems early, homeowners can reduce the risk of costly water-related repairs.</p>
             <p>Spring inspections, summer storm checks, autumn leaf removal, and pre-winter maintenance all contribute to a more reliable drainage system. When gutters are damaged, outdated, or no longer functioning properly, professional repair or installation can provide a long-term solution.</p>
-            <p>If you are considering gutter installation or need help evaluating your home&apos;s existing system, visit <Link href="/gutter-installation-hawthorne-nj" className="text-blue-600 hover:underline">Nick Roofing&apos;s Hawthorne, NJ gutter installation page</Link> to explore your options and take the next step toward better home protection.</p>
+            <p>If you are considering gutter installation or need help evaluating your home&apos;s existing system, visit <Link href="/" className="text-blue-600 hover:underline">Nick Roofing&apos;s Hawthorne, NJ</Link> to explore your options and take the next step toward better home protection.</p>
           </div>
         ),
       },
