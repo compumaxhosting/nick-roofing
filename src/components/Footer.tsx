@@ -146,8 +146,10 @@ export const Footer = () => {
                   href="https://maps.app.goo.gl/RMCBhtSQia5Vzor76"
                   target="_blank"
                   className="border-2 border-black rounded-md p-2"
+                  aria-label="Google Maps"
                 >
                   <FaGoogle size={20} />
+                  <span className="sr-only">Google Maps</span>
                 </Link>
               </div>
             </div>
