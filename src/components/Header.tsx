@@ -135,8 +135,10 @@ export default function Header() {
         <button
           onClick={() => setIsOpen(true)}
           className="lg:hidden text-white text-2xl"
+          aria-label="Open navigation menu"
         >
           <FaBars />
+          <span className="sr-only">Menu</span>
         </button>
       </div>
 

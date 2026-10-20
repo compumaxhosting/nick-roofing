@@ -109,14 +109,17 @@ export const Footer = () => {
                   href="https://www.instagram.com/nickroofingnj/"
                   target="_blank"
                   className="border-2 border-black rounded-md p-2"
+                  aria-label="Instagram"
                 >
                   <FaInstagram size={20} />
+                  <span className="sr-only">Instagram</span>
                 </Link>
 
                 <Link
                   href="https://x.com/nickroofingnj"
                   target="_blank"
                   className="border-2 border-black rounded-md p-2"
+                  aria-label="Twitter"
                 >
                   <svg
                     width="20"
@@ -126,6 +129,7 @@ export const Footer = () => {
                   >
                     <path d="M1199.61 0H944.726L599.805 464.344L255.274 0H0L462.982 631.246L0 1227H254.895L599.805 762.656L944.726 1227H1199.61L736.627 601.754L1199.61 0Z" />
                   </svg>
+                  <span className="sr-only">Twitter</span>
                 </Link>
 
                 <Link

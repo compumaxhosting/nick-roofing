@@ -86,7 +86,9 @@ export default function ContactForm({ showAppointmentDate = false }: ContactForm
           className="w-full border py-3 px-5"
         />
       )}
+      <label htmlFor="service" className="sr-only">Select a Service</label>
       <select
+        id="service"
         {...register("service")}
         className="w-full border py-3 px-5 bg-white"
       >
