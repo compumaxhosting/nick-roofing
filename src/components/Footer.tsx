@@ -136,8 +136,10 @@ export const Footer = () => {
                   href="https://www.facebook.com/NickroofingNJ"
                   target="_blank"
                   className="border-2 border-black rounded-md p-2"
+                  aria-label="Facebook"
                 >
                   <FaFacebookF size={20} />
+                  <span className="sr-only">Facebook</span>
                 </Link>
 
                 <Link
