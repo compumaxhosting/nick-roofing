@@ -91,6 +91,10 @@ const SiteMap = () => {
      url: "/roofing-repair-ridgewood-nj",
    },
    {
+     name: "Blog - Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
+     url: "/blog/basement-leaking-after-heavy-rain-hawthorne-nj",
+   },
+   {
      name: "Blog - Gutter Maintenance Checklist",
      url: "/gutter-maintenance-checklist-hawthorne-nj",
    },

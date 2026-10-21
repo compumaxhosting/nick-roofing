@@ -201,6 +201,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/basement-leaking-after-heavy-rain-hawthorne-nj`,
+      lastModified: new Date("2026-10-21"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/roofing-contractor-clifton-nj`,
       lastModified: new Date(),
       changeFrequency: "weekly",

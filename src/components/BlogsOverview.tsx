@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const blogs = [
     {
+      name: "Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
+      path: "basement-leaking-after-heavy-rain-hawthorne-nj",
+    },
+    {
       name: "Gutter Maintenance Checklist",
       path: "gutter-maintenance-checklist-hawthorne-nj",
     },

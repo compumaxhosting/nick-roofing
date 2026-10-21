@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { FaqAccordion } from "@/components/FaqAccordion";
 
 export type BlogSection = {
   title: string;
@@ -34,6 +35,466 @@ export type Blog = {
 };
 
 export const BlogsData: Blog[] = [
+  {
+    keywords:
+      "basement leaking after heavy rain, basement waterproofing Hawthorne NJ, wet basement repair, basement waterproofing cost, exterior basement waterproofing, foundation water leak repair",
+    slug: "basement-leaking-after-heavy-rain-hawthorne-nj",
+    metadescription:
+      "Basement leaking after heavy rain in Hawthorne, NJ? Discover common causes, repair options, waterproofing costs, and expert tips to protect your home.",
+    title: "Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
+    metatitle: "Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
+    ogtitle: "Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
+    ogdescription:
+      "Learn why basements leak after heavy rain in Hawthorne, NJ, explore waterproofing solutions, and discover how to prevent recurring water damage.",
+    twitterdescription:
+      "Find out what causes basement leaks after heavy rain in Hawthorne, NJ, and explore practical waterproofing and foundation repair solutions.",
+    ogtype: "article",
+    imagealt:
+      "Basement waterproofing and foundation leak prevention for homes in Hawthorne, NJ",
+    category: "Basement Waterproofing",
+    image: "/blog/basement-waterproofing-hawthorne-nj.webp",
+    date: "October 21, 2026",
+    publishedAt: "2026-10-21",
+    description: (
+      <div className="text-base leading-7 text-[#333] mb-4 space-y-3">
+        <p>
+          If your basement is leaking after heavy rain in Hawthorne, NJ, excess
+          groundwater, clogged gutters, poor yard drainage, or foundation cracks
+          may be allowing water into your home. The best solution depends on
+          where the water enters and how it moves around your foundation.
+          Identifying the cause early can help prevent mold growth, damaged
+          belongings, and costly structural repairs.
+        </p>
+        <p>
+          This guide explains common basement leaks, practical troubleshooting
+          steps,{" "}
+          <Link
+            href="/water-proofing-hawthorne-nj"
+            className="text-blue-600 hover:underline"
+          >
+            basement waterproofing
+          </Link>{" "}
+          options, and when to call a professional.
+        </p>
+      </div>
+    ),
+    sections: [
+      {
+        title: "What Causes Basement Leaks After Heavy Rain?",
+        id: "what-causes-basement-leaks",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              <strong>Quick Answer:</strong> Basement leaks commonly occur when
+              rainwater collects around the foundation, saturates the surrounding
+              soil, and creates pressure against basement walls and floors. Water
+              can enter through foundation cracks, wall-floor joints, porous
+              masonry, or poorly sealed penetrations. Faulty gutters, short
+              downspouts, and inadequate grading can make the problem worse.
+            </p>
+            <p>
+              Several conditions can contribute to basement water intrusion in
+              Hawthorne:
+            </p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                <strong>Foundation cracks:</strong> Small cracks in concrete or
+                masonry can provide pathways for water.
+              </li>
+              <li>
+                <strong>Poor yard drainage:</strong> Soil sloping toward the
+                house directs rainwater to the foundation.
+              </li>
+              <li>
+                <strong>Clogged gutters and downspouts:</strong> Overflowing
+                gutters release water close to basement walls.
+              </li>
+              <li>
+                <strong>Hydrostatic pressure:</strong> Water-saturated soil
+                pushes moisture against foundation walls and beneath basement
+                floors.
+              </li>
+              <li>
+                <strong>Leaking window wells:</strong> Blocked drains or
+                inadequate covers can allow rainwater through basement windows.
+              </li>
+              <li>
+                <strong>Damaged waterproofing:</strong> Aging or deteriorated
+                foundation coatings may no longer provide sufficient protection.
+              </li>
+            </ul>
+            <p>
+              The location and timing of a leak offer useful clues. Water
+              appearing near a basement window may indicate a drainage problem,
+              while seepage along the wall-floor joint may suggest groundwater
+              pressure.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "How Does Basement Waterproofing Work?",
+        id: "how-basement-waterproofing-works",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Basement waterproofing controls water before it enters the home or
+              manages it after it reaches the foundation.
+            </p>
+            <p>
+              A professional assessment typically starts by inspecting foundation
+              walls, visible cracks, gutters, downspouts, grading, window wells,
+              and existing drainage systems. The contractor then recommends
+              repairs based on the source of the moisture.
+            </p>
+            <p>Common solutions include:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                <strong>Correcting exterior drainage:</strong> Cleaning gutters,
+                extending downspouts, and improving grading can redirect
+                rainwater away from the house.
+              </li>
+              <li>
+                <strong>Sealing foundation cracks:</strong> Appropriate repair
+                materials can close certain cracks after their cause and severity
+                are evaluated.
+              </li>
+              <li>
+                <strong>Exterior basement waterproofing:</strong> Excavation may
+                be necessary to repair the exterior foundation surface, apply a
+                waterproofing membrane, and improve drainage.
+              </li>
+              <li>
+                <strong>Interior drainage systems:</strong> Drainage channels can
+                collect seepage and direct it toward a sump pump.
+              </li>
+              <li>
+                <strong>Sump pump installation or repair:</strong> A properly
+                selected pump removes collected water and discharges it to an
+                appropriate location.
+              </li>
+            </ul>
+            <p>
+              The right approach depends on the building, soil conditions, water
+              entry points, and severity of the problem. Sealing a visible crack
+              alone may not solve a leak caused by broader drainage issues.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Benefits of Fixing a Wet Basement",
+        id: "signs-basement-needs-repair",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Addressing basement water intrusion offers several practical
+              benefits:
+            </p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                <strong>Reduced mold risk:</strong> Controlling moisture helps
+                discourage mold growth, although existing contamination may
+                require separate remediation.
+              </li>
+              <li>
+                <strong>Foundation protection:</strong> Timely repairs can limit
+                ongoing water-related deterioration.
+              </li>
+              <li>
+                <strong>Better indoor comfort:</strong> A drier basement is
+                generally easier to use for storage, laundry, or living space.
+              </li>
+              <li>
+                <strong>Protection for belongings:</strong> Waterproofing can
+                reduce the risk of damage to furniture, appliances, boxes, and
+                finished walls.
+              </li>
+              <li>
+                <strong>Fewer recurring repairs:</strong> Correcting the
+                underlying cause may prevent repeated cleanup and water damage
+                expenses.
+              </li>
+            </ul>
+            <p>
+              Waterproofing cannot guarantee that flooding will never occur, but
+              a well-designed system can substantially reduce common sources of
+              basement moisture.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Common Basement Water Problems to Watch For",
+        id: "basement-waterproofing-costs",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Not every damp basement has the same cause. Recognizing the
+              symptoms helps determine the next step.
+            </p>
+            <div className="w-full overflow-x-auto">
+              <table className="w-full text-left border-collapse text-sm md:text-base">
+                <thead>
+                  <tr className="border-b border-gray-300">
+                    <th className="p-3 font-semibold">Warning sign</th>
+                    <th className="p-3 font-semibold">Possible cause</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3">Water appears during heavy rain</td>
+                    <td className="p-3">
+                      Surface drainage or groundwater pressure
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3">Dampness along wall-floor joints</td>
+                    <td className="p-3">
+                      Groundwater entering at foundation joints
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3">
+                      White, powdery deposits on masonry
+                    </td>
+                    <td className="p-3">
+                      Efflorescence from moisture moving through masonry
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3">Musty odors or visible mold</td>
+                    <td className="p-3">
+                      Persistent moisture and inadequate drying
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3">Water around basement windows</td>
+                    <td className="p-3">
+                      Clogged window wells or failed seals
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-3">
+                      Repeated puddles despite crack repairs
+                    </td>
+                    <td className="p-3">
+                      An unresolved drainage or groundwater problem
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              Do not ignore recurring leaks simply because the water disappears
+              after the storm. Repeated moisture can damage finishes and create
+              conditions favorable to mold.
+            </p>
+            <p>
+              <strong>
+                How Much Does Basement Waterproofing Cost in Hawthorne, NJ?
+              </strong>
+            </p>
+            <p>
+              <strong>Quick Answer:</strong> Basement waterproofing costs depend
+              on the source of the leak, the repair method, foundation
+              accessibility, and the size of the affected area. Minor drainage
+              improvements or isolated crack repairs generally cost less than
+              extensive exterior excavation or a complete interior drainage
+              system. A site inspection and itemized estimate are the best ways
+              to establish an accurate project budget.
+            </p>
+            <p>Cost factors include:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                The number, size, and condition of foundation cracks.
+              </li>
+              <li>
+                Whether repairs are needed inside, outside, or both.
+              </li>
+              <li>
+                Excavation requirements and access around the home.
+              </li>
+              <li>
+                Installation or replacement of sump pumps and drainage systems.
+              </li>
+              <li>
+                The need to repair damaged drywall, flooring, insulation, or
+                other finishes.
+              </li>
+              <li>
+                Local labor, materials, and disposal requirements.
+              </li>
+            </ul>
+            <p>
+              Ask contractors to explain what is included in the estimate,
+              whether permits are required, how water will be discharged, and
+              what warranty applies. Compare the proposed solutions, not just the
+              final price.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Why Professional Basement Waterproofing Matters",
+        id: "professional-waterproofing-matters",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Persistent basement leaks may indicate a problem that
+              surface-level fixes cannot resolve. A qualified waterproofing
+              contractor can investigate how water reaches the foundation and
+              distinguish between a localized crack, a drainage failure, and
+              broader groundwater pressure.
+            </p>
+            <p>
+              Professional basement waterproofing in Hawthorne, NJ, may involve
+              exterior foundation waterproofing, crack repair, interior drainage,
+              sump pump services, or a combination of measures.
+            </p>
+            <p>
+              Before hiring a contractor, ask for a written scope of work, an
+              explanation of the proposed repair, relevant licensing or insurance
+              information, and clear warranty terms. Be cautious of anyone who
+              promises a permanent solution without inspecting the property.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "How to Prevent Basement Leaks After Heavy Rain",
+        id: "prevention-maintenance-tips",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Routine maintenance can reduce the amount of water reaching your
+              foundation.
+            </p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                Clean gutters and verify that downspouts discharge away from the
+                house.
+              </li>
+              <li>
+                Maintain a positive slope in the soil around the foundation.
+              </li>
+              <li>
+                Remove leaves and debris from window wells and exterior drains.
+              </li>
+              <li>
+                Check visible foundation cracks for changes or renewed moisture.
+              </li>
+              <li>
+                Test your sump pump according to the manufacturer&apos;s
+                instructions.
+              </li>
+              <li>
+                Inspect the basement after major storms and document recurring
+                wet areas.
+              </li>
+            </ul>
+            <p>
+              If water is near electrical outlets, appliances, or a flooded
+              electrical panel, stay out of the affected area and contact
+              qualified professionals. Do not enter standing water where
+              electrical hazards may be present.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        id: "frequently-asked-questions",
+        paragraph: (
+          <FaqAccordion
+            items={[
+              {
+                question:
+                  "Why does my basement leak only when it rains heavily?",
+                answer:
+                  "Heavy rainfall can saturate surrounding soil and increase water pressure against basement walls and floors. Water may enter through cracks, porous masonry, window wells, or foundation joints. Poor grading and clogged gutters can concentrate runoff near the house. Tracking where the water first appears can help a waterproofing professional identify the likely source.",
+              },
+              {
+                question:
+                  "Is a basement leak after heavy rain a serious problem?",
+                answer:
+                  "It can be. Even a small recurring leak can damage flooring, drywall, insulation, and stored belongings while increasing the risk of mold. Larger leaks may indicate significant drainage problems or foundation damage. Address standing water promptly, document recurring moisture, and arrange an inspection if the leak returns or its cause is unclear.",
+              },
+              {
+                question: "Can I fix a leaking basement myself?",
+                answer:
+                  "You can often handle basic maintenance, such as cleaning gutters, clearing accessible window-well debris, and extending downspouts where appropriate. However, recurring seepage, significant foundation cracks, water beneath the floor, or persistent dampness may require professional assessment. Applying sealant without addressing the underlying water source can provide only temporary relief.",
+              },
+              {
+                question:
+                  "What is the difference between interior and exterior basement waterproofing?",
+                answer:
+                  "Exterior waterproofing addresses water at the outside foundation, potentially using excavation, waterproof membranes, and drainage improvements. Interior systems typically collect water that reaches the basement and channel it to a suitable discharge point, often through a sump pump. The best option depends on the water source, property conditions, and the scope of the problem.",
+              },
+              {
+                question:
+                  "How much does basement waterproofing cost in Hawthorne, NJ?",
+                answer:
+                  "There is no single price for every home. Costs vary with the extent of water intrusion, repair accessibility, excavation, drainage requirements, and the equipment needed. Request an on-site assessment and an itemized estimate that distinguishes immediate repairs from optional improvements. This makes it easier to compare contractors and understand the expected value of the work.",
+              },
+              {
+                question: "Will waterproofing stop mold in my basement?",
+                answer:
+                  "Waterproofing can reduce the moisture that allows mold to grow, but it does not automatically remove existing mold or repair contaminated materials. Correct the water source, dry affected areas thoroughly, and seek appropriate remediation when necessary. If occupants experience persistent symptoms or mold covers a substantial area, consider consulting a qualified indoor environmental or remediation professional.",
+              },
+              {
+                question:
+                  "When should I call a basement waterproofing contractor?",
+                answer:
+                  "Contact a professional if water returns after storms, cracks repeatedly leak, walls show persistent dampness, or your sump pump cannot keep up. Seek prompt help for substantial flooding, rapidly widening cracks, or signs of foundation movement. If electrical equipment is exposed to water, avoid the affected area until it has been assessed safely.",
+              },
+            ]}
+          />
+        ),
+      },
+      {
+        title:
+          "Basement Waterproofing in Hawthorne, NJ: Get Expert Help",
+        id: "get-expert-help",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              A basement leaking after heavy rain is a warning sign that water
+              may not be draining away from your home properly. Cleaning gutters
+              and improving surface drainage can help, but recurring leaks may
+              require foundation crack repair, exterior waterproofing, interior
+              drainage, or sump pump service.
+            </p>
+            <p>
+              <Link href="/" className="text-blue-600 hover:underline">
+                Nick Roofing
+              </Link>{" "}
+              provides a local starting point for homeowners exploring
+              waterproofing solutions in Hawthorne, NJ. The right repair should
+              be based on an assessment of your home&apos;s specific conditions,
+              a clear explanation of the recommended work, and a transparent
+              estimate. Visit the company&apos;s{" "}
+              <Link
+                href="/water-proofing-hawthorne-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Hawthorne waterproofing service
+              </Link>{" "}
+              to learn more and contact the team about your basement moisture
+              concerns.
+            </p>
+            <p>
+              Protecting your basement starts with identifying the source of the
+              water. Addressing the problem early can help protect your
+              foundation, preserve usable space, and reduce the likelihood of
+              repeated water damage.
+            </p>
+          </div>
+        ),
+      },
+    ],
+  },
+
   {
     keywords:
       "gutter maintenance checklist Hawthorne NJ, gutter cleaning Hawthorne NJ, gutter repair Hawthorne NJ, gutter installation Hawthorne NJ, gutter maintenance tips, downspout maintenance, Nick Roofing",
@@ -494,16 +955,18 @@ export const BlogsData: Blog[] = [
         title: "Frequently Asked Questions About Gutter Maintenance",
         id: "gutter-maintenance-faqs",
         paragraph: (
-          <div className="text-base leading-7 text-[#333] space-y-4">
-            <p><strong>How often should I clean my gutters in Hawthorne, NJ?</strong><br />Most homeowners should inspect their gutters at least twice a year, with additional inspections during heavy leaf fall or after major storms. Homes near mature trees may require more frequent cleaning.</p>
-            <p><strong>What happens if I never clean my gutters?</strong><br />Debris can block water flow, causing overflow, sagging, leaks, and moisture exposure around the roofline and foundation. Long-term neglect may increase repair costs.</p>
-            <p><strong>Are gutter guards worth installing?</strong><br />Gutter guards can reduce the amount of debris entering gutters and may lower cleaning frequency. However, they do not eliminate maintenance and should be selected based on your roof and surrounding conditions.</p>
-            <p><strong>How do I know if my gutters need replacement?</strong><br />Frequent leaks, widespread corrosion, repeated sagging, persistent overflow, and damaged attachment points may indicate that replacement deserves consideration. A professional inspection can help determine the best approach.</p>
-            <p><strong>Can I install gutters myself?</strong><br />Some single-story gutter projects may be manageable for experienced homeowners with the correct equipment. However, roof height, ladder safety, structural repairs, and proper drainage planning make professional installation a safer choice for many properties.</p>
-            <p><strong>Should downspouts discharge water near the foundation?</strong><br />Downspouts should direct water to a suitable drainage area rather than allowing concentrated runoff to collect next to the foundation. The appropriate arrangement depends on your property&apos;s layout and drainage conditions.</p>
-            <p><strong>Do gutters need maintenance during winter?</strong><br />Yes. Cleaning and inspecting gutters before freezing weather can help reduce problems associated with trapped debris, standing water, and ice-related stress.</p>
-            <p><strong>Can gutter maintenance prevent basement water problems?</strong><br />Effective gutters and downspouts can help reduce roof runoff near the foundation, but basement moisture may have other causes. Persistent water intrusion requires a broader assessment of grading, drainage, foundation conditions, and waterproofing.</p>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "How often should I clean my gutters in Hawthorne, NJ?", answer: "Most homeowners should inspect their gutters at least twice a year, with additional inspections during heavy leaf fall or after major storms. Homes near mature trees may require more frequent cleaning." },
+              { question: "What happens if I never clean my gutters?", answer: "Debris can block water flow, causing overflow, sagging, leaks, and moisture exposure around the roofline and foundation. Long-term neglect may increase repair costs." },
+              { question: "Are gutter guards worth installing?", answer: "Gutter guards can reduce the amount of debris entering gutters and may lower cleaning frequency. However, they do not eliminate maintenance and should be selected based on your roof and surrounding conditions." },
+              { question: "How do I know if my gutters need replacement?", answer: "Frequent leaks, widespread corrosion, repeated sagging, persistent overflow, and damaged attachment points may indicate that replacement deserves consideration. A professional inspection can help determine the best approach." },
+              { question: "Can I install gutters myself?", answer: "Some single-story gutter projects may be manageable for experienced homeowners with the correct equipment. However, roof height, ladder safety, structural repairs, and proper drainage planning make professional installation a safer choice for many properties." },
+              { question: "Should downspouts discharge water near the foundation?", answer: "Downspouts should direct water to a suitable drainage area rather than allowing concentrated runoff to collect next to the foundation. The appropriate arrangement depends on your property's layout and drainage conditions." },
+              { question: "Do gutters need maintenance during winter?", answer: "Yes. Cleaning and inspecting gutters before freezing weather can help reduce problems associated with trapped debris, standing water, and ice-related stress." },
+              { question: "Can gutter maintenance prevent basement water problems?", answer: "Effective gutters and downspouts can help reduce roof runoff near the foundation, but basement moisture may have other causes. Persistent water intrusion requires a broader assessment of grading, drainage, foundation conditions, and waterproofing." },
+            ]}
+          />
         ),
       },
       {
@@ -2555,33 +3018,15 @@ export const BlogsData: Blog[] = [
         title: "FAQs",
         id: "faqs",
         paragraph: (
-          <div id="faqs" className="text-base leading-7 text-[#333] space-y-4">
-            <p>
-              <strong>How long does new siding last?</strong>
-              <br />
-              Lifespan depends on the material, installation quality, maintenance, and weather exposure. Different siding products carry different expected service lives and warranty terms.
-            </p>
-            <p>
-              <strong>Can damaged siding be repaired instead of replaced?</strong>
-              <br />
-              Yes, in some cases. Isolated damage may be repairable, but widespread issues, aging materials, or repeated problems often make replacement the better long-term option.
-            </p>
-            <p>
-              <strong>What type of siding is best for homes in Hawthorne, NJ?</strong>
-              <br />
-              The best material depends on your budget, design preferences, maintenance expectations, and your home&apos;s specific needs. A professional consultation can help you compare options.
-            </p>
-            <p>
-              <strong>Does new siding improve a home&apos;s appearance?</strong>
-              <br />
-              Yes. New siding can dramatically improve curb appeal by replacing faded, damaged, or outdated exterior materials with a fresh design and color.
-            </p>
-            <p>
-              <strong>Should I replace my roof and siding at the same time?</strong>
-              <br />
-              It depends on the condition of both systems and your renovation plans. Completing both together can create a more coordinated exterior appearance.
-            </p>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "How long does new siding last?", answer: "Lifespan depends on the material, installation quality, maintenance, and weather exposure. Different siding products carry different expected service lives and warranty terms." },
+              { question: "Can damaged siding be repaired instead of replaced?", answer: "Yes, in some cases. Isolated damage may be repairable, but widespread issues, aging materials, or repeated problems often make replacement the better long-term option." },
+              { question: "What type of siding is best for homes in Hawthorne, NJ?", answer: "The best material depends on your budget, design preferences, maintenance expectations, and your home's specific needs. A professional consultation can help you compare options." },
+              { question: "Does new siding improve a home's appearance?", answer: "Yes. New siding can dramatically improve curb appeal by replacing faded, damaged, or outdated exterior materials with a fresh design and color." },
+              { question: "Should I replace my roof and siding at the same time?", answer: "It depends on the condition of both systems and your renovation plans. Completing both together can create a more coordinated exterior appearance." },
+            ]}
+          />
         ),
       },
       {
@@ -3067,66 +3512,17 @@ export const BlogsData: Blog[] = [
         title: "FAQs",
         id: "faqs",
         paragraph: (
-          <div id="faqs" className="text-base leading-7 text-[#333] space-y-4">
-            <p>
-              <strong>How much does roof repair cost in Hawthorne NJ?</strong>
-              <br />
-              Roof repair costs depend on factors such as damage severity,
-              roofing materials, labor requirements, and accessibility. Minor
-              repairs generally cost less than extensive storm damage or
-              structural repairs. A professional inspection provides the most
-              accurate estimate.
-            </p>
-            <p>
-              <strong>
-                How do I know if I need roof repair or roof replacement?
-              </strong>
-              <br />
-              If damage is isolated to specific areas, repairs may be
-              sufficient. However, widespread deterioration, recurring leaks, or
-              an aging roof may make replacement a better long-term solution. A
-              roofing inspection can help determine the best option.
-            </p>
-            <p>
-              <strong>
-                What should I do if my roof starts leaking during a storm?
-              </strong>
-              <br />
-              Move valuables away from the affected area, place containers under
-              active leaks, and contact an emergency roofing contractor as soon
-              as possible. Avoid climbing onto a wet roof because it can be
-              extremely dangerous.
-            </p>
-            <p>
-              <strong>How often should I schedule a roof inspection?</strong>
-              <br />
-              Many roofing professionals recommend inspections at least once per
-              year and after major storms. Regular inspections can identify
-              developing issues before they become costly repairs.
-            </p>
-            <p>
-              <strong>Can wind damage cause hidden roofing problems?</strong>
-              <br />
-              Yes. Wind can loosen shingles, damage flashing, and create
-              openings that allow moisture to enter the roofing system. Some
-              damage may not be visible from the ground, making professional
-              inspections important.
-            </p>
-            <p>
-              <strong>Are flat roofs more prone to leaks?</strong>
-              <br />
-              Flat roofs can be vulnerable to drainage issues and ponding water
-              if maintenance is neglected. Regular inspections and prompt
-              repairs help maintain performance and reduce leak risks.
-            </p>
-            <p>
-              <strong>How quickly should roof leaks be repaired?</strong>
-              <br />
-              Roof leaks should be addressed as soon as they are discovered.
-              Delaying repairs can allow water to damage insulation, drywall,
-              framing, and other structural components.
-            </p>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "How much does roof repair cost in Hawthorne NJ?", answer: "Roof repair costs depend on factors such as damage severity, roofing materials, labor requirements, and accessibility. Minor repairs generally cost less than extensive storm damage or structural repairs. A professional inspection provides the most accurate estimate." },
+              { question: "How do I know if I need roof repair or roof replacement?", answer: "If damage is isolated to specific areas, repairs may be sufficient. However, widespread deterioration, recurring leaks, or an aging roof may make replacement a better long-term solution. A roofing inspection can help determine the best option." },
+              { question: "What should I do if my roof starts leaking during a storm?", answer: "Move valuables away from the affected area, place containers under active leaks, and contact an emergency roofing contractor as soon as possible. Avoid climbing onto a wet roof because it can be extremely dangerous." },
+              { question: "How often should I schedule a roof inspection?", answer: "Many roofing professionals recommend inspections at least once per year and after major storms. Regular inspections can identify developing issues before they become costly repairs." },
+              { question: "Can wind damage cause hidden roofing problems?", answer: "Yes. Wind can loosen shingles, damage flashing, and create openings that allow moisture to enter the roofing system. Some damage may not be visible from the ground, making professional inspections important." },
+              { question: "Are flat roofs more prone to leaks?", answer: "Flat roofs can be vulnerable to drainage issues and ponding water if maintenance is neglected. Regular inspections and prompt repairs help maintain performance and reduce leak risks." },
+              { question: "How quickly should roof leaks be repaired?", answer: "Roof leaks should be addressed as soon as they are discovered. Delaying repairs can allow water to damage insulation, drywall, framing, and other structural components." },
+            ]}
+          />
         ),
       },
       {
@@ -3679,55 +4075,16 @@ export const BlogsData: Blog[] = [
         title: "Frequently Asked Questions",
         id: "frequently-asked-questions",
         paragraph: (
-          <div
-            id="frequently-asked-questions"
-            className="text-base leading-7 text-[#333] space-y-4"
-          >
-            <p>
-              <strong>What are skylight maintenance services?</strong>
-              <br />
-              Skylight maintenance services include inspection, cleaning,
-              repairs, waterproofing, seal replacement, leak detection, and
-              component upgrades. These services help prevent water damage,
-              improve efficiency, and extend the lifespan of skylight systems.
-            </p>
-            <p>
-              <strong>How do I know if my skylight needs repair?</strong>
-              <br />
-              Signs that you may need skylight repair include water stains,
-              leaks, condensation, drafts, cracks, damaged seals, or visible
-              deterioration around the skylight frame.
-            </p>
-            <p>
-              <strong>How often should skylights be inspected?</strong>
-              <br />
-              Most skylights should be professionally inspected at least once a
-              year. Regular inspections help identify minor issues before they
-              develop into costly roof repairs.
-            </p>
-            <p>
-              <strong>Can a leaking skylight be repaired?</strong>
-              <br />
-              Yes. Many leaking skylights can be repaired through seal
-              replacement, flashing repairs, waterproofing, or component
-              restoration. Severely damaged units may require replacement.
-            </p>
-            <p>
-              <strong>Is skylight replacement better than repair?</strong>
-              <br />
-              Replacement may be a better option when a skylight is old,
-              repeatedly leaking, severely damaged, or inefficient. A
-              professional inspection can determine the best solution.
-            </p>
-            <p>
-              <strong>Are energy-efficient skylights worth installing?</strong>
-              <br />
-              Energy-efficient skylights can improve insulation, reduce heat
-              transfer, and increase indoor comfort. They are especially
-              beneficial for homeowners looking to improve long-term energy
-              savings.
-            </p>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "What are skylight maintenance services?", answer: "Skylight maintenance services include inspection, cleaning, repairs, waterproofing, seal replacement, leak detection, and component upgrades. These services help prevent water damage, improve efficiency, and extend the lifespan of skylight systems." },
+              { question: "How do I know if my skylight needs repair?", answer: "Signs that you may need skylight repair include water stains, leaks, condensation, drafts, cracks, damaged seals, or visible deterioration around the skylight frame." },
+              { question: "How often should skylights be inspected?", answer: "Most skylights should be professionally inspected at least once a year. Regular inspections help identify minor issues before they develop into costly roof repairs." },
+              { question: "Can a leaking skylight be repaired?", answer: "Yes. Many leaking skylights can be repaired through seal replacement, flashing repairs, waterproofing, or component restoration. Severely damaged units may require replacement." },
+              { question: "Is skylight replacement better than repair?", answer: "Replacement may be a better option when a skylight is old, repeatedly leaking, severely damaged, or inefficient. A professional inspection can determine the best solution." },
+              { question: "Are energy-efficient skylights worth installing?", answer: "Energy-efficient skylights can improve insulation, reduce heat transfer, and increase indoor comfort. They are especially beneficial for homeowners looking to improve long-term energy savings." },
+            ]}
+          />
         ),
       },
       {
@@ -4183,48 +4540,16 @@ export const BlogsData: Blog[] = [
         title: "Frequently Asked Questions",
         id: "faqs",
         paragraph: (
-          <div id="faqs" className="text-base leading-7 text-[#333] space-y-4">
-            <p>
-              <strong>What causes basement leaks?</strong>
-              <br />
-              Basement leaks commonly result from hydrostatic pressure, poor
-              drainage, foundation cracks, clogged gutters, heavy rainfall,
-              aging waterproofing materials, or improperly graded landscaping.
-            </p>
-            <p>
-              <strong>Is basement waterproofing worth the investment?</strong>
-              <br />
-              Yes. It helps prevent costly structural damage, protects indoor
-              air quality, reduces mold risks, and can preserve property value.
-            </p>
-            <p>
-              <strong>How long does basement waterproofing last?</strong>
-              <br />
-              Professionally installed systems can provide decades of protection
-              when properly maintained. Longevity depends on installation
-              quality, drainage conditions, and ongoing maintenance.
-            </p>
-            <p>
-              <strong>Can foundation cracks be repaired?</strong>
-              <br />
-              Most can be repaired with specialized injection systems, sealants,
-              or structural repair methods before they develop into larger
-              problems.
-            </p>
-            <p>
-              <strong>When should I call a waterproofing contractor?</strong>
-              <br />
-              Schedule an inspection when you notice water stains, musty odors,
-              standing water, mold, wall cracks, peeling paint, or recurring
-              dampness.
-            </p>
-            <p>
-              <strong>Does waterproofing prevent mold?</strong>
-              <br />
-              It significantly reduces the moisture that supports mold growth.
-              Proper ventilation and humidity control further improve results.
-            </p>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "What causes basement leaks?", answer: "Basement leaks commonly result from hydrostatic pressure, poor drainage, foundation cracks, clogged gutters, heavy rainfall, aging waterproofing materials, or improperly graded landscaping." },
+              { question: "Is basement waterproofing worth the investment?", answer: "Yes. It helps prevent costly structural damage, protects indoor air quality, reduces mold risks, and can preserve property value." },
+              { question: "How long does basement waterproofing last?", answer: "Professionally installed systems can provide decades of protection when properly maintained. Longevity depends on installation quality, drainage conditions, and ongoing maintenance." },
+              { question: "Can foundation cracks be repaired?", answer: "Most can be repaired with specialized injection systems, sealants, or structural repair methods before they develop into larger problems." },
+              { question: "When should I call a waterproofing contractor?", answer: "Schedule an inspection when you notice water stains, musty odors, standing water, mold, wall cracks, peeling paint, or recurring dampness." },
+              { question: "Does waterproofing prevent mold?", answer: "It significantly reduces the moisture that supports mold growth. Proper ventilation and humidity control further improve results." },
+            ]}
+          />
         ),
       },
       {
@@ -5335,166 +5660,25 @@ export const BlogsData: Blog[] = [
         title: "Frequently Asked Questions",
         id: "frequently-asked-questions",
         paragraph: (
-          <div
-            id="frequently-asked-questions"
-            className="text-base leading-7 text-[#333]"
-          >
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-lg font-semibold">
-                  1. How do I know if I need roof repair services in Hawthorne
-                  NJ?
-                </h3>
-                <p className="mt-2">
-                  Common signs include leaks, missing shingles, water stains,
-                  mold growth, storm damage, and rising utility bills. A
-                  professional inspection can confirm the extent of the problem.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  2. How much does roof repair cost in Hawthorne NJ?
-                </h3>
-                <p className="mt-2">
-                  Costs vary depending on damage severity, roofing materials,
-                  and repair complexity. Minor repairs are generally less
-                  expensive than structural restoration.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  3. Can a small roof leak become a major problem?
-                </h3>
-                <p className="mt-2">
-                  Yes. Small leaks can cause insulation damage, mold growth,
-                  wood rot, and structural deterioration if not repaired
-                  promptly.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  4. How long does roof repair take?
-                </h3>
-                <p className="mt-2">
-                  Most minor repairs can be completed within a few hours, while
-                  larger repairs may require several days.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  5. Should I repair or replace my roof?
-                </h3>
-                <p className="mt-2">
-                  If damage is localized and the roof remains structurally
-                  sound, repair is often the most cost-effective option.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  6. What causes roof leaks?
-                </h3>
-                <p className="mt-2">
-                  Common causes include damaged shingles, failed flashing,
-                  clogged gutters, storm damage, and aging roofing materials.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  7. How often should I schedule a roof inspection?
-                </h3>
-                <p className="mt-2">
-                  Most experts recommend inspections at least once per year and
-                  after major storms.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  8. Can storm damage be hidden?
-                </h3>
-                <p className="mt-2">
-                  Yes. Wind and hail can damage roofing components without
-                  obvious visible signs.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  9. What is emergency roof repair?
-                </h3>
-                <p className="mt-2">
-                  Emergency roof repair addresses urgent roofing issues that
-                  threaten the home&apos;s structure or interior.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  10. Does homeowners insurance cover roof repairs?
-                </h3>
-                <p className="mt-2">
-                  Coverage depends on policy details and the cause of damage.
-                  Storm-related damage is often covered.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  11. What are the signs of flashing damage?
-                </h3>
-                <p className="mt-2">
-                  Rust, cracking, gaps, and water leaks near chimneys or vents
-                  often indicate flashing problems.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  12. Can damaged shingles be repaired?
-                </h3>
-                <p className="mt-2">
-                  Yes. Individual shingles can often be replaced without
-                  replacing the entire roof.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  13. How can I prevent roof damage?
-                </h3>
-                <p className="mt-2">
-                  Regular inspections, maintenance, gutter cleaning, and prompt
-                  repairs help prevent major issues.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  14. Does roof repair improve energy efficiency?
-                </h3>
-                <p className="mt-2">
-                  Yes. Proper repairs reduce air leakage and improve insulation
-                  performance.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold">
-                  15. Is affordable roof repair available in Hawthorne NJ?
-                </h3>
-                <p className="mt-2">
-                  Many roofing contractors offer cost-effective repair solutions
-                  that address issues before replacement becomes necessary.
-                </p>
-              </div>
-            </div>
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "How do I know if I need roof repair services in Hawthorne NJ?", answer: "Common signs include leaks, missing shingles, water stains, mold growth, storm damage, and rising utility bills. A professional inspection can confirm the extent of the problem." },
+              { question: "How much does roof repair cost in Hawthorne NJ?", answer: "Costs vary depending on damage severity, roofing materials, and repair complexity. Minor repairs are generally less expensive than structural restoration." },
+              { question: "Can a small roof leak become a major problem?", answer: "Yes. Small leaks can cause insulation damage, mold growth, wood rot, and structural deterioration if not repaired promptly." },
+              { question: "How long does roof repair take?", answer: "Most minor repairs can be completed within a few hours, while larger repairs may require several days." },
+              { question: "Should I repair or replace my roof?", answer: "If damage is localized and the roof remains structurally sound, repair is often the most cost-effective option." },
+              { question: "What causes roof leaks?", answer: "Common causes include damaged shingles, failed flashing, clogged gutters, storm damage, and aging roofing materials." },
+              { question: "How often should I schedule a roof inspection?", answer: "Most experts recommend inspections at least once per year and after major storms." },
+              { question: "Can storm damage be hidden?", answer: "Yes. Wind and hail can damage roofing components without obvious visible signs." },
+              { question: "What is emergency roof repair?", answer: "Emergency roof repair addresses urgent roofing issues that threaten the home's structure or interior." },
+              { question: "Does homeowners insurance cover roof repairs?", answer: "Coverage depends on policy details and the cause of damage. Storm-related damage is often covered." },
+              { question: "What are the signs of flashing damage?", answer: "Rust, cracking, gaps, and water leaks near chimneys or vents often indicate flashing problems." },
+              { question: "Can damaged shingles be repaired?", answer: "Yes. Individual shingles can often be replaced without replacing the entire roof." },
+              { question: "How can I prevent roof damage?", answer: "Regular inspections, maintenance, gutter cleaning, and prompt repairs help prevent major issues." },
+              { question: "Does roof repair improve energy efficiency?", answer: "Yes. Proper repairs reduce air leakage and improve insulation performance." },
+              { question: "Is affordable roof repair available in Hawthorne NJ?", answer: "Many roofing contractors offer cost-effective repair solutions that address issues before replacement becomes necessary." },
+            ]}
+          />
         ),
       },
       {
@@ -6679,39 +6863,17 @@ export const BlogsData: Blog[] = [
       },
 
       {
-        title: "FAQ Section (AEO Optimized)",
+        title: "FAQ Section",
         paragraph: (
-          <div className="text-base leading-7 text-[#333]">
-            {[
-              {
-                q: "How often should I waterproof my home in New Jersey?",
-                a: "You should inspect your waterproofing system annually and upgrade it every 5–10 years depending on weather exposure and home condition.",
-              },
-              {
-                q: "What is the main cause of basement leaks in NJ?",
-                a: "The primary cause is hydrostatic pressure from heavy rainfall pushing water through foundation cracks.",
-              },
-              {
-                q: "Is waterproofing worth the investment?",
-                a: "Yes, it prevents expensive structural damage, improves air quality, and increases property value.",
-              },
-              {
-                q: "Can I waterproof my basement myself?",
-                a: "DIY solutions work for minor issues, but professional waterproofing ensures long-term protection and proper system installation.",
-              },
-              {
-                q: "Does waterproofing increase home value?",
-                a: "Yes, homes with proper waterproofing are more attractive to buyers and have higher resale value.",
-              },
-            ].map((item, index) => (
-              <details key={index} className="py-1 md:py-2">
-                <summary className="font-semibold cursor-pointer">
-                  {index + 1}. {item.q}
-                </summary>
-                <p className="mt-2 text-gray-700">{item.a}</p>
-              </details>
-            ))}
-          </div>
+          <FaqAccordion
+            items={[
+              { question: "How often should I waterproof my home in New Jersey?", answer: "You should inspect your waterproofing system annually and upgrade it every 5–10 years depending on weather exposure and home condition." },
+              { question: "What is the main cause of basement leaks in NJ?", answer: "The primary cause is hydrostatic pressure from heavy rainfall pushing water through foundation cracks." },
+              { question: "Is waterproofing worth the investment?", answer: "Yes, it prevents expensive structural damage, improves air quality, and increases property value." },
+              { question: "Can I waterproof my basement myself?", answer: "DIY solutions work for minor issues, but professional waterproofing ensures long-term protection and proper system installation." },
+              { question: "Does waterproofing increase home value?", answer: "Yes, homes with proper waterproofing are more attractive to buyers and have higher resale value." },
+            ]}
+          />
         ),
       },
 
@@ -8754,43 +8916,15 @@ export const BlogsData: Blog[] = [
       {
         title: "FAQs About Gutter Installation in Hawthorne NJ",
         paragraph: (
-          <ul className="list-disc ml-6 text-base leading-7 text-[#333] space-y-2">
-            <li>
-              <strong>Q1: How often should gutters be cleaned?</strong>
-              <br />
-              A1: At least twice per year, typically in spring and fall.
-            </li>
-
-            <li>
-              <strong>Q2: Can I install gutters myself?</strong>
-              <br />
-              A2: DIY installation is possible, but professionals ensure proper
-              drainage slope and leak prevention.
-            </li>
-
-            <li>
-              <strong>Q3: How long do gutters last?</strong>
-              <br />
-              A3: Aluminum gutters last about 20 years, copper gutters can
-              exceed 50 years, and vinyl typically lasts 10–15 years.
-            </li>
-
-            <li>
-              <strong>Q4: Do gutter guards eliminate maintenance?</strong>
-              <br />
-              A4: They reduce debris buildup but occasional cleaning is still
-              recommended.
-            </li>
-
-            <li>
-              <strong>
-                Q5: What is the average cost of gutter installation?
-              </strong>
-              <br />
-              A5: Most homeowners in Hawthorne NJ spend between $1,000 and
-              $3,000 depending on material and home size.
-            </li>
-          </ul>
+          <FaqAccordion
+            items={[
+              { question: "How often should gutters be cleaned?", answer: "At least twice per year, typically in spring and fall." },
+              { question: "Can I install gutters myself?", answer: "DIY installation is possible, but professionals ensure proper drainage slope and leak prevention." },
+              { question: "How long do gutters last?", answer: "Aluminum gutters last about 20 years, copper gutters can exceed 50 years, and vinyl typically lasts 10–15 years." },
+              { question: "Do gutter guards eliminate maintenance?", answer: "They reduce debris buildup but occasional cleaning is still recommended." },
+              { question: "What is the average cost of gutter installation?", answer: "Most homeowners in Hawthorne NJ spend between $1,000 and $3,000 depending on material and home size." },
+            ]}
+          />
         ),
       },
 
@@ -8810,5 +8944,7 @@ export const BlogsData: Blog[] = [
       },
     ],
   },
+
+  
 
 ];
