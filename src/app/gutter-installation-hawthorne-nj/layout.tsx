@@ -1,6 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+};
 
 export const metadata: Metadata = {
   title: "Gutter Installation Hawthorne NJ | Seamless Gutters | Nick Roofing",
@@ -33,8 +37,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-
-  themeColor: "#ffffff",
 
   openGraph: {
     title: "Professional Gutter Installation in Hawthorne, NJ | Nick Roofing",

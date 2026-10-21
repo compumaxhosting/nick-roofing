@@ -1,4 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+};
 
 export const metadata: Metadata = {
   title: "Roof Repair Ridgewood NJ | Roof Leak Repair Services",
@@ -21,8 +25,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-
-  themeColor: "#ffffff",
 
   alternates: {
     canonical: "https://www.nickroofing.com/roofing-repair-ridgewood-nj/",

@@ -1,6 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 import ClientOnlyJsonLd from "@/components/ClientOnlyJsonLd";
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+};
 
 export const metadata: Metadata = {
   title: "Skylight Repair Hawthorne, NJ | Expert Leak Repair & Maintenance",
@@ -29,8 +33,6 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-
-  themeColor: "#ffffff",
 
   openGraph: {
     title: "Expert Skylight Leak Repair in Hawthorne, NJ | Nick's Roofing",
