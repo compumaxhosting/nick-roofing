@@ -1,4 +1,4 @@
-// app/site-map/page.tsx
+﻿// app/site-map/page.tsx
 
 import Link from "next/link";
 import { FaLink } from "react-icons/fa";
@@ -89,6 +89,10 @@ const SiteMap = () => {
    {
      name: "Blog - Roof Repair Services in Ridgewood, NJ",
      url: "/roofing-repair-ridgewood-nj",
+   },
+   {
+     name: "Blog - Who Can Evaluate Recurring Roof, Window & Wall Leaks?",
+     url: "/blog/who-evaluates-recurring-roof-window-wall-leaks",
    },
    {
      name: "Blog - Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",

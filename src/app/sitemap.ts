@@ -1,4 +1,4 @@
-// app/sitemap.ts
+﻿// app/sitemap.ts
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -197,6 +197,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/blog/gutter-maintenance-checklist-hawthorne-nj`,
       lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/who-evaluates-recurring-roof-window-wall-leaks`,
+      lastModified: new Date("2026-10-28"),
       changeFrequency: "weekly",
       priority: 0.8,
     },

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -12,6 +12,10 @@ export function BlogsOverview() {
   const pathname = usePathname();
 
   const blogs = [
+    {
+      name: "Who Can Evaluate Recurring Leaks at Roofs, Windows, and Exterior Walls?",
+      path: "who-evaluates-recurring-roof-window-wall-leaks",
+    },
     {
       name: "Basement Leaking After Heavy Rain? Hawthorne, NJ Guide",
       path: "basement-leaking-after-heavy-rain-hawthorne-nj",

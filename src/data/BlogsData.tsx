@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import React from "react";
 import { FaqAccordion } from "@/components/FaqAccordion";
 
@@ -35,6 +35,448 @@ export type Blog = {
 };
 
 export const BlogsData: Blog[] = [
+  {
+    keywords:
+      "recurring roof leaks, window leak repair, exterior wall leaks, roof leak inspection, roof repair Hawthorne NJ, flashing repair, siding leaks, waterproofing, Nick Roofing",
+    slug: "who-evaluates-recurring-roof-window-wall-leaks",
+    metadescription:
+      "Find expert help for recurring roof, window, and wall leaks in Hawthorne, NJ. Discover causes, repair options, and how Nick Roofing can help.",
+    title:
+      "Who Can Evaluate Recurring Leaks at Roofs, Windows, and Exterior Walls?",
+    metatitle:
+      "Recurring Roof, Window & Wall Leak Inspection | Hawthorne, NJ",
+    ogtitle: "Who Evaluates Recurring Roof, Window & Wall Leaks?",
+    ogdescription:
+      "Learn how to identify recurring roof, window, and exterior wall leaks in Hawthorne, NJ, and discover professional inspection and repair options from Nick Roofing.",
+    twitterdescription:
+      "Discover the causes of recurring roof, window, and wall leaks in Hawthorne, NJ, and learn how professional inspections can help prevent water damage.",
+    ogtype: "article",
+    imagealt:
+      "Professional roof inspection to identify recurring roof, window, and exterior wall leaks",
+    category: "Roof Leak Inspection",
+    image: "/blog/roof-leak-inspection.webp",
+    date: "October 28, 2026",
+    publishedAt: "2026-10-28",
+    description: (
+      <div className="text-base leading-7 text-[#333] mb-4 space-y-3">
+        <p>
+          Recurring leaks around roofs, windows, and exterior walls should be
+          evaluated by a qualified roofing and exterior contractor who can
+          identify where water enters and recommend the right repair. In
+          Hawthorne, NJ, a professional inspection can help homeowners
+          distinguish roof damage from failed flashing, window seal problems,
+          siding defects, and other sources of moisture intrusion.
+        </p>
+        <p>
+          Nick Roofing provides{" "}
+          <Link
+            href="/roofing-repair-hawthorne-nj"
+            className="text-blue-600 hover:underline"
+          >
+            roof repair
+          </Link>{" "}
+          and exterior services in Hawthorne and surrounding North Jersey
+          communities. Its roofing, siding, gutter, skylight, and waterproofing
+          services can help address many common sources of building leaks.
+        </p>
+      </div>
+    ),
+    sections: [
+      {
+        title: "What Causes Recurring Roof, Window, and Wall Leaks?",
+        id: "what-causes-recurring-leaks",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Recurring leaks happen when water repeatedly finds a path through
+              a building&apos;s exterior. The source may be a damaged roofing
+              material, deteriorated flashing, an improperly sealed window,
+              cracked siding, or a drainage problem.
+            </p>
+            <p>
+              Water can also travel behind exterior materials before appearing
+              indoors. For example, a ceiling stain near a window does not
+              necessarily mean the window is leaking. Water may enter at a
+              roof-to-wall intersection and move along framing before reaching
+              the ceiling.
+            </p>
+            <p>Common causes include:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                <Link
+                  href="/roofing-repair-hawthorne-nj"
+                  className="text-blue-600 hover:underline"
+                >
+                  Roof damage
+                </Link>
+                : Missing, cracked, or deteriorated shingles and damaged
+                underlayment.
+              </li>
+              <li>
+                <strong>Failed flashing:</strong> Gaps around chimneys,
+                skylights, roof edges, and wall intersections.
+              </li>
+              <li>
+                <strong>Window leaks:</strong> Damaged sealant, deteriorated
+                frames, or incorrectly installed flashing.
+              </li>
+              <li>
+                <strong>Exterior wall defects:</strong> Cracked siding, damaged
+                cladding, and gaps around penetrations.
+              </li>
+              <li>
+                <Link
+                  href="/gutter-installation-hawthorne-nj"
+                  className="text-blue-600 hover:underline"
+                >
+                  Gutter and drainage issues
+                </Link>
+                : Clogged gutters, overflowing downspouts, and water collecting
+                near the building.
+              </li>
+            </ul>
+            <p>
+              The key is to identify the actual entry point instead of
+              repeatedly patching the visible stain.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Who Should Inspect a Persistent Leak?",
+        id: "who-should-inspect",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              A qualified roofing and exterior contractor is a practical first
+              contact when the source could involve the roof, flashing, siding,
+              gutters, or skylights. A contractor experienced in
+              building-envelope problems can assess connected exterior components
+              and recommend repairs based on the evidence.
+            </p>
+            <p>Different situations may require different specialists:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                <strong>Roofing contractor:</strong> For suspected roof damage,
+                flashing failures, skylight leaks, and roof-to-wall
+                intersections.
+              </li>
+              <li>
+                <strong>Window installation or repair specialist:</strong> For
+                defective window frames, failed glazing seals, or improperly
+                installed window systems.
+              </li>
+              <li>
+                <strong>Siding or exterior-envelope contractor:</strong> For
+                damaged cladding, wall penetrations, and moisture entering behind
+                exterior finishes.
+              </li>
+              <li>
+                <strong>Plumber:</strong> When the leak may originate from
+                supply lines, drains, or other plumbing components.
+              </li>
+              <li>
+                <strong>
+                  Building-envelope consultant or qualified building inspector:
+                </strong>{" "}
+                For complex, persistent leaks involving multiple exterior systems
+                or concealed damage.
+              </li>
+            </ul>
+            <p>
+              When several areas appear affected, start with a professional who
+              can evaluate the roof and exterior together and refer you to
+              another specialist if the evidence points elsewhere.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "How Does a Professional Leak Inspection Work?",
+        id: "how-inspection-works",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              A proper leak inspection aims to determine the source, extent, and
+              likely cause of water intrusion.
+            </p>
+            <p>
+              <strong>1. Review the leak history</strong>
+            </p>
+            <p>
+              The contractor asks when the leak occurs, whether it follows heavy
+              rain or wind-driven rain, and where moisture first appears.
+              Photographs taken during or shortly after a leak can provide useful
+              clues.
+            </p>
+            <p>
+              <strong>2. Inspect the exterior</strong>
+            </p>
+            <p>
+              The inspection may include shingles, roof penetrations, flashing,
+              skylights, gutters, siding, window perimeters, and visible wall
+              joints. The contractor also looks for damaged sealant, loose
+              materials, and areas where water may collect.
+            </p>
+            <p>
+              <strong>3. Check accessible interior areas</strong>
+            </p>
+            <p>
+              Ceilings, attic spaces, wall surfaces, and window interiors may
+              reveal staining, damp insulation, peeling paint, or other evidence
+              of moisture. Specialized moisture meters or additional diagnostic
+              methods may be appropriate when the source remains unclear.
+            </p>
+            <p>
+              <strong>4. Identify the likely entry point</strong>
+            </p>
+            <p>
+              The contractor compares the visible symptoms with exterior
+              conditions. In some cases, further investigation is needed because
+              water can travel inside a wall or roof assembly before becoming
+              visible.
+            </p>
+            <p>
+              <strong>5. Recommend targeted repairs</strong>
+            </p>
+            <p>
+              The proposed solution should explain the suspected cause, the work
+              required, and whether damaged materials need further assessment. A
+              good repair addresses the water-entry pathway rather than simply
+              covering the stain.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Common Warning Signs Homeowners Should Know",
+        id: "common-warning-signs",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>Arrange an inspection if you notice:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>Brown or yellow ceiling stains that return after rain.</li>
+              <li>Damp drywall near windows or exterior walls.</li>
+              <li>Peeling paint, bubbling finishes, or swollen trim.</li>
+              <li>Musty odors in attics, bedrooms, or upper-floor rooms.</li>
+              <li>
+                Water dripping near skylights or roof-wall intersections.
+              </li>
+              <li>Missing shingles, loose siding, or damaged flashing.</li>
+              <li>Mold-like growth or recurring damp patches.</li>
+            </ul>
+            <p>
+              These symptoms do not always prove an exterior leak; condensation
+              and plumbing problems can produce similar signs. A proper diagnosis
+              helps determine the cause.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "What Affects Roof, Window, and Wall Leak Repair Costs?",
+        id: "what-affects-repair-costs",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Leak repair costs depend on the source, accessibility, damage,
+              materials, and amount of work required. A small flashing repair may
+              cost considerably less than repairing concealed wood damage or
+              replacing a larger section of roofing or siding.
+            </p>
+            <p>Important cost factors include:</p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>The complexity and location of the leak.</li>
+              <li>
+                Whether roofing, flashing, siding, or window components need
+                repair.
+              </li>
+              <li>
+                The extent of moisture damage to insulation, sheathing, or
+                framing.
+              </li>
+              <li>
+                Roof height, pitch, access requirements, and safety
+                considerations.
+              </li>
+              <li>
+                Whether multiple exterior systems need coordinated repairs.
+              </li>
+            </ul>
+            <p>
+              Request an itemized estimate that separates diagnosis, repairs, and
+              any additional restoration. If the source is uncertain, ask whether
+              further testing could affect the final scope. Addressing a leak
+              early may help prevent more extensive repairs, although the savings
+              depend on the damage already present.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "How to Prevent Future Water Intrusion",
+        id: "how-to-prevent-water-intrusion",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Routine exterior maintenance can reduce the risk of recurring
+              leaks.
+            </p>
+            <ul className="list-disc ml-5 space-y-1">
+              <li>
+                Inspect roofing and flashing periodically, particularly after
+                severe weather.
+              </li>
+              <li>
+                Keep gutters and downspouts clear and direct runoff away from
+                the foundation.
+              </li>
+              <li>
+                Check window frames, siding joints, and exterior penetrations
+                for visible deterioration.
+              </li>
+              <li>
+                Maintain appropriate exterior sealants, but do not rely on caulk
+                to compensate for failed flashing or incorrect installation.
+              </li>
+              <li>
+                Investigate stains and damp odors promptly rather than
+                repainting over them.
+              </li>
+              <li>
+                Arrange professional inspections when leaks return or the source
+                is difficult to identify.
+              </li>
+            </ul>
+            <p>
+              The U.S. Environmental Protection Agency recommends addressing
+              moisture problems promptly because persistent dampness can
+              contribute to mold growth and material deterioration.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        id: "frequently-asked-questions",
+        paragraph: (
+          <FaqAccordion
+            items={[
+              {
+                question:
+                  "Who should I call for a leak around both my roof and windows?",
+                answer:
+                  "Contact a qualified roofing and exterior contractor if the leak could involve roof flashing, skylights, siding, or roof-to-wall connections. If the inspection identifies a problem with the window unit itself, a window specialist may also be needed. Coordinated diagnosis helps prevent repairs to one component from overlooking another source.",
+              },
+              {
+                question:
+                  "Why does my ceiling leak only during heavy rain?",
+                answer:
+                  "Heavy rain can overwhelm gutters, expose weak flashing, or drive water through small openings that remain dry during lighter showers. Wind direction can also affect where rain enters. Note the weather conditions when the leak occurs and share those details with the contractor to help narrow down the cause.",
+              },
+              {
+                question:
+                  "Can a roofing contractor inspect leaks around windows and siding?",
+                answer:
+                  "A roofing contractor with relevant exterior-service experience may inspect roof edges, flashing, siding, gutters, skylights, and connected exterior areas. However, not every roofing company performs specialized window diagnostics or concealed wall investigations. Ask what the inspection covers and whether referrals are necessary.",
+              },
+              {
+                question:
+                  "How much does it cost to diagnose and repair a recurring leak?",
+                answer:
+                  "The price varies with the leak's location, accessibility, underlying damage, and required materials. A straightforward repair may be relatively inexpensive, while concealed structural damage or multiple failed components can increase the total. Request an inspection and written estimate before approving extensive work.",
+              },
+              {
+                question:
+                  "Should I repair a leak if the water stain has dried?",
+                answer:
+                  "Yes, if the stain followed a suspected leak, investigate the cause even if the surface is now dry. Water may have entered concealed insulation or framing, and the original opening may still admit moisture during future rain. Drying the visible area does not establish that the underlying problem has been resolved.",
+              },
+              {
+                question:
+                  "Can recurring leaks cause mold or structural damage?",
+                answer:
+                  "Yes. Persistent moisture can damage drywall, insulation, roof sheathing, window trim, and framing. Damp materials may also support mold growth when conditions permit. Promptly correcting the water source and drying affected materials helps limit damage. Extensive or suspected concealed mold may require a qualified remediation professional.",
+              },
+              {
+                question:
+                  "When should Hawthorne, NJ, homeowners schedule a leak inspection?",
+                answer:
+                  "Schedule an inspection when water stains return, dampness appears after rain, or visible exterior damage suggests water may be entering the home. North Jersey weather can expose weaknesses in roofing, flashing, gutters, and siding. If water is actively entering near electrical equipment or the ceiling is sagging, prioritize safety and seek urgent professional assistance.",
+              },
+            ]}
+          />
+        ),
+      },
+      {
+        title:
+          "Why Contact Nick Roofing for Leak Evaluation in Hawthorne, NJ?",
+        id: "why-contact-nick-roofing",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              When recurring leaks affect your roof or other exterior components,
+              finding the source is the first step toward a lasting repair.{" "}
+              <Link href="/" className="text-blue-600 hover:underline">
+                Nick Roofing serves Hawthorne, NJ
+              </Link>{" "}
+              and nearby communities with roofing and exterior services,
+              including roof repair, roofing installation, gutters, skylights,
+              siding, and waterproofing.
+            </p>
+            <p>
+              The company reports more than 35 years of experience and offers
+              residential, commercial, and industrial roofing services. Its range
+              of exterior services can be useful when a leak may involve several
+              connected components rather than a single damaged shingle.
+            </p>
+            <p>
+              Homeowners should describe when the leak occurs, identify the
+              affected rooms, and share photographs of visible damage when
+              requesting an estimate. A professional assessment can help
+              establish the appropriate repair scope and identify whether another
+              specialist is needed.
+            </p>
+            <p>
+              For recurring roof or exterior leaks in Hawthorne, contact Nick
+              Roofing at (973) 207-0689 or visit{" "}
+              <Link
+                href="/roofing-repair-hawthorne-nj"
+                className="text-blue-600 hover:underline"
+              >
+                Nick Roofing&apos;s roof repair page
+              </Link>{" "}
+              to request a consultation or quote.
+            </p>
+            <p>
+              Recurring leaks around roofs, windows, and exterior walls require
+              more than a temporary patch. A qualified contractor can investigate
+              likely entry points, assess connected exterior components, and
+              recommend targeted repairs. Early attention may limit moisture
+              damage and help protect your property&apos;s long-term condition.
+            </p>
+            <p>
+              If you are experiencing persistent leaks in Hawthorne, NJ, arrange
+              a professional evaluation and ask for a clear explanation of the
+              findings, recommended work, and estimated costs.
+            </p>
+          </div>
+        ),
+      },
+      {
+        title:"Conclusion",
+        id:"conclusion",
+        paragraph: (
+          <div className="text-base leading-7 text-[#333] space-y-3">
+            <p>
+              Recurring leaks around roofs, windows, and exterior walls require more than a temporary patch. A qualified contractor can investigate likely entry points, assess connected exterior components, and recommend targeted repairs. Early attention may limit moisture damage and help protect your property's long-term condition. <br/> 
+              If you are experiencing persistent leaks in Hawthorne, NJ, arrange a professional evaluation and ask for a clear explanation of the findings, recommended work, and estimated costs.
+            </p>
+          </div>
+        )
+      }
+    ],
+  },
   {
     keywords:
       "basement leaking after heavy rain, basement waterproofing Hawthorne NJ, wet basement repair, basement waterproofing cost, exterior basement waterproofing, foundation water leak repair",
